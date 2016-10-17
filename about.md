@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello there! I am Bruno from Argentina, Computer Engineering student.
 
-### More Information
+Solving, programming and learning stuff is what i enjoy the most, so you could always find me knocking my head trying to solve some problem.
 
-A place to include any other types of information that you'd like to include about yourself.
+Python is the language that identifies me the most, i find it really easy and pretty to read Python code (as it should be!) despite that i am a pythonista wannabe :p
 
-### Contact me
+Learning is what drives me every day, and i think more than a pinch of humility is needed in order to achieve this goal. If you are like me who have no problem at all saying "i don't know" then we will get along, i will learn a lot from you, and maybe you can learn something from me :)
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:brunoelottero@gmail.com)
