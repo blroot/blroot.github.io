@@ -15,6 +15,9 @@ avatar: https://avatars3.githubusercontent.com/u/15272456?v=3&s=466
 # Flags below are optional
 #
 
+title: My journey
+author: Bruno Lottero
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -76,6 +79,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag
 
 # Exclude these files from your production _site
 exclude:
