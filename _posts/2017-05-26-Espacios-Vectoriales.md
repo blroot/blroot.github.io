@@ -68,7 +68,7 @@ $$=> k\cdot A=\begin{bmatrix}
 Se observa que $ k\cdot A \in R^(2x2) $
 
 Entonces, decimos que $ V $ es un $K$-espacio vectorial
-
+__________
 ## Subespacio
 
 Sea $V$ un $K$-espacio vectorial y $S\subseteq V$ se dice que $S$ es un subespacio de $V$ si $S$ "hereda" las propiedades de $V$, es decir:
@@ -165,11 +165,9 @@ $$k(0)=0$$
 Se cumple para todo $k \in K$
 
 
-Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$
+Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$  
   
-    
-    
-
+  
 En la próxima parte de espacios vectoriales vamos a ver:
 
 -¿Qué es un generador y por qué nos permite expresar un espacio vectorial?
