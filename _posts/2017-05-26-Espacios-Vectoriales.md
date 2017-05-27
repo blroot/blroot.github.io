@@ -22,7 +22,7 @@ Entonces, decimos que $ V $ es un $K$-espacio vectorial
 
 Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
 
-¿Es $ V $ un K-espacio vectorial?
+¿Es $ V $ un $K$-espacio vectorial?
 
 Veamos si se cumple la suma:
 
@@ -30,12 +30,12 @@ Veamos si se cumple la suma:
 
 $A=\begin{bmatrix}
     a_{11} & b_{12} \\
-	c_{21} & d_{22} \\
+	c_{21} & d_{22}
 \end{bmatrix}$
 
-$A=\begin{bmatrix}
+$B=\begin{bmatrix}
     e_{11} & f_{12} \\
-	g_{21} & h_{22} \\
+	g_{21} & h_{22}
 \end{bmatrix}$
 
 
