@@ -9,12 +9,16 @@ Bien, vamos a suponer que estamos familiarizados con los espacios euclídeos ($ 
 
 Un espacio vectorial es un cuerpo constituído por dos conjuntos, uno de vectores y otro de escalares, una operación y una acción.
 
-A la operación se le llama suma ($ + $)
-A la acción se le llama producto por escalar ($ \cdot $)
+Con $ V \in R^n $ (vectores) y $ K \in R $ (escalares)
+A la operación llamemosle suma ($ + $)
+A la acción la llamamos producto por escalar ($ \cdot $)
+
+Un espacio vectorial debe cumplir ciertas propiedades, básicamente los elementos de $ V $ deben poder sumarse entre sí y multiplicarse por los elementos de K
 
 Entonces el espacio queda formado como
 
 $$ (V, K, +, \cdot) \label{eq:spc}$$
 
-Con $ V \in R^n $ (vectores) y $ K \in R $ (escalares)
+
+
 
