@@ -28,6 +28,18 @@ Veamos si se cumple la suma:
 
 1.$ A \in R^(2x2) $ y $ B = R^(2x2) => A+B \in R^(2x2) $
 
+$A=\begin{bmatrix}
+    a_{11} & b_{12} \\
+	c_{21} & d_{22} \\
+\end{bmatrix}$
+
+$A=\begin{bmatrix}
+    e_{11} & f_{12} \\
+	g_{21} & h_{22} \\
+\end{bmatrix}$
+
+
+
 
 
 
