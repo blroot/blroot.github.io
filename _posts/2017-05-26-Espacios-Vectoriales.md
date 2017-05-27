@@ -9,9 +9,8 @@ Bien, vamos a suponer que estamos familiarizados con los espacios euclídeos ($ 
 
 Un espacio vectorial es un cuerpo constituído por dos conjuntos, uno de vectores y otro de escalares, una operación y una acción.
 
-Con $ V = R^n $ (vectores) y $ K = R $ (escalares)
-A la operación llamemosle suma ($ + $)
-A la acción la llamamos producto por escalar ($ \cdot $)
+Con $ V = R^n $ (vectores) y $ K = R $ (escalares) a la operación llamémosle suma ($ + $)
+y a la acción la llamamos producto por escalar ($ \cdot $)
 
 Un espacio vectorial debe cumplir ciertas propiedades, básicamente los elementos de $ V $ deben poder sumarse entre sí y multiplicarse por los elementos de K
 
@@ -27,7 +26,7 @@ Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
 
 Veamos si se cumple la suma:
 
-1.$ A \in R^(2x2) $ y $ B = \in R^(2x2) \propto> A+B \in R^(2x2) $
+1.$ A \in R^(2x2) $ y $ B = R^(2x2) => A+B \in R^(2x2) $
 
 
 
