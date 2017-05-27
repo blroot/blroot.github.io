@@ -36,14 +36,14 @@ $$ A=\begin{bmatrix}
 \end{bmatrix} $$
 
 $$ B=\begin{bmatrix}
-    e_{11} & f_{12} \\
-	g_{21} & h_{22}
+    e & f \\
+	g & h
 \end{bmatrix} $$
 
-$=> A+B=\begin{bmatrix}
-              a+e & b+f} \\
+$$=> A+B=\begin{bmatrix}
+              a+e & b+f \\
               c+g & d+h
-\end{bmatrix}$
+\end{bmatrix}$$
 
 Como vemos, $ A+B \in R^(2x2) $
 
@@ -57,10 +57,10 @@ $$ A=\begin{bmatrix}
 	c_{21} & d_{22}
 \end{bmatrix} $$
 
-$=> k\dot A=\begin{bmatrix}
+$$=> k\dot A=\begin{bmatrix}
               k*a & k*b \\
               k*c & k*d
-\end{bmatrix}$
+\end{bmatrix}$$
 
 Se observa que $ k\dot A \in R^(2x2) $
 
