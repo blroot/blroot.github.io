@@ -164,7 +164,7 @@ $$k(0)=0$$
 
 Se cumple para todo $k \in K$
 
-Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$    
+Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$     
 En la próxima parte de espacios vectoriales vamos a ver:
 
 -¿Qué es un generador y por qué nos permite expresar un espacio vectorial?
