@@ -53,13 +53,14 @@ Veamos si se cumple el producto por escalar:
 
 $ A \in R^(2x2) $ y $ k \in R => k\cdot A \in R^(2x2) $
 
-Sea $A$
+Sea
+
 $$ A=\begin{bmatrix}
     a & b \\
 	c & d
 \end{bmatrix} $$
 
-$$=> k\dot A=\begin{bmatrix}
+$$=> k\cdot A=\begin{bmatrix}
               k*a & k*b \\
               k*c & k*d
 \end{bmatrix}$$
