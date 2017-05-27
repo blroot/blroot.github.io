@@ -20,6 +20,8 @@ $$ (V, K, +, \cdot) \label{eq:spc}$$
 
 Entonces, decimos que $ V $ es un $K$-espacio vectorial
 
+### Un ejemplo
+
 Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
 
 ¿Es $ V $ un $K$-espacio vectorial?
