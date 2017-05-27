@@ -12,7 +12,9 @@ Un espacio vectorial es un cuerpo constituído por dos conjuntos, uno de vectore
 A la operación se le llama suma ($ + $)
 A la acción se le llama producto por escalar ($ \cdot $)
 
-Entonces
+Entonces el espacio queda formado como
 
 $$ (V, K, +, \cdot) \label{eq:spc}$$
+
+Con $ V \in R^n $ (vectores) y $ K \in R $ (escalares)
 
