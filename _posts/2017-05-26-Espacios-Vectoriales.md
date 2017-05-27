@@ -98,7 +98,7 @@ Veamos si se cumplen las propiedades
 
 - $\vec{0} \in W$
 
-Es fácil ver que (0, 0, 0) \in W
+Es fácil ver que $(0, 0, 0) \in W$
 
 - Con $v,w \in W => v+w \in W$
 
