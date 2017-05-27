@@ -156,17 +156,7 @@ $$2v_1, v_2, v_3=0$$
 Entonces
 
 $$k(0)=0$$ 
-Se cumple para todo $k \in R$
+
+Se cumple para todo $k \in K$
 
 Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$
-
-
-
-
-
-
-
-
-
-
-
