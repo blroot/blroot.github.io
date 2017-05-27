@@ -76,15 +76,15 @@ $$ (S, K, +, \cdot) $$ Luego $S$ es un subespacio de $V$
 
 Las propiedades que debe cumplir un subespacio son:
 
-1. $\vec{0} \in S$
+- $\vec{0} \in S$
 
 Es decir el vector nulo pertenece al subespacio
 
-1. $Con s_{1},s_{2} \in S => s_{1}+s_{2} \in S$
+- Con $s_{1},s_{2} \in S => s_{1}+s_{2} \in S$
 
 La suma de vectores pertenecientes a $S$, pertenece a $S$
 
-1. $Con s \in S y k \in K => k\cdot s \in S$
+- Con $s \in S y k \in K => k\cdot s \in S$
 
 El producto de un vector $s$ por un escalar $k$ pertenece a $S$
 
