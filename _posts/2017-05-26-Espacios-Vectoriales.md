@@ -31,8 +31,8 @@ Veamos si se cumple la suma:
 Sean $A y B$:
 
 $$ A=\begin{bmatrix}
-    a_{11} & b_{12} \\
-	c_{21} & d_{22}
+    a & b \\
+	c & d
 \end{bmatrix} $$
 
 $$ B=\begin{bmatrix}
@@ -41,8 +41,8 @@ $$ B=\begin{bmatrix}
 \end{bmatrix} $$
 
 $=> A+B=\begin{bmatrix}
-              a+e_{11} & b+f_{12} \\
-              c+g_{21} & d+h_{22}
+              a+e & b+f} \\
+              c+g & d+h
 \end{bmatrix}$
 
 Como vemos, $ A+B \in R^(2x2) $
@@ -58,8 +58,8 @@ $$ A=\begin{bmatrix}
 \end{bmatrix} $$
 
 $=> k\dot A=\begin{bmatrix}
-              k*a_{11} & k*b_{12} \\
-              k*c_{21} & k*d_{22}
+              k*a & k*b \\
+              k*c & k*d
 \end{bmatrix}$
 
 Se observa que $ k\dot A \in R^(2x2) $
