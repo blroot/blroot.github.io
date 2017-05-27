@@ -92,6 +92,42 @@ El producto de un vector $s$ por un escalar $k$ pertenece a $S$
 
 $$ W={(x_1, x_2, x_3) \in R^3 / 2x_1-x_2+x_3=0} $$
 
+¿Es $W$ un subespacio de $R^3$?
+
+Veamos si se cumplen las propiedades
+
+- $\vec{0} \in W$
+
+Es fácil ver que (0, 0, 0) \in W
+
+- Con $v,w \in W => v+w \in W$
+
+Sean:
+
+$$v=(v_1, v_2, v_3)$$
+$$w=(w_1, w_2, w_3)$$
+
+$=> v+w=(v_1+w_1, v_2+w_2, v_3+w_3)$
+
+Ahora reemplazamos en la ecuación que define al subespacio (es un plano)
+
+$$2(v_1+w_1)-(v_2+w_2)+(v_3+w_3)=0$$
+
+Distribuyendo
+$$2v_1+2w_1-v_2-w_2+v_3+w_3=0$$
+
+Agrupando los elementos de un mismo vector
+
+$$2v_1-v_2+v_3+2w_1-w_2+w_3=0$$
+
+Por la ecuación, sabemos que 
+
+$$2v_1-v_2+v_3=0$$
+$$2w_1-w_2+w_3=0$$
+
+$=> 2v_1-v_2+v_3+2w_1-w_2+w_3=0+0=0$
+
+
 
 
 
