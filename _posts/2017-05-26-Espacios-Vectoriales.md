@@ -103,6 +103,7 @@ Veamos si se cumplen las propiedades
 
 Es fácil ver que $(0, 0, 0) \in W$
 
+
 - Con $v,w \in W => v+w \in W$
 
 Sean:
@@ -134,6 +135,7 @@ $=> 2v_1-v_2+v_3+2w_1-w_2+w_3=0+0=0$
 
 Por lo tanto se cumple que Con $v,w \in W => v+w \in W$
 
+
 - Con $v \in W y k \in K => k\cdot v \in W$
 
 Sea:
@@ -160,4 +162,14 @@ $$k(0)=0$$
 
 Se cumple para todo $k \in K$
 
+
 Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$
+
+
+Para la próxima vamos a ver:
+
+-¿Qué es un generador y por qué nos permite expresar un espacio vectorial?
+-Dependencia e independencia lineal
+-Base de un espacio vectorial
+
+
