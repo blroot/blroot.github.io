@@ -94,6 +94,8 @@ $$ W={(x_1, x_2, x_3) \in R^3 / 2x_1-x_2+x_3=0} $$
 
 ¿Es $W$ un subespacio de $R^3$?
 
+$(W, K, +, \cdot)$ con $K=R$
+
 Veamos si se cumplen las propiedades
 
 - $\vec{0} \in W$
@@ -109,7 +111,7 @@ $$w=(w_1, w_2, w_3)$$
 
 $=> v+w=(v_1+w_1, v_2+w_2, v_3+w_3)$
 
-Ahora reemplazamos en la ecuación que define al subespacio (es un plano)
+Ahora reemplazamos en la ecuación que define a $W$ (es un plano)
 
 $$2(v_1+w_1)-(v_2+w_2)+(v_3+w_3)=0$$
 
@@ -128,6 +130,36 @@ $$2v_1-v_2+v_3=0$$
 $$2w_1-w_2+w_3=0$$
 
 $=> 2v_1-v_2+v_3+2w_1-w_2+w_3=0+0=0$
+
+Por lo tanto se cumple que Con $v,w \in W => v+w \in W$
+
+- Con $v \in W y k \in K => k\cdot v \in W$
+
+Sea:
+
+$$v=(v_1, v_2, v_3)$$
+
+$$k\cdot v = (kv_1, kv_2, kv_3)$$
+
+Reemplazamos en la ecuación que define a $W$
+
+$$2kv_1-kv_2+kv_3=0$$
+
+Saco factor común $k$
+
+$$k(2v_1, v_2, v_3)=0$$
+
+Por la ecuación, sabemos que
+
+$$2v_1, v_2, v_3=0$$
+
+Entonces
+
+$$k(0)=0$$ Se cumple para todo $k \in R$
+
+Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$
+
+
 
 
 
