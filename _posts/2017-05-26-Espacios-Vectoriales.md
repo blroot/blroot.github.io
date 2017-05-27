@@ -26,7 +26,9 @@ Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
 
 Veamos si se cumple la suma:
 
-1.$ A \in R^(2x2) $ y $ B = R^(2x2) => A+B \in R^(2x2) $
+1.$ A \in R^(2x2) $ y $ B \in R^(2x2) => A+B \in R^(2x2) $
+
+Sean $A y B$:
 
 $$ A=\begin{bmatrix}
     a_{11} & b_{12} \\
@@ -37,6 +39,34 @@ $$ B=\begin{bmatrix}
     e_{11} & f_{12} \\
 	g_{21} & h_{22}
 \end{bmatrix} $$
+
+$=> A+B=\begin{bmatrix}
+              a+e_{11} & b+f_{12} \\
+              c+g_{21} & d+h_{22}
+\end{bmatrix}$
+
+Como vemos, $ A+B \in R^(2x2) $
+
+Veamos si se cumple el producto por escalar:
+
+2. $ A \in R^(2x2) $ y $ k \in R => k\dot A \in R^(2x2) $
+
+Sea $A$
+$$ A=\begin{bmatrix}
+    a_{11} & b_{12} \\
+	c_{21} & d_{22}
+\end{bmatrix} $$
+
+$=> k\dot A=\begin{bmatrix}
+              k*a_{11} & k*b_{12} \\
+              k*c_{21} & k*d_{22}
+\end{bmatrix}$
+
+Se observa que $ k\dot A \in R^(2x2) $
+
+Entonces, decimos que $ V $ un $K$-espacio vectorial
+
+
 
 
 
