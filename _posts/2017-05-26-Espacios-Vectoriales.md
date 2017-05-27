@@ -18,7 +18,7 @@ Entonces el espacio queda formado como
 
 $$ (V, K, +, \cdot) \label{eq:spc}$$
 
-Entonces, decimos que V es un K-espacio vectorial
+Entonces, decimos que $ V $ es un $K$-espacio vectorial
 
 Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
 
