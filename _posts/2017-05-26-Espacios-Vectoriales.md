@@ -114,6 +114,7 @@ Ahora reemplazamos en la ecuación que define al subespacio (es un plano)
 $$2(v_1+w_1)-(v_2+w_2)+(v_3+w_3)=0$$
 
 Distribuyendo
+
 $$2v_1+2w_1-v_2-w_2+v_3+w_3=0$$
 
 Agrupando los elementos de un mismo vector
@@ -123,6 +124,7 @@ $$2v_1-v_2+v_3+2w_1-w_2+w_3=0$$
 Por la ecuación, sabemos que 
 
 $$2v_1-v_2+v_3=0$$
+
 $$2w_1-w_2+w_3=0$$
 
 $=> 2v_1-v_2+v_3+2w_1-w_2+w_3=0+0=0$
