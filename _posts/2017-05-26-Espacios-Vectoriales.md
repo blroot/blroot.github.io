@@ -67,7 +67,7 @@ $$=> k\cdot A=\begin{bmatrix}
 
 Se observa que $ k\cdot A \in R^(2x2) $
 
-Entonces, decimos que $ V $ un $K$-espacio vectorial
+Entonces, decimos que $ V $ es un $K$-espacio vectorial
 
 ## Subespacio
 
@@ -85,7 +85,7 @@ Es decir el vector nulo pertenece al subespacio
 
 La suma de vectores pertenecientes a $S$, pertenece a $S$
 
-- Con $s \in S y k \in K => k\cdot s \in S$
+- Con $s \in S$ y $k \in K => k\cdot s \in S$
 
 El producto de un vector $s$ por un escalar $k$ pertenece a $S$
 
