@@ -26,7 +26,7 @@ Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
 
 Veamos si se cumple la suma:
 
-1.$ A \in R^(2x2) $ y $ B \in R^(2x2) => A+B \in R^(2x2) $
+$ A \in R^(2x2) $ y $ B \in R^(2x2) => A+B \in R^(2x2) $
 
 Sean $A y B$:
 
@@ -49,7 +49,7 @@ Como vemos, $ A+B \in R^(2x2) $
 
 Veamos si se cumple el producto por escalar:
 
-2. $ A \in R^(2x2) $ y $ k \in R => k\dot A \in R^(2x2) $
+$ A \in R^(2x2) $ y $ k \in R => k\dot A \in R^(2x2) $
 
 Sea $A$
 $$ A=\begin{bmatrix}
