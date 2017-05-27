@@ -68,6 +68,30 @@ Se observa que $ k\cdot A \in R^(2x2) $
 
 Entonces, decimos que $ V $ un $K$-espacio vectorial
 
+## Subespacio
+
+Sea $V$ un $K$-espacio vectorial y $S\subseteq V$ se dice que $S$ es un subespacio de $V$ si $S$ "hereda" las propiedades de $V$, es decir:
+
+$$ (S, K, +, \cdot) $$ Luego $S$ es un subespacio de $V$
+
+Las propiedades que debe cumplir un subespacio son:
+
+1. $\vec{0} \in S$
+
+Es decir el vector nulo pertenece al subespacio
+
+1. $Con s_{1},s_{2} \in S => s_{1}+s_{2} \in S$
+
+La suma de vectores pertenecientes a $S$, pertenece a $S$
+
+1. $Con s \in S y k \in K => k\cdot s \in S$
+
+El producto de un vector $s$ por un escalar $k$ pertenece a $S$
+
+### Ejemplo
+
+$$ W={(x_1, x_2, x_3) \in R^3 / 2x_1-x_2+x_3=0} $$
+
 
 
 
