@@ -9,7 +9,7 @@ Bien, vamos a suponer que estamos familiarizados con los espacios euclídeos ($ 
 
 Un espacio vectorial es un cuerpo constituído por dos conjuntos, uno de vectores y otro de escalares, una operación y una acción.
 
-Con $ V \in R^n $ (vectores) y $ K \in R $ (escalares)
+Con $ V = R^n $ (vectores) y $ K = R $ (escalares)
 A la operación llamemosle suma ($ + $)
 A la acción la llamamos producto por escalar ($ \cdot $)
 
@@ -18,6 +18,16 @@ Un espacio vectorial debe cumplir ciertas propiedades, básicamente los elemento
 Entonces el espacio queda formado como
 
 $$ (V, K, +, \cdot) \label{eq:spc}$$
+
+Entonces, decimos que V es un K-espacio vectorial
+
+Por ejemplo, sea $ V = R^(2x2) $ y $ K = R $
+
+¿Es $ V $ un K-espacio vectorial?
+
+Veamos si se cumple la suma:
+
+1.$ A \in R^(2x2) $ y $ B = \in R^(2x2) \propto> A+B \in R^(2x2) $
 
 
 
