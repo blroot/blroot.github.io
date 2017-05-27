@@ -51,12 +51,12 @@ Como vemos, $ A+B \in R^(2x2) $
 
 Veamos si se cumple el producto por escalar:
 
-$ A \in R^(2x2) $ y $ k \in R => k\dot A \in R^(2x2) $
+$ A \in R^(2x2) $ y $ k \in R => k\cdot A \in R^(2x2) $
 
 Sea $A$
 $$ A=\begin{bmatrix}
-    a_{11} & b_{12} \\
-	c_{21} & d_{22}
+    a & b \\
+	c & d
 \end{bmatrix} $$
 
 $$=> k\dot A=\begin{bmatrix}
@@ -64,7 +64,7 @@ $$=> k\dot A=\begin{bmatrix}
               k*c & k*d
 \end{bmatrix}$$
 
-Se observa que $ k\dot A \in R^(2x2) $
+Se observa que $ k\cdot A \in R^(2x2) $
 
 Entonces, decimos que $ V $ un $K$-espacio vectorial
 
