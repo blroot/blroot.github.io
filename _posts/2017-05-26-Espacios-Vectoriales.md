@@ -13,5 +13,6 @@ A la operación se le llama suma ($ + $)
 A la acción se le llama producto por escalar ($ \cdot $)
 
 Entonces
+
 $$ (V, K, +, \cdot) \label{eq:spc}$$
 
