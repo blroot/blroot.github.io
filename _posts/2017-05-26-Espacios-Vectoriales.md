@@ -102,7 +102,8 @@ Veamos si se cumplen las propiedades
 - $\vec{0} \in W$
 
 Es fácil ver que $(0, 0, 0) \in W$
-
+  
+  
 
 - Con $v,w \in W => v+w \in W$
 
@@ -134,7 +135,8 @@ $$2w_1-w_2+w_3=0$$
 $=> 2v_1-v_2+v_3+2w_1-w_2+w_3=0+0=0$
 
 Por lo tanto se cumple que Con $v,w \in W => v+w \in W$
-
+  
+  
 
 - Con $v \in W y k \in K => k\cdot v \in W$
 
@@ -164,7 +166,9 @@ Se cumple para todo $k \in K$
 
 
 Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$
-
+  
+    
+    
 
 En la próxima parte de espacios vectoriales vamos a ver:
 
