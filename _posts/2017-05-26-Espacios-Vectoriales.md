@@ -10,8 +10,8 @@ Bien, vamos a suponer que estamos familiarizados con los espacios euclídeos ($ 
 Un espacio vectorial es un cuerpo constituído por dos conjuntos, uno de vectores y otro de escalares, una operación y una acción.
 
 A la operación se le llama suma ($ + $)
-A la acción se le llama producto por escalar ($ \dot $)
+A la acción se le llama producto por escalar ($ \cdot $)
 
 Entonces
-$$ (V, K, +, \dot) \label{eq:spc}$$
+$$ (V, K, +, \cdot) \label{eq:spc}$$
 
