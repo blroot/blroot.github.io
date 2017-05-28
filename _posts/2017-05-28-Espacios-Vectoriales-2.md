@@ -163,7 +163,7 @@ Obtener una base y su dimensión
 
 - Buscamos un generador de $S$  
 
-Para eso, vamos a colocar la mayor cantidad de variables en función de las otras que podemos en la ecuación del plano  
+Para eso, vamos a colocar la mayor cantidad de variables en función de otras que podamos en la ecuación del plano  
 
 $$ 2x+3y-z=0 $$  
 $$ 2x+3y=z $$
