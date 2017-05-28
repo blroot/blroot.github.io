@@ -40,7 +40,7 @@ Se escribe $V=gen{\vec{1}, \vec{2}, \vec{n}}$
 
 Es decir, el generador "genera" todo el espacio $V$, por lo tanto es una forma de expresar un espacio vectorial.
 
-### Por ejemplo
+### Algunos ejemplos
 
 $$ gen{(1,0),(0,1)}=R^2 $$
 $$ gen{(1,0),(0,1),(1,1)}=R^2 $$
