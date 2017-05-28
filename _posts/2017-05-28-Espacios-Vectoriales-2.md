@@ -77,7 +77,7 @@ Sea $V$ un $K$-espacio vectorial, decimos que un conjunto $$A=\{\vec{v_1}, \vec{
 
 De los ejemplos de generadores, vimos que $$ gen\{(1,0),(0,1)\}=R^2 $$
 
-Tenemos que $\{(1,0),(0,1)}\}$ genera $R^2$ pero ¿Es linealmente independiente?  
+Tenemos que $\{(1,0),(0,1)\}$ genera $R^2$ pero ¿Es linealmente independiente?  
 Para eso planteamos:  
 
 $$  \alpha_{1}(1,0) + \alpha_{2}(0,1)=(0,0) $$  
@@ -85,12 +85,12 @@ $$ (\alpha_{1}, 0) + (0, \alpha_{2})=(0,0) $$
 $$ (\alpha_{1}, \alpha_{2})=(0,0) $$
 
 Nos queda que $\alpha_{1}=0$ y $\alpha_{2}=0$, por lo tanto el conjunto es linealmente independiente.  
-Entonces $B=\{(1,0),(0,1)}\}$ es una base de $R^2$  
+Entonces $B=\{(1,0),(0,1)\}$ es una base de $R^2$  
 
 ### Dimensión de una base
 
 La dimensión de una base, es basicamente la cantidad de vectores que contiene dicha base.
-En el ejemplo anterior vimos que $B=\{(1,0),(0,1)}\}$ es una base de $R^2$  
+En el ejemplo anterior vimos que $B=\{(1,0),(0,1)\}}$ es una base de $R^2$  
 Por lo tanto la dimensión de $B$ es igual a $2$  
 Se escribe:  
 
@@ -100,13 +100,13 @@ Nótese que la dimensión de una base de $R^2$ siempre tiene dimensión $2$ y un
 
 **Observación**: 
 
-A \{(1,0),(0,1)}\} se la conoce como base canónica de $R^2$
+A $\{(1,0),(0,1)}\}$ se la conoce como base canónica de $R^2$
 
-¿Te suena la notación de vectores en R^2 y R^3 respectivamente como $v=\alpha i+\beta j$ y $v=\alpha i+\beta j+\gamma k$?
+¿Te suena la notación de vectores en $R^2$ y $R^3$ respectivamente como $v=\alpha i+\beta j$ y $v=\alpha i+\beta j+\gamma k$?
 
 Esta notación es la combinación lineal de un vector a partir de la base canónica, geométricamente $i$, $j$ y $k$ son los versores de cada eje  
 
-En $R^3$  
+-En $R^3$  
 $$ (x, y, z) =  \alpha i + \beta j$ + \gamma k$$  
 Es lo mismo que  
 $$ (x, y, z) =  \alpha (1,0,0) + \beta (0,1,0)$ + \gamma (0,0,1) $$  
@@ -115,7 +115,7 @@ $$ (x, y, z) =  \alpha (1,0,0) + \beta (0,1,0)$ + \gamma (0,0,1) $$
 Bien, ahora ¿Qué sucede si tenemos un conjunto que genera un espacio vectorial pero no es linealmente independiente? ¿Cómo obtenemos una base en ese caso?
 
 De los ejemplos de generadores, vimos que $$ gen\{(1,0),(0,1),(1,1)\}=R^2 $$  
-Bien, \{(1,0),(0,1),(1,1)\} genera $R^2$ pero ¿Es linealmente independiente? Para eso planteamos: 
+Bien, $\{(1,0),(0,1),(1,1)\}$ genera $R^2$ pero ¿Es linealmente independiente? Para eso planteamos: 
 
 $$  \alpha_{1}(1,0) + \alpha_{2}(0,1) + \alpha_{3}(1,1)=(0,0) $$  
 
