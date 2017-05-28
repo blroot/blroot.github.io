@@ -42,7 +42,7 @@ Es decir, el generador "genera" todo el espacio $V$, por lo tanto es una forma d
 
 ### Algunos ejemplos
 
-$$ gen{(1,0),(0,1)}=R^2 $$  
-$$ gen{(1,0),(0,1),(1,1)}=R^2 $$  
-$$ gen{(1,0)}\neq R^2 $$  
-$$ gen{(1,0,0),(0,1,0),(0,0,1)}=R^3 $$  
+$$ gen\begin{cases}(1,0),(0,1)\end{cases}=R^2 $$  
+$$ gen\begin{cases}(1,0),(0,1),(1,1)\end{cases}=R^2 $$  
+$$ gen\begin{cases}(1,0)\end{cases}\neq R^2 $$  
+$$ gen\begin{cases}(1,0,0),(0,1,0),(0,0,1)\end{cases}=R^3 $$  
