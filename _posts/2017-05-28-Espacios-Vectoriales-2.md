@@ -13,7 +13,7 @@ Donde $$ \alpha_{1}, \alpha_{2}, \alpha_{n} \in R $$
 
 Esto es más facil verlo en un ejemplo
 
-Sean $$ \vec{v}=(2,1) $$
+Sean $$ \vec{v}=(2,1); $$
 $$ A={(1,-1), (0,1)} $$
 
 Entonces ¿Es $\vec{v}$ combinación lineal de $(1,-1)$ y $(0,1)$?  
@@ -46,3 +46,14 @@ $$ gen(1,0),(0,1)=R^2$$
 $$ gen(1,0),(0,1),(1,1)=R^2 $$  
 $$ gen(1,0) \neq R^2 $$  
 $$ gen (1,0,0),(0,1,0),(0,0,1)=R^3 $$  
+
+## Independecia lineal y Dependencia lineal
+
+Se dice que un conjunto es linealmente independiente cuando el vector nulo es combinación lineal de los vectores de dicho conjunto solo con los coeficientes iguales a cero. Veámoslo formalmente:
+
+Sea $V$ un $K$-espacio vectorial y un conjunto A=\vec{v_1}, \vec{v_2}, \vec{v_n} \in V$  
+decimos que $A$ es linealmente independiente si:  
+$$ \vec{v}=\alpha_{1}.\vec{\v_{1}} + \alpha_{2}.\vec{\v_{2}} +... \alpha_{n}.\vec{\v_{n}}=\vec{0} $$  
+Con $\alpha_{i}=0$ para todo $i$
+
+
