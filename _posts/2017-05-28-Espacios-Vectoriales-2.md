@@ -53,13 +53,16 @@ Se dice que un conjunto es linealmente independiente cuando el vector nulo es co
 
 Sea $V$ un $K$-espacio vectorial y un conjunto $$A=\{\vec{v_1}, \vec{v_2}, \vec{v_n}\} \in V$$  
 decimos que $A$ es linealmente independiente si:  
+
 $$ \vec{v}=\alpha_{1}.\vec{v_{1}} + \alpha_{2}.\vec{v_{2}} +... \alpha_{n}.\vec{v_{n}}=\vec{0} $$  
 Con $\alpha_{i}=0$ para todo $i$
 
 Por otro lado es linealmente dependiente si el vector nulo es combinación lineal de los vectores del conjunto con alguno o algunos de los coeficientes distinto o distintos de cero.
 
 Sea $V$ un $K$-espacio vectorial y un conjunto $$A=\{\vec{v_1}, \vec{v_2}, \vec{v_n}\} \in V$$  
-decimos que $A$ es linealmente dependiente si:  
+
+decimos que $A$ es linealmente dependiente si: 
+
 $$ \vec{v}=\alpha_{1}.\vec{v_{1}} + \alpha_{2}.\vec{v_{2}} +... \alpha_{n}.\vec{v_{n}}=\vec{0} $$  
 Con $\alpha_{i} \neq 0$ para algún $i$
 
