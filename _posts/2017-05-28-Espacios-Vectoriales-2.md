@@ -90,7 +90,7 @@ Entonces $B=\{(1,0),(0,1)\}$ es una base de $R^2$
 ### Dimensión de una base
 
 La dimensión de una base, es basicamente la cantidad de vectores que contiene dicha base.
-En el ejemplo anterior vimos que $B=\{(1,0),(0,1)\}}$ es una base de $R^2$  
+En el ejemplo anterior vimos que $B=\{(1,0),(0,1)\}$ es una base de $R^2$  
 Por lo tanto la dimensión de $B$ es igual a $2$  
 Se escribe:  
 
