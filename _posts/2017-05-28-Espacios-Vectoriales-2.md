@@ -151,7 +151,7 @@ Como la última fila queda anulada, el candidato a salir es el último vector, e
 
 ****Observación: En lugar de haber igualado la combinación lineal al vector nulo en un principio, podríamos haber hecho esto directamente.
 
-Nos queda que $$ gen\{(1,0),(0,1)\} $$ y como ya sabemos, es linealmente independiente, entonces $B=\{(1,0),(0,1)\}$ es una base de $R^2$
+Nos queda que $$ gen\{(1,0),(0,1)\} $$ y como ya sabemos, es linealmente independiente, entonces $$B=\{(1,0),(0,1)\}$$ es una base de $R^2$
 
 ## Ejercicio: Obtener una base y su dimensión de un subespacio
 
