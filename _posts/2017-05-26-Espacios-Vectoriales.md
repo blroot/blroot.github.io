@@ -87,7 +87,7 @@ La suma de vectores pertenecientes a $S$, pertenece a $S$
 
 - Con $s \in S$ y $k \in K => k\cdot s \in S$
 
-El producto de un vector $s$ por un escalar $k$ pertenece a $S$
+El producto de un vector $\vec{s}$ por un escalar $k$ pertenece a $S$
 
 ### Ejemplo
 
@@ -105,14 +105,14 @@ Es fácil ver que $(0, 0, 0) \in W$
   
   
 
-- Con $v,w \in W => v+w \in W$
+- Con $\vec{v},\vec{w} \in W => v+w \in W$
 
 Sean:
 
-$$v=(v_1, v_2, v_3)$$;
-$$w=(w_1, w_2, w_3)$$
+$$\vec{v}=(v_1, v_2, v_3)$$;
+$$\vec{w}=(w_1, w_2, w_3)$$
 
-$=> v+w=(v_1+w_1, v_2+w_2, v_3+w_3)$
+$=> \vec{v+w}=(v_1+w_1, v_2+w_2, v_3+w_3)$
 
 Ahora reemplazamos en la ecuación que define a $W$ (es un plano)
 
@@ -134,17 +134,17 @@ $$2w_1-w_2+w_3=0$$
 
 $=> 2v_1-v_2+v_3+2w_1-w_2+w_3=0+0=0$
 
-Por lo tanto se cumple que Con $v,w \in W => v+w \in W$
+Por lo tanto se cumple que Con $\vec{v},\vec{w} \in W => \vec{v+w} \in W$
   
   
 
-- Con $v \in W y k \in K => k\cdot v \in W$
+- Con $\vec{v} \in W y k \in K => k\cdot \vec{v} \in W$
 
 Sea:
 
-$$v=(v_1, v_2, v_3)$$
+$$\vec{v}=(v_1, v_2, v_3)$$
 
-$$k\cdot v = (kv_1, kv_2, kv_3)$$
+$$k\cdot \vec{v} = (kv_1, kv_2, kv_3)$$
 
 Reemplazamos en la ecuación que define a $W$
 
@@ -172,5 +172,3 @@ En la próxima parte de espacios vectoriales vamos a ver:
 -¿Qué es un generador y por qué nos permite expresar un espacio vectorial?
 -Dependencia e independencia lineal  
 -Base de un espacio vectorial
-
-
