@@ -147,8 +147,61 @@ $$
 \end{bmatrix}
 $$ 
 
-Como la última fila queda anulada, el candidato a salir es el último vector, el $(1,1)$  
-Nos queda que $$ gen\{(1,0),(0,1)\} $$ y como ya sabemos, es linealmente independiente, entonces $B=\{(1,0),(0,1)\}$ es una base de $R^2$ 
+Como la última fila queda anulada, el candidato a salir es el último vector, el $(1,1)$ 
+
+****Observación: En lugar de haber igualado la combinación lineal al vector nulo en un principio, podríamos haber hecho esto directamente.
+
+Nos queda que $$ gen\{(1,0),(0,1)\} $$ y como ya sabemos, es linealmente independiente, entonces $B=\{(1,0),(0,1)\}$ es una base de $R^2$
+
+## Ejercicio: Obtener una base y su dimensión de un subespacio
+
+Sea un subespacio definido por  
+
+$$ S={(x,y,z)\in R^3 / 2x+3y-z=0} $$  
+
+Obtener una base y su dimensión
+
+- Buscamos un generador de $S$  
+
+Para eso, vamos a colocar la mayor cantidad de variables en función de las otras que podemos en la ecuación del plano  
+
+$$ 2x+3y-z=0 $$  
+$$ 2x+3y=z $$
+
+Ahora planteamos  
+
+$$ (x, y, 2x+3y)=x(1,0,2)+y(0,1,3) $$  
+
+Luego  
+
+$$ gen\{(1,0,2),(0,1,3)\}=S $$
+
+- Resta ver si \{(1,0,2),(0,1,3)\} es linealmente independiente  
+
+Triangulamos  
+
+$$
+\begin{bmatrix}
+              1 & 0 & 2 \\
+              0 & 1 & 3
+\end{bmatrix}
+$$  
+
+Y vemos que ninguna fila se anula, por lo tanto, es linealmente independiente.
+Luego $B=\{(1,0,2),(0,1,3)\}$ base de $S$  
+Y $Dim(B)=2$  
+
+  
+  
+En la próxima parte de Espacios vectoriales:
+
+- Suma e intersección de subespacios
+
+
+
+
+
+
 
 
 
