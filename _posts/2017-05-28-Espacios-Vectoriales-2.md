@@ -36,22 +36,22 @@ Entonces decimos que $\vec{v}$ es combinación lineal de $(1,-1)$ y $(0,1)$
 
 Un conjunto de vectores es un sistema generador de un $K$-espacio vectorial $V$ si cualquier vector de $V$ puede escribirse como combinación lineal de los vectores del sistema generador.
 
-Se escribe $V=gen \vec{v_1}, \vec{v_2}, \vec{v_n}$
+Se escribe $V=gen\{\vec{v_1}, \vec{v_2}, \vec{v_n}\}$
 
 Es decir, el generador "genera" todo el espacio $V$, por lo tanto es una forma de expresar un espacio vectorial.
 
 ### Algunos ejemplos
 
-$$ gen(1,0),(0,1)=R^2$$  
-$$ gen(1,0),(0,1),(1,1)=R^2 $$  
-$$ gen(1,0) \neq R^2 $$  
-$$ gen (1,0,0),(0,1,0),(0,0,1)=R^3 $$  
+$$ gen\{(1,0),(0,1)\}=R^2$$  
+$$ gen\{(1,0),(0,1),(1,1)\}=R^2 $$  
+$$ gen\{(1,0)\} \neq R^2 $$  
+$$ gen\{(1,0,0),(0,1,0),(0,0,1)\}=R^3 $$  
 
 ## Independecia lineal y Dependencia lineal
 
 Se dice que un conjunto es linealmente independiente cuando el vector nulo es combinación lineal de los vectores de dicho conjunto solo con los coeficientes iguales a cero. Veámoslo formalmente:
 
-Sea $V$ un $K$-espacio vectorial y un conjunto A=\vec{v_1}, \vec{v_2}, \vec{v_n} \in V$  
+Sea $V$ un $K$-espacio vectorial y un conjunto A=\{\vec{v_1}, \vec{v_2}, \vec{v_n}\} \in V$  
 decimos que $A$ es linealmente independiente si:  
 $$ \vec{v}=\alpha_{1}.\vec{\v_{1}} + \alpha_{2}.\vec{\v_{2}} +... \alpha_{n}.\vec{\v_{n}}=\vec{0} $$  
 Con $\alpha_{i}=0$ para todo $i$
