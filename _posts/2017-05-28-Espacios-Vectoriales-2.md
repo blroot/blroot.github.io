@@ -100,7 +100,7 @@ Nótese que la dimensión de una base de $R^2$ siempre tiene dimensión $2$ y un
 
 **Observación**: 
 
-A $\{(1,0),(0,1)}\}$ se la conoce como base canónica de $R^2$
+A $\{(1,0),(0,1)\}$ se la conoce como base canónica de $R^2$
 
 ¿Te suena la notación de vectores en $R^2$ y $R^3$ respectivamente como $v=\alpha i+\beta j$ y $v=\alpha i+\beta j+\gamma k$?
 
