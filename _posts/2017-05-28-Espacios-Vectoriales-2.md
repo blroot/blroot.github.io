@@ -188,7 +188,7 @@ $$
 $$  
 
 Y vemos que ninguna fila se anula, por lo tanto, es linealmente independiente.
-Luego $B=\{(1,0,2),(0,1,3)\}$ base de $S$  
+Luego $$B=\{(1,0,2),(0,1,3)\}$$ base de $S$  
 Y $Dim(B)=2$  
 
   
