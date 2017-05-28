@@ -167,8 +167,10 @@ Se cumple para todo $k \in K$
 Como $W$ cumple las tres propiedades, entonces se dice que $W$ es un subespacio de $R^3$   
   
   
-En la próxima parte de espacios vectoriales vamos a ver:
+En la segunda parte de espacios vectoriales vamos a ver:
 
 -¿Qué es un generador y por qué nos permite expresar un espacio vectorial?
 -Dependencia e independencia lineal  
 -Base de un espacio vectorial
+
+[Link a la segunda parte](https://blroot.github.io/Espacios-Vectoriales-2/ "Segunda parte de espacios vectoriales")
