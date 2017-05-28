@@ -36,20 +36,13 @@ Entonces decimos que $\vec{v}$ es combinación lineal de $(1,-1)$ y $(0,1)$
 
 Un conjunto de vectores es un sistema generador de un $K$-espacio vectorial $V$ si cualquier vector de $V$ puede escribirse como combinación lineal de los vectores del sistema generador.
 
-Se escribe $V=gen{\vec{1}, \vec{2}, \vec{n}}$
+Se escribe $V=gen \vec{1}, \vec{2}, \vec{n}$
 
 Es decir, el generador "genera" todo el espacio $V$, por lo tanto es una forma de expresar un espacio vectorial.
 
 ### Algunos ejemplos
 
-$$\begin{document}
-  \[
-    gen \left\{\begin{array}{lr}
-        (1,0),(0,1)
-        \end{array}\right\} =R^2
-  \]
-\end{document}$$  
-
-$$ gen\begin{cases}(1,0),(0,1),(1,1) \end{cases} =R^2 $$  
-$$ gen\begin{cases}(1,0) \end{cases} \neq R^2 $$  
-$$ gen\begin{cases}(1,0,0),(0,1,0),(0,0,1) \end{cases} =R^3 $$  
+$$ gen(1,0),(0,1)=R^2$$
+$$ gen(1,0),(0,1),(1,1)=R^2 $$  
+$$ gen(1,0) \neq R^2 $$  
+$$ gen (1,0,0),(0,1,0),(0,0,1)=R^3 $$  
