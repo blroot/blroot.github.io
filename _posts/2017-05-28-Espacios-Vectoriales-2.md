@@ -197,6 +197,8 @@ En la próxima parte de Espacios vectoriales:
 
 - Suma e intersección de subespacios
 
+[Link a la primera parte](https://blroot.github.io/Espacios-Vectoriales/ ""Primera parte de espacios vectoriales"")
+
 
 
 
