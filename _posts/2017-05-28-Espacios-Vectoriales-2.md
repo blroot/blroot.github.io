@@ -193,7 +193,7 @@ Y $Dim(B)=2$
 
   
   
-En la próxima parte de Espacios vectoriales:
+En la tercera parte de Espacios vectoriales:
 
 - Suma e intersección de subespacios
 
