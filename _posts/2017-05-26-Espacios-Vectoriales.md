@@ -138,7 +138,7 @@ Por lo tanto se cumple que Con $\vec{v},\vec{w} \in W => \vec{v+w} \in W$
   
   
 
-- Con $\vec{v} \in W y k \in K => k\cdot \vec{v} \in W$
+- Con $\vec{v} \in W$ y $k \in K => k\cdot \vec{v} \in W$
 
 Sea:
 
