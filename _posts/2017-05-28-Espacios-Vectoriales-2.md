@@ -121,7 +121,35 @@ $$  \alpha_{1}(1,0) + \alpha_{2}(0,1) + \alpha_{3}(1,1)=(0,0) $$
 
 El sistema queda
 
-$$ \begin{cases} \alpha_{1}+\alpha_{3}=0 \\ \alpha_{2}+\alpha_{3}=0 \end{cases} $$
+$$ \begin{cases} \alpha_{1}+\alpha_{3}=0 \\ \alpha_{2}+\alpha_{3}=0 \end{cases} $$  
+
+Observamos que el sistema no es compatible determinado, entonces no es linealmente independiente  
+
+Lo que debemos hacer es quitar vectores del conjunto hasta que sea linealmente independiente, en este caso, como sabemos que una base de $R^2$ tiene dimensión $2$, debemos sacar un vector del conjunto, para saber cual podemos quitar, colocamos los vectores en una matriz y triangulamos  
+
+$$
+\begin{bmatrix}
+              1 & 0 \\
+              0 & 1 \\
+              1 & 1
+\end{bmatrix} =
+
+\begin{bmatrix}
+              1 & 0 \\
+              0 & 1 \\
+              0 & -1
+\end{bmatrix} =
+
+\begin{bmatrix}
+              1 & 0 \\
+              0 & 1 \\
+              0 & 0
+\end{bmatrix}
+$$ 
+
+Como la última fila queda anulada, el candidato a salir es el último vector, el $(1,1)$  
+Nos queda que $$ gen\{(1,0),(0,1)\} $$ y como ya sabemos, es linealmente independiente, entonces $B=\{(1,0),(0,1)\}$ es una base de $R^2$ 
+
 
 
 
