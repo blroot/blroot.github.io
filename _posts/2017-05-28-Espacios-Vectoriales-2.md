@@ -73,7 +73,7 @@ Vamos a ver ejemplos de esto en bases de un espacio vectorial
 Sea $V$ un $K$-espacio vectorial, decimos que un conjunto $$A=\{\vec{v_1}, \vec{v_2}, \vec{v_n}\}$$ es una base de $V$ si cumple que:
 
 - $A$ es linealmente independiente
-- $gen\{\vec{v_1}, \vec{v_2}, \vec{v_n}\}=V$
+- $$ gen\{A\}=V $$
 
 De los ejemplos de generadores, vimos que $$ gen\{(1,0),(0,1)\}=R^2 $$
 
