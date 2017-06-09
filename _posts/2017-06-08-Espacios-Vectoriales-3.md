@@ -143,6 +143,8 @@ Son dos planos que intersectan en una recta, algo así:
 
 ![Dibujo 19.JPG]({{site.baseurl}}/_posts/Dibujo 19.JPG)
 
+Entonces, los vectores de $S$ siempre se encuentran dentro del plano $S$ y los de $T$ dentro del plano de $T$
+
 
 
 
