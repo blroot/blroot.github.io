@@ -39,7 +39,7 @@ $$
 1 & 2 & -1 \end{array} \right|\ = (-5,3,1)] 
 $$
 
-Entonces, $U$ y $V$ intersectan en una recta. Pero lo que queremos es ver que $U\capV$ es un subespacio, entonces vamos a dar el resultado como una base.
+Entonces, $U$ y $V$ intersectan en una recta. Pero lo que queremos es ver que $U \cap V$ es un subespacio, entonces vamos a dar el resultado como una base.
 
 Base de $U \cap V=\{(-5,0,1)\}$
 
