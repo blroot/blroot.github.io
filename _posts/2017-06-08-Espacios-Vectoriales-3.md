@@ -109,6 +109,36 @@ $$ 2 = 1 + 1 -dim(S \cap T) $$
 
 Luego, $dim(S \cap T)=0$, entonces la suma es directa
 
+### Un ejercicio para pensar
+
+Sean  
+
+$$ S=x \in R^3 / x_{1}+x_{2}-x_{3}=0 $$
+$$ T={(0,-1,1),(2,1,1)} $$  
+
+Hallar $v \in S+T / v \notin S \wedge v \notin T$
+
+Es decir, encontrar todos los vectores $v$ que pertenecen al subespacio $S+T$ pero no a $S$ ni a $T$  
+¿Interesante no?
+
+Bien, como primera instancia, me puede llegar a interesar ver como son $S$ y $T$. $S$ es un plano y al parecer $T$ también lo es, ya que es una base de dimensión dos.  
+Quiero saber como son estos planos entre sí, para eso busco la ecuación de $T$  
+
+$$ T = \alpha_{1}(0,-1,1)+ \alpha_{2}(2,1,1)=(x,y,z) $$
+
+Triangulando la matriz, obtengo que $x-y-z=0$ para que el sistema no sea incompatible, luego esa es la ecuación del plano.  
+
+Ahora, veo como es la intersección entre ellos
+
+$$
+\left| \begin{array}{ccc}
+\hat{i} & \hat{j} & \hat{k} \\
+1 & 1 & -1 \\
+1 & -1 & -1 \end{array} \right|\ = (-2,0,-2)] 
+$$  
+
+Bien, entonces intersectan en una recta.
+Detengamonos un momento a imaginar como son esos dos espacios vectoriales
 
 
 
