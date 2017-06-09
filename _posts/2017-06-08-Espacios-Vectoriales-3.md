@@ -42,7 +42,35 @@ Entonces, $U$ y $V$ intersectan en una recta. Pero lo que queremos es ver que $U
 
 Base de $U\capV=\{(-5,0,1)\}$
 
-Cuidado, también puede suceder que $U$ y $V$ sean el mismo plano, en ese caso los vectores normales de estos planos van a ser paralelos y el producto vectorial va a dar vector nulo $(0,0,0)$
+Cuidado, también puede suceder que $U$ y $V$ sean el mismo plano, en ese caso los vectores normales de estos planos van a ser paralelos y el producto vectorial va a dar vector nulo $(0,0,0), esto no significa que no haya intersección!$
+
+### Suma de subespacios
+
+Sea $V$ un E.V y $S$ y $T$ subespacios de $V$ 
+$$ S+T=v\inV / v=s+t, s\inS, t\inT $$
+
+Intentemos ponerlo en palabras:
+1.La suma de subespacios se compone por vectores $v$ pertenecientes a $V$
+2.Los vectores $v$ son resultado de la suma de dos vectores $s$ y $t$
+3.$s$ y $t$ salen de los subespacios $S$ y $T$ respectivamente
+
+Así también, la suma es un subespacio de $V$
+
+Veamos una propiedad que nos va a servir para sumar subespacios
+
+Sean:  
+Base de $S=\{v_{1}, v_{2}...v_{r}\}$
+Base de $T=\{t_{1}, t_{2}...t_{k}\}$  
+
+Entonces  
+$$ S+T=gen{v_{1}, v_{2}...v_{r}, t_{1}, t_{2}...t_{k}} $$  
+
+Como en cualquier E.V si el conjunto es linealmente independiente, es base de $S+T$
+
+### Ejemplo
+
+
+
 
 
 
