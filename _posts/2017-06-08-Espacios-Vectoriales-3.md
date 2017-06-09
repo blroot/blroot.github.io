@@ -25,9 +25,18 @@ $$ U\capV=X\inR^3 / 2x_1+3x_2+x_3=0 \wedge x_1+2x_2-x_3=0 $$
 Como podemos observar, se resuelve con un sistema de ecuaciones lineales.
 En este caso en particular, como los subespacios son planos, también se puede hacer el producto vectorial con un vector normal de cada plano, de esa manera obtenemos un vector director de la recta en donde intersectan los dos subespacios.
 
-Como me aburro de hacer sistemas lineales, vamos a hacer producto vectorial
+Como me aburro de hacer sistemas lineales, vamos a hacer el producto vectorial
 
+Las opciones obvias de vectores normales (y que salen de la ecuación implícita) a los planos son  
+$v_{u}=(2,3,1)$  
+$v_{v}=(1,2-1)$
 
+$$
+\left| \begin{array}{ccc}
+\hat{i} & \hat{j} & \hat{k} \\
+2 & 3 & 1 \\
+1 & 2 & -1 \end{array} \right|.\] 
+$$  
 
 
 
