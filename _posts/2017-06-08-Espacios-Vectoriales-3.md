@@ -143,7 +143,16 @@ Son dos planos que intersectan en una recta, algo así:
 
 ![Dibujo 19.JPG]({{site.baseurl}}/_posts/Dibujo 19.JPG)
 
-Entonces, los vectores de $S$ siempre se encuentran dentro del plano $S$ y los de $T$ dentro del plano de $T$
+Entonces, si los vectores de $S$ siempre se encuentran dentro del plano $S$ y los de $T$ dentro del plano de $T$, ¿En donde se encuentran los de $S+T$?  
+
+Si hacemos el cálculo de la base de $S+T$ nos va a dar que $S+T=R^3$, o sea son todos los vectores del espacio, pero se pide además que no pertenezcan a $S$ ni a $T$, para esto volvamos a la definición de la suma:  
+
+Todos los vectores $v$ de la suma de $S$ y $T$ se componen de la suma de un vector $s \in S$ y otro $t \in T$. Dicho esto ¿Qué no debe suceder para que $v$ no "caiga" en $S$ o $T$?  
+Hay que pensar gráficamente en la suma de vectores, la única forma de que eso no suceda es que ni $s$ ni $t$ sean vector nulo.
+
+Por lo tanto  
+
+$$ v = s+t \in S+T / s \neq =\vec_{0} \lor  t \neq =\vec_{0}, s \in S, t \in T $$
 
 
 
