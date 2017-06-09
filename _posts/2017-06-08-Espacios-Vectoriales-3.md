@@ -70,6 +70,33 @@ Como en cualquier E.V si el conjunto es linealmente independiente, es base de $S
 
 ### Ejemplo
 
+Sean $V=R^3$  
+y  
+$$ S=(x,y,z) \in R^3 / x=z=0 $$  
+$$ T=(x,y,z) \in R^3 / y=z=0 $$  
+
+Obtenemos una base de $S$
+
+$(0,y,0)=y(0,1,0)$  
+Base de $S=\{(0,1,0)\}$
+
+Obtenemos una base de $T$
+
+$(x,0,0)=x(1,0,0)$  
+Base de $T=\{(1,0,0)\}$
+
+Entonces las bases generan a $S+T$
+
+$$ S+T=gen\{(0,1,0),(1,0,0)\} $$ 
+
+Como sabemos que es linealmente independiente, decimos que es base de $S+T$
+
+Base $S+T=\{(0,1,0),(1,0,0)\}$
+
+
+
+
+
 
 
 
