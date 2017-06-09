@@ -152,7 +152,7 @@ Hay que pensar gráficamente en la suma de vectores, la única forma de que eso 
 
 Por lo tanto  
 
-$$ v = s+t \in S+T / s \neq =\vec_{0} \lor  t \neq =\vec_{0}, s \in S, t \in T $$
+$$ v = s+t \in S+T / s \neq \vec_{0} \lor  t \neq \vec_{0}, s \in S, t \in T $$
 
 
 
