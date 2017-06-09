@@ -103,6 +103,12 @@ Una igualdad que nos sirve para saber si la suma es directa sin necesidad de cal
 
 $$ dim(S+T) = dimS + dimT - dim(S \cap T) $$
 
+En el ejemplo anterior  
+
+$$ 2 = 1 + 1 -dim(S \cap T) $$
+
+Luego, $dim(S \cap T)=0$, entonces la suma es directa
+
 
 
 
