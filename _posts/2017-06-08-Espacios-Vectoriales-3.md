@@ -95,7 +95,14 @@ Base $S+T=\{(0,1,0),(1,0,0)\}$
 
 ### Suma directa
 
-Decimos que $S+T$ es suma directa si y solo si $S \cap T={vec{0}}$
+Decimos que $S+T$ es suma directa si y solo si $S \cap T={\vec{0}}$
+Es decir, es suma directa si en la intersección, solo se encuentra el vector nulo
+Se escribe como $S \bigoplus T$
+
+Una igualdad que nos sirve para saber si la suma es directa sin necesidad de calcular la intersección es la siguiente:  
+
+$$ dim(S+T) = dimS + dimT - dim(S \cap T) $$
+
 
 
 
