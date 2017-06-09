@@ -93,6 +93,10 @@ Como sabemos que es linealmente independiente, decimos que es base de $S+T$
 
 Base $S+T=\{(0,1,0),(1,0,0)\}$
 
+### Suma directa
+
+Decimos que $S+T$ es suma directa si y solo si $S \cap T={vec{0}}$
+
 
 
 
