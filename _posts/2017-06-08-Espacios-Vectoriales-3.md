@@ -141,7 +141,8 @@ Bien, entonces intersectan en una recta.
 Detengámonos un momento a imaginar como son esos dos subespacios vectoriales.
 Son dos planos que intersectan en una recta, algo así:
 
-![]({{site.baseurl}}/http://ww2.educarchile.cl/UserFiles/P0001/Image/Mod_4_contenidos_estudiantes_matematica_geometria/Dibujo%2019.JPG)
+![Dibujo 19.JPG]({{site.baseurl}}/_posts/Dibujo 19.JPG)
+
 
 
 
