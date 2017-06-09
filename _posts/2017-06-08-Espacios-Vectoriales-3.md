@@ -138,7 +138,7 @@ $$
 $$  
 
 Bien, entonces intersectan en una recta.
-Detengamonos un momento a imaginar como son esos dos espacios vectoriales![]({{site.baseurl}}/http://ww2.educarchile.cl/UserFiles/P0001/Image/Mod_4_contenidos_estudiantes_matematica_geometria/Dibujo%2019.JPG)
+Detengamonos un momento a imaginar como son esos dos subespacios vectoriales![]({{site.baseurl}}/http://ww2.educarchile.cl/UserFiles/P0001/Image/Mod_4_contenidos_estudiantes_matematica_geometria/Dibujo%2019.JPG)
 
 
 
