@@ -43,7 +43,7 @@ Entonces, $U$ y $V$ intersectan en una recta. Pero lo que queremos es ver que $U
 
 Base de $U \cap V=\{(-5,0,1)\}$
 
-Cuidado, también puede suceder que $U$ y $V$ sean el mismo plano, en ese caso los vectores normales de estos planos van a ser paralelos y el producto vectorial va a dar vector nulo $(0,0,0), esto no significa que no haya intersección!$
+Cuidado, también puede suceder que $U$ y $V$ sean el mismo plano, en ese caso los vectores normales de estos planos van a ser paralelos y el producto vectorial va a dar vector nulo $(0,0,0)$, esto no significa que no haya intersección!$
 
 ### Suma de subespacios
 
