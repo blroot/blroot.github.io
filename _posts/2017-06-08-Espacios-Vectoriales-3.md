@@ -48,7 +48,7 @@ Cuidado, también puede suceder que $U$ y $V$ sean el mismo plano, en ese caso l
 ### Suma de subespacios
 
 Sea $V$ un E.V y $S$ y $T$ subespacios de $V$ 
-$$ S+T=v\inV / v=s+t, s\inS, t\inT $$
+$$ S+T=v \in V / v=s+t, s \in S, t \in T $$
 
 Intentemos ponerlo en palabras:
 1.La suma de subespacios se compone por vectores $v$ pertenecientes a $V$
