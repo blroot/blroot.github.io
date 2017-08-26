@@ -20,16 +20,18 @@ $$v_{3}=(1,0,0)$$
 Supongamos también que dichos vértices forman un triángulo al que queremos escalar de manera no uniforme . la matríz de transformación de escalado en tres dimensiones tiene esta forma:
 
 $$
+S =
 \begin{bmatrix}
               s_{x} & 0 & 0 \\
               0 & s_{y} & 0 \\
               0 & 0 & s_{z}
-\end{bmatrix} =
+\end{bmatrix}
 $$ 
 
 Donde en la diagonal principal se encuentran los coeficientes de escalado para cada coordenada. Por lo tanto si yo quiero agrandar mi triángulo dos unidades sobre el eje X y dejarlo como está sobre el eje Y y Z, la matríz quedaría:
 
 $$
+S = 
 \begin{bmatrix}
               2 & 0 & 0 \\
               0 & 1 & 0 \\
@@ -50,6 +52,7 @@ Pero como somos ambiciosos, ahora vamos a querer rotarlo. La rotación en tres d
 Entonces, la rotación en 3D sobre el eje Z por un ángulo \theta se representa matricialmente:
 
 $$
+R_{z} = 
 \begin{bmatrix}
               cos(\theta) & -sin(\theta) & 0 \\
               sin(\theta) & cos(\theta) & 0 \\
@@ -61,12 +64,12 @@ Vemos que tampoco habría problema para transformar nuestros vértices uno por u
 
 Ahora, veamos que sucede con la translación, esta vez comencemos al revés, lo que queremos obtener al transformar nuestros vértices es algo como:
 
-$$v_{1}
+$$v_{1} =
 \begin{bmatrix}
               -2 + t_{x} \\
               0 + t_{y} \\
               0 + t_{z}
-\end{bmatrix} =
+\end{bmatrix}
 $$
 
 El problema es que no hay ninguna matríz de 3x3 que nos pueda generar el resultado deseado, te invito a que lo pienses un rato.
@@ -75,13 +78,13 @@ Entonces ¿Qué hacemos? bueno, simplemente vamos a agregar una dimensión a nue
 
 La matríz de translación nos quedaría de la siguiente manera:
 
-$$
+$$ T = 
 \begin{bmatrix}
               1 & 0 & 0 & t_{x} \\
               0 & 1 & 0 & t_{y}\\
               0 & 0 & 1 & t_{z}
               0 & 0 & 0 & 1
-\end{bmatrix} =
+\end{bmatrix}
 $$ 
 
 Nuestros vértices van a quedar como:
@@ -96,23 +99,23 @@ Entonces para una dirección, por ejemplo $$d=(1,0,0,0)$$ se puede observar que 
 
 De la misma manera, con la cuarta dimensión, el escalamiento queda como:
 
-$$
+$$ S = 
 \begin{bmatrix}
               s_{x} & 0 & 0 & 0\\
               0 & s_{y} & 0 & 0\\
               0 & 0 & s_{z} & 0\\
               0 & 0 & 0 & 1
-\end{bmatrix} =
+\end{bmatrix}
 $$ 
 
 Y también la rotación:
 
-$$
+$$ R_{z} = 
 \begin{bmatrix}
               cos(\theta) & -sin(\theta) & 0 & 0\\
               sin(\theta) & cos(\theta) & 0 & 0\\
               0 & 0 & 0 & 1
-\end{bmatrix} =
+\end{bmatrix}
 $$
 
 Dicho coloquialmente, las coordenadas homogéneas nos permiten transformar de manera uniforme tanto direcciones como posiciones en el espacio.
