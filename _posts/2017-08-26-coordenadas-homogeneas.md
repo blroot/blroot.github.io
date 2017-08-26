@@ -36,7 +36,7 @@ S =
               2 & 0 & 0 \\
               0 & 1 & 0 \\
               0 & 0 & 1
-\end{bmatrix} =
+\end{bmatrix}
 $$ 
 
 Como ya tenemos la matríz armada, multiplicamos por derecha cada uno de los vértices para aplicarles la transformación. Los vértices ahora van a ser:
@@ -49,7 +49,7 @@ Perfecto! es lo que queríamos.
 
 Pero como somos ambiciosos, ahora vamos a querer rotarlo. La rotación en tres dimensiones debe hacerse sobre un eje pivote, para continuar con la explicación y que sea más amigable vamos a dar solamente la matríz de rotación sobre el eje Z, pero obviamente esto en un programa no es satisfactorio, se puede construír una matríz de rotación a partir de cualquier vector pivote pero es muy larga y complicada https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula
 
-Entonces, la rotación en 3D sobre el eje Z por un ángulo \theta se representa matricialmente:
+Entonces, la rotación en 3D sobre el eje Z por un ángulo $\theta$ se representa matricialmente:
 
 $$
 R_{z} = 
@@ -57,7 +57,7 @@ R_{z} =
               cos(\theta) & -sin(\theta) & 0 \\
               sin(\theta) & cos(\theta) & 0 \\
               0 & 0 & 1
-\end{bmatrix} =
+\end{bmatrix}
 $$
 
 Vemos que tampoco habría problema para transformar nuestros vértices uno por uno, multiplicamos por derecha igual que en el caso anterior.
@@ -81,8 +81,8 @@ La matríz de translación nos quedaría de la siguiente manera:
 $$ T = 
 \begin{bmatrix}
               1 & 0 & 0 & t_{x} \\
-              0 & 1 & 0 & t_{y}\\
-              0 & 0 & 1 & t_{z}
+              0 & 1 & 0 & t_{y} \\
+              0 & 0 & 1 & t_{z} \\
               0 & 0 & 0 & 1
 \end{bmatrix}
 $$ 
@@ -101,9 +101,9 @@ De la misma manera, con la cuarta dimensión, el escalamiento queda como:
 
 $$ S = 
 \begin{bmatrix}
-              s_{x} & 0 & 0 & 0\\
-              0 & s_{y} & 0 & 0\\
-              0 & 0 & s_{z} & 0\\
+              s_{x} & 0 & 0 & 0 \\
+              0 & s_{y} & 0 & 0 \\
+              0 & 0 & s_{z} & 0 \\
               0 & 0 & 0 & 1
 \end{bmatrix}
 $$ 
@@ -112,8 +112,9 @@ Y también la rotación:
 
 $$ R_{z} = 
 \begin{bmatrix}
-              cos(\theta) & -sin(\theta) & 0 & 0\\
-              sin(\theta) & cos(\theta) & 0 & 0\\
+              cos(\theta) & -sin(\theta) & 0 & 0 \\
+              sin(\theta) & cos(\theta) & 0 & 0 \\
+              0 & 0 & 1 & 0 \\
               0 & 0 & 0 & 1
 \end{bmatrix}
 $$
