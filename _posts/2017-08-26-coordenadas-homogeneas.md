@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Coordenadas homogeneas
 
@@ -116,11 +116,3 @@ $$
 $$
 
 Dicho coloquialmente, las coordenadas homogéneas nos permiten transformar de manera uniforme tanto direcciones como posiciones en el espacio.
-
-
-
-
-
-
-
-
