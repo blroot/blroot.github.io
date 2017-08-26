@@ -7,8 +7,6 @@ Una de las herramientas del álgebra lineal que se utilizan muy frecuentemente e
 
 Bien, una de las principales problemáticas geométricas que necesitamos resolver en nuestros programas gráficos es mover objectos, ¿Como movemos objetos? transformando linealmente o de manera afín nuestras primitivas, principalmente vértices en el caso de triángulos, pero dependiendo del algoritmo que usemos tambíen pueden ser centros (esferas) u otro tipo de coordenadas que necesitemos transformar.
 
-Si necesitás un repaso sobre espacios vectoriales y transformaciones lineales
-
 Ahora bien, por lo general las transformaciones que vamos a querer aplicar a nuestros objetos son tres, rotación, translación y escalado.
 
 En tres dimensiones (espacio), supongamos que tenemos tres vértices 
