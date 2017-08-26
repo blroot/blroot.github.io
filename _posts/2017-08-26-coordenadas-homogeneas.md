@@ -47,7 +47,7 @@ $$v_{3}=(2,0,0)$$
 
 Perfecto! es lo que queríamos.
 
-Pero como somos ambiciosos, ahora vamos a querer rotarlo. La rotación en tres dimensiones debe hacerse sobre un eje pivote, para continuar con la explicación y que sea más amigable vamos a dar solamente la matríz de rotación sobre el eje Z, pero obviamente esto en un programa no es satisfactorio, se puede construír una matríz de rotación a partir de cualquier vector pivote pero es muy larga y complicada https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula
+Pero como somos ambiciosos, ahora vamos a querer rotarlo. La rotación en tres dimensiones debe hacerse sobre un eje pivote, para continuar con la explicación y que sea más amigable vamos a dar solamente la matríz de rotación sobre el eje Z, pero obviamente esto en un programa no es satisfactorio, se puede construír una matríz de rotación a partir de cualquier vector pivote pero es muy larga y complicada [Rodrigues rotation formula](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)
 
 Entonces, la rotación en 3D sobre el eje Z por un ángulo $\theta$ se representa matricialmente:
 
