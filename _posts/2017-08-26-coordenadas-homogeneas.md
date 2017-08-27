@@ -1,9 +1,9 @@
 ---
 published: true
 ---
-## Coordenadas homogeneas
-
 Una de las herramientas del álgebra lineal que se utilizan muy frecuentemente en computación gráfica -tanto en 2D como en 3D- son las coordenadas homogéneas. A continuación vamos a exponer de forma práctica el porqué de su utilización, teóricamente tambíen tiene implicancias proyectivas, pero en un principio es más facil entenderlo de la siguiente manera.
+
+## Coordenadas homogeneas
 
 Bien, una de las principales problemáticas geométricas que necesitamos resolver en nuestros programas gráficos es mover objectos, ¿Como movemos objetos? transformando linealmente o de manera afín nuestras primitivas, principalmente vértices en el caso de triángulos, pero dependiendo del algoritmo que usemos tambíen pueden ser centros (esferas) u otro tipo de coordenadas que necesitemos transformar.
 
