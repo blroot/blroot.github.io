@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Análisis matemático 1 
 
