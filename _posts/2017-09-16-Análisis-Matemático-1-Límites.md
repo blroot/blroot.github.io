@@ -15,7 +15,7 @@ Sea $\epsilon = 0.1$ quiero hallar $ \delta > 0 / |x-2|< \delta \implies |f(x)+2
 
 $$ \implies |f(x)+2|<0.1 \\ |-3x+4+2|<0.1 \\ |-3x+6|<0.1 \\ |-3(x-2)<0.1| \\ 3|x-2|<0.1 $$
 
-Como queremos $$|x-2|< \delta$$
+Como queremos $ x-2< \delta $
 
 Decimos que:
 
@@ -54,6 +54,3 @@ En 11, $(g o f)(x)$ es continua.
 ## Indeterminaciones
 
 $$ 0/0; \infty/\infty; \infty - \infty; 0* \infty; 1^\infty; \infty^0; 0^\infty $$
-
-
-
