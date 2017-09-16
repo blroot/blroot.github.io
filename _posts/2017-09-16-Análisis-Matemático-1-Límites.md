@@ -15,7 +15,7 @@ Sea $\epsilon = 0.1$ quiero hallar $ \delta > 0 / |x-2|< \delta \implies |f(x)+2
 
 $$ \implies |f(x)+2|<0.1 \\ |-3x+4+2|<0.1 \\ |-3x+6|<0.1 \\ |-3(x-2)<0.1| \\ 3|x-2|<0.1 $$
 
-Como queremos $ x-2< \delta $
+Como queremos $ \lvert x-2 \lvert < \delta $
 
 Decimos que:
 
