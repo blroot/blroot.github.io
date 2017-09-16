@@ -9,4 +9,4 @@ published: true
 
 Llamamos bola o entorno de centro $p$ y radio $r>0$ al conjunto
 
-$$ A={x\inR/|x-p|<r} = B(p,r) $$
+$$ A={x\in R/|x-p|<r} = B(p,r) $$
