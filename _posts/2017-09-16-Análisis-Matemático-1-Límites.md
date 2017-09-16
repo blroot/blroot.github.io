@@ -49,7 +49,7 @@ $$ \lim_{x\to a} f(x) / g(x) = \lim_{x\to a} f(x) / \lim_{x\to a} g(x) = L_{1} /
 
 $$ (g o f)(x) \implies \lim_{x\to a} (g o f)(x) =  \lim_{x\to a} g(f(x)) \\ g(\lim_{x\to a} f(x)) = g(L_{1}) $$
 
-En 11, (g o f)(x) es continua.
+En 11, $(g o f)(x)$ es continua.
 
 ## Indeterminaciones
 
