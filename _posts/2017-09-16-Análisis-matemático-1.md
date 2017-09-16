@@ -13,7 +13,7 @@ $$ A={x\in R/|x-p|<r} = B(p,r) $$
 
 Sea $A \in R$ se pueden clasificar los puntos de A de la siguiente manera:
 
--Punto interior
+-### Punto interior
 
 Sea $p \in R$ y $A \subseteq R$ un conjunto, se dice que "$p$ es interior a $A$"
 
@@ -47,9 +47,9 @@ Se dice que un conjunto es abierto $\iff A=A^0$
 
 En el ejemplo, $A \neq A^0 \implies A$ no es abierto 
 
--Punto clausura
+-### Punto clausura
 
-Un punto es clausura de un conjunto $A \subseteq R$
+Un punto $p$ es clausura de un conjunto $A \subseteq R$
 
 $$ \iff \forall r>0 : B(p,r) \cap A \neq \varnothing $$
 
@@ -64,3 +64,16 @@ El conjunto de puntos clausura se nota $\overline{\rm A}$
 $$ \overline{\rm A}=[-2,3] \cup 7 $$
 
 Se dice que un conjunto es cerrado $\iff A=\overline{\rm A}$
+
+-### Punto frontera
+
+Un punto $p \in R$ se dice frontera:
+
+$$ \iff \forall r>0 : B(p,r) \cap A \neq \varnothing  \land B(p,r) \cap A^C \neq \varnothing$$
+
+Donde $C$ es el complemento.
+
+En el ejemplo, $aA={-2,3,7}$ es el conjunto de puntos frontera.
+
+
+
