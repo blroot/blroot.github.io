@@ -9,7 +9,7 @@ $$\lim_{x\to a} f(x) = L \in R \iff \forall \epsilon > 0, \exists \delta > 0 / \
 
 Por ejemplo:
 
-$$ \lim_{x\to 2} -3x+4 = -2 $$ es candidato a límite
+$$\lim_{x\to 2} -3x+4 = -2$$ es candidato a límite
 
 Sea $\epsilon = 0.1$ quiero hallar $\delta > 0 / |x-2|< \delta \implies |f(x)+2|< 0,1$
 
