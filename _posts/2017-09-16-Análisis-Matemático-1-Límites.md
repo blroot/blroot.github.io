@@ -53,7 +53,7 @@ En 11, (g o f)(x) es continua.
 
 ## Indeterminaciones
 
-$$ 0/0; \inf/\inf; \inf - \inf; 0* \inf; 1^\inf; \inf^0; 0^\inf $$
+$$ 0/0; \infty/\infty; \infty - \infty; 0* \infty; 1^\infty; \infty^0; 0^\infty $$
 
 
 
