@@ -27,7 +27,7 @@ Dado $\epsilon > 0$
 
 $$ |f(x)+2|< \epsilon \\ |-3x+6|< \epsilon \\ 3|x-2|< \epsilon$$
 
-De la definición de límite tenemos que $|x-2|< \delta$
+De la definición de límite tenemos que $\lvert x-2 \lvert < \delta$
 
 $$ \implies 3|x-2|<3\delta < 3\epsilon < \epsilon \\ 3\delta < \epsilon \\ \delta < \epsilon/3 $$
 
