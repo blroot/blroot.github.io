@@ -11,7 +11,7 @@ Por ejemplo:
 
 $$\lim_{x\to 2} -3x+4 = -2$$ es candidato a límite
 
-Sea $\epsilon = 0.1$ quiero hallar $$\delta > 0 / |x-2|< \delta \implies |f(x)+2|< 0,1$$
+Sea $\epsilon = 0.1$ quiero hallar $ \delta > 0 / |x-2|< \delta \implies |f(x)+2|< 0,1 $
 
 $$ \implies |f(x)+2|<0.1 \\ |-3x+4+2|<0.1 \\ |-3x+6|<0.1 \\ |-3(x-2)<0.1| \\ 3|x-2|<0.1 $$
 
