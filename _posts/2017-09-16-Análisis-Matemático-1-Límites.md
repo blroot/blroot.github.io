@@ -43,3 +43,9 @@ $$ \lim_{x\to a} K = K $$ Donde $K es constante$
 
 $$ \lim_{x\to a} K * f(x) = K * \lim_{x\to a} f(x) = K.L_{1} $$
 
+$$ \lim_{x\to a} f(x) * g(x) = \lim_{x\to a} f(x) * \lim_{x\to a} g(x) = L_{1} * L_{2} $$
+
+$$ \lim_{x\to a} f(x) / g(x) = \lim_{x\to a} f(x) / \lim_{x\to a} g(x) = L_{1} / L_{2} $$
+
+
+
