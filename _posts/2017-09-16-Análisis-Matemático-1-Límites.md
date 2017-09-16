@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Límite de funciones en un punto, Álgebra de límites, Indeterminaciones, Teorema del sandwich.
 
