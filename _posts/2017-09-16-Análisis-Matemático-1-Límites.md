@@ -31,3 +31,15 @@ De la definición de límite tenemos que $|x-2|< \delta$
 
 $$ \implies 3|x-2|<3\delta < 3\epsilon < \epsilon \\ 3\delta < \epsilon \\ \delta < \epsilon/3 $$
 
+## Álgebra de límites
+
+Sean $f(x)$ y $g(x)$ dos funciones tales que:
+
+$$ \lim_{x\to a} f(x) = L_{1}  $$ y $$ \lim_{x\to a} g(x) = L_{2}  $$
+
+$$ \lim_{x\to a} f(x) + g(x) =  \lim_{x\to a} f(x) + \lim_{x\to a} g(x) = L_{1} + L_{2} $$
+
+$$ \lim_{x\to a} K = K $$ Donde $K es constante$
+
+$$ \lim_{x\to a} K * f(x) = K * \lim_{x\to a} f(x) = K.L_{1} $$
+
