@@ -42,3 +42,7 @@ En palabras, no se puede armar un entorno alrededor del 7
 Se nota al conjunto de los puntos interiores de $A$ como $A^0$ 
 
 En el ejemplo, $A^0=(-2,3)$
+
+Se dice que un conjunto es abierto $\iff A=A^0$
+
+En el ejemplo, $A \neq A^0 \implies A$ no es abierto 
