@@ -62,3 +62,5 @@ $$ A=[-2,3] \cup {7} $$
 El conjunto de puntos clausura se nota $\overline{\rm A}$
 
 $$ \overline{\rm A}=[-2,3] \cup 7 $$
+
+Se dice que un conjunto es cerrado $\iff A=\overline{\rm A}$
