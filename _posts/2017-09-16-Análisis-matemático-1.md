@@ -1,9 +1,7 @@
 ---
 published: true
 ---
-## Análisis matemático 1 
-
-### Algunos conceptos y teoremas
+## Análisis matemático 1 - Topología
 
 ### Bola o entorno
 
@@ -13,7 +11,7 @@ $$ A={x\in R/|x-p|<r} = B(p,r) $$
 
 Sea $A \in R$ se pueden clasificar los puntos de A de la siguiente manera:
 
--### Punto interior
+### Punto interior
 
 Sea $p \in R$ y $A \subseteq R$ un conjunto, se dice que "$p$ es interior a $A$"
 
@@ -47,7 +45,7 @@ Se dice que un conjunto es abierto $\iff A=A^0$
 
 En el ejemplo, $A \neq A^0 \implies A$ no es abierto 
 
--### Punto clausura
+### Punto clausura
 
 Un punto $p$ es clausura de un conjunto $A \subseteq R$
 
@@ -65,7 +63,7 @@ $$ \overline{\rm A}=[-2,3] \cup 7 $$
 
 Se dice que un conjunto es cerrado $\iff A=\overline{\rm A}$
 
--### Punto frontera
+### Punto frontera
 
 Un punto $p \in R$ se dice frontera:
 
