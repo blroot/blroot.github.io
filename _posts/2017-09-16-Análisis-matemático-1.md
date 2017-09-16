@@ -46,3 +46,9 @@ En el ejemplo, $A^0=(-2,3)$
 Se dice que un conjunto es abierto $\iff A=A^0$
 
 En el ejemplo, $A \neq A^0 \implies A$ no es abierto 
+
+-Punto clausura
+
+Un punto es clausura de un conjunto $A \subseteq R$
+
+$$ \iff \forall r>0 : B(p,r) \cap A \neq \varnothing $$
