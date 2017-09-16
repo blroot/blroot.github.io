@@ -47,5 +47,7 @@ $$ \lim_{x\to a} f(x) * g(x) = \lim_{x\to a} f(x) * \lim_{x\to a} g(x) = L_{1} *
 
 $$ \lim_{x\to a} f(x) / g(x) = \lim_{x\to a} f(x) / \lim_{x\to a} g(x) = L_{1} / L_{2} $$
 
+$$ (g o f)(x) \implies \lim_{x\to a} (g o f)(x) =  \lim_{x\to a} g(f(x)) \\ g(\lim_{x\to a} f(x)) = g(L_{1}) $$
+
 
 
