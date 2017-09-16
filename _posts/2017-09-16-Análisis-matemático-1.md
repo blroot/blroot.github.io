@@ -3,7 +3,7 @@ published: true
 ---
 Topología y Conjuntos
 
-### Bola o entorno
+## Bola o entorno
 
 Llamamos bola o entorno de centro $p$ y radio $r>0$ al conjunto:
 
@@ -72,6 +72,37 @@ $$ \iff \forall r>0 : B(p,r) \cap A \neq \varnothing  \land B(p,r) \cap A^C \neq
 Donde $C$ es el complemento.
 
 En el ejemplo, $aA={-2,3,7}$ es el conjunto de puntos frontera.
+
+## Conjuntos acotados
+
+Sea $A \subseteq R$ con $A \neq \varnothing$ 
+
+Se dice que $c$ es cota superior de $A$ $\iff \forall a \in A: a \leq c$
+
+De la misma manera, se dice que $c$ es cota inferior de $A$ $\iff \forall a \in A: a \geq c$
+
+En $ A=[-2,3] \cup {7} $ $7$ es cota superior de $A$ y $-2$ es cota inferior de $A$
+
+En general, se dice un conjunto acotado, si está acotado superiormente e inferiormente.
+
+### Supremo e ínfimo
+
+Se le dice supremo a la menor de las cotas superiores de un conjunto.
+De la misma manera, se dice ínfimo de un conjunto, a la mayor de las cotas superiores.
+
+Ejemplo: $A=[-5,2]$ $Sup(A)=-3 \notin A$
+
+Luego, si el supremo pertenece al conjunto, se lo llama máximo.
+
+Por otro lado, $-7$ es cota inferior de $A$ y $\in A$
+
+Como el ínfimo pertenece al conjunto, se le llama mínimo.
+
+### Axioma de completitud
+
+Sea $A \in R$ con $A \neq \varnothing$ acotado superiormente entonces existe el supremo de $A$
+
+
 
 
 
