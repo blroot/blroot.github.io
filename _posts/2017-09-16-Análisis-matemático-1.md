@@ -52,3 +52,13 @@ En el ejemplo, $A \neq A^0 \implies A$ no es abierto
 Un punto es clausura de un conjunto $A \subseteq R$
 
 $$ \iff \forall r>0 : B(p,r) \cap A \neq \varnothing $$
+
+Con el mismo ejemplo: 
+
+$$ A=[-2,3] \cup {7} $$
+
+7 está en la clausura, 3 está en la clausura...
+
+El conjunto de puntos clausura se nota $\overline{\rm A}$
+
+$$ \overline{\rm A}=[-2,3] \cup 7 $$
