@@ -61,6 +61,6 @@ Sean $f(x)$, $g(x)$, y $h(x)$ tres funciones tales que $f(x) \leq g(x) \leq h(x)
 
 ## Countinuidad en un punto
 
-Sea $f(x)$ una función, se dice continua en un punto $a \iff \exists f(a) \land \lim_{x\to a^-} f(x) = \lim_{x\to a⁺} f(x) \neq \infinity \land \lim_{x\to a} f(x) = f(a)$ 
+Sea $f(x)$ una función, se dice continua en un punto $a \iff \exists f(a) \land \lim_{x\to a^-} f(x) = \lim_{x\to a⁺} f(x) \neq \infty \land \lim_{x\to a} f(x) = f(a)$ 
 
 
