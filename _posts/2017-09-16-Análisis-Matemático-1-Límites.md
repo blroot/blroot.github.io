@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Límite de funciones en un punto, Álgebra de límites, Indeterminaciones, Teorema del sándwich.
+Límite de funciones en un punto, Álgebra de límites, Indeterminaciones, Teorema del sándwich, Continuidad.
 
 ## Límite de funciones
 
@@ -58,5 +58,9 @@ $$ 0/0; \infty/\infty; \infty - \infty; 0* \infty; 1^\infty; \infty^0; 0^\infty 
 ## Teorema del sándwich
 
 Sean $f(x)$, $g(x)$, y $h(x)$ tres funciones tales que $f(x) \leq g(x) \leq h(x)$ y $\lim_{x\to a} f(x) = \lim_{x\to a} h(x) = L \in R \implies \lim_{x\to a} g(x) = L$
+
+## Countinuidad en un punto
+
+Sea una función $f(x)$ se dice continua en un punto $a \iff \exists f(a) \land \lim_{x\to a^-} f(a) = \lim_{x\to a⁺} f(a) \land \lim_{x\to a} f(x) = f(a)$ 
 
 
