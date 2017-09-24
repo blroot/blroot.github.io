@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Teoremas de derivación en intervalos cerrados (Rolle, Fermat), Extremos, Crecimiento y decrecimiento, Mínimos y máximos, Teorema de Lagrange
 
