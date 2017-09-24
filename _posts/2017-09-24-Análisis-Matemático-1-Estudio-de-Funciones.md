@@ -21,4 +21,7 @@ Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta un **máximo a
 
 Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta un **mínimo absoluto** en $x=c \iff : f(c) \leq f(x) \forall x \in Df$
 
+## Teorema de Lagrange
+
+Sea $f$ una función continua en $[a,b]$ y derivable en $(a,b)$. Entonces $\exists c \in (a,b) / f'(c)=(f(b)-f(a))/(b-a)$
 
