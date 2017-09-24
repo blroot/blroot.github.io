@@ -6,3 +6,11 @@ Teoremas de derivación en intervalos cerrados (Rolle, Fermat), Extremos, Crecim
 ## Teorema de Rolle
 
 Sea $f:[a,b]->R$ continua y derivable en $(a,b)$ y tal que $f(a)=f(b)$ luego $\exists c \in (a,b) / f'(c)=0$
+
+## Teorema de Fermat
+
+Sea $f:[a,b]->R$ derivable en un punto $x=c$ y tal que presenta una máximo relativo en $x=c \implies f'(c)=0$
+
+## Extremos de una función
+
+Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta una máximo relativo en $x=a \iff \exists \delta > 0 / \forall x \in (a- \delta; a+ \delta) : f(a) \geq f(x)$
