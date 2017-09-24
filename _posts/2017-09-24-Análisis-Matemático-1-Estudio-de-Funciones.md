@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Teoremas de derivación en intervalos cerrados (Rolle, Fermat), Extremos, Crecimiento y decrecimiento, Mínimos y máximos, Teorema de Lagrange
+Teoremas de derivación en intervalos cerrados (Rolle, Fermat), Extremos, Crecimiento y decrecimiento, Mínimos y máximos, Teorema de Lagrange, Concavidad y convexidad.
 
 ## Teorema de Rolle
 
@@ -32,5 +32,16 @@ Si $f' > 0 en (a,b) \implies f$ es **estrictamente creciente** en $(a,b)$
 
 Si $f' \leq 0 en (a,b) \implies f$ es **decreciente** en $(a,b)$
 Si $f' < 0 en (a,b) \implies f$ es **estrictamente decreciente** en $(a,b)$
+
+## Concavidad y convexidad de una curva
+
+Sea $f continua en (a,b)$, si $\forall x_{1};x_{2} \in (a,b); x_{1} \neq x_{2}$, la cuerda que una dichos puntos se encuentra por encima de la curva en (x_{1}, x_{2}) entonces la curva se dirá **convexa**, por el contrario, si la cuerda está por debajo, se dirá **cóncava**.
+
+Por el signo de la derivada segunda, podemos saber si $f$ es cóncava o convexa
+
+Si $f''(x)>0 \forall x \in (a) \implies f(x) es **convexa** en (a,b)$
+Si $f''(x)<0 \forall x \in (a) \implies f(x) es **cóncava** en (a,b)$
+
+
 
 
