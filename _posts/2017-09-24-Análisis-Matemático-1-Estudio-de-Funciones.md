@@ -25,3 +25,12 @@ Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta un **mínimo a
 
 Sea $f$ una función continua en $[a,b]$ y derivable en $(a,b)$. Entonces $\exists c \in (a,b) / f'(c)=(f(b)-f(a))/(b-a)$
 
+### Consecuencias de teorema de Lagrange
+
+Si $f' \geq 0 en (a,b) \implies f$ es **creciente** en $(a,b)$
+Si $f' > 0 en (a,b) \implies f$ es **estrictamente creciente** en $(a,b)$
+
+Si $f' \leq 0 en (a,b) \implies f$ es **decreciente** en $(a,b)$
+Si $f' < 0 en (a,b) \implies f$ es **estrictamente decreciente** en $(a,b)$
+
+
