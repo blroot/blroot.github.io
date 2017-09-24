@@ -39,8 +39,8 @@ Sea $f$ continua en $(a,b)$, si $\forall x_{1};x_{2} \in (a,b); x_{1} \neq x_{2}
 
 Por el signo de la derivada segunda, podemos saber si $f$ es cóncava o convexa
 
-Si $f''(x)>0 \forall x \in (a) \implies f(x)$ es **convexa** en $(a,b)$
-Si $f''(x)<0 \forall x \in (a) \implies f(x)$ es **cóncava** en $(a,b)$
+Si $f''(x)>0 \forall x \in (a,b) \implies f(x)$ es **convexa** en $(a,b)$
+Si $f''(x)<0 \forall x \in (a,b) \implies f(x)$ es **cóncava** en $(a,b)$
 
 
 
