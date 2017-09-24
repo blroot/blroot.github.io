@@ -9,7 +9,7 @@ Sea $f:[a,b]->R$ continua y derivable en $(a,b)$ y tal que $f(a)=f(b)$ luego $\e
 
 ## Teorema de Fermat
 
-Sea $f:[a,b]->R$ derivable en un punto $x=c$ y tal que presenta un máximo relativo en $x=c \implies f'(c)=0$
+Sea $f:[a,b]->R$ derivable en un punto $x=c$ y tal que presenta un extremo relativo en $x=c \implies f'(c)=0$
 
 ## Extremos de una función
 
