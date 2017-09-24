@@ -13,4 +13,8 @@ Sea $f:[a,b]->R$ derivable en un punto $x=c$ y tal que presenta una máximo rela
 
 ## Extremos de una función
 
-Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta una máximo relativo en $x=a \iff \exists \delta > 0 / \forall x \in (a- \delta; a+ \delta) : f(a) \geq f(x)$
+Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta una **máximo relativo** en $x=a \iff \exists \delta > 0 / \forall x \in (a- \delta; a+ \delta) : f(a) \geq f(x)$
+
+Sea $f:D \subseteq R -> R$ una función, diremos que $f$ presenta una **mínimo relativo** en $x=b \iff \exists \delta > 0 / \forall x \in (b- \delta; b+ \delta) : f(b) \leq f(x)$
+
+
