@@ -27,11 +27,11 @@ Sea $f$ una función continua en $[a,b]$ y derivable en $(a,b)$. Entonces $\exis
 
 ### Consecuencias de teorema de Lagrange
 
-Si $f' \geq 0 en (a,b) \implies f$ es **creciente** en $(a,b)$
-Si $f' > 0 en (a,b) \implies f$ es **estrictamente creciente** en $(a,b)$
+Si $f' \geq 0$ en $(a,b) \implies f$ es **creciente** en $(a,b)$
+Si $f' > 0$ en $(a,b) \implies f$ es **estrictamente creciente** en $(a,b)$
 
-Si $f' \leq 0 en (a,b) \implies f$ es **decreciente** en $(a,b)$
-Si $f' < 0 en (a,b) \implies f$ es **estrictamente decreciente** en $(a,b)$
+Si $f' \leq 0$ en $(a,b) \implies f$ es **decreciente** en $(a,b)$
+Si $f' < 0$ en $(a,b) \implies f$ es **estrictamente decreciente** en $(a,b)$
 
 ## Concavidad y convexidad de una curva
 
