@@ -52,7 +52,7 @@ Por ejemplo:
 $$ \int Sen(x)*dy = Sen(x)* \int 1*dy = Sen(x)*y+K $$
 
 Como integramos con respecto a $y$, Sen(x) se trata como una constante.
-Luego como en una variable el concepto de derivada y diferencial son la misma cosa $\implies \int dy = y+K$
+Luego, como en una variable el concepto de derivada y diferencial son la misma cosa $\implies \int dy = y+K$
 
 ## Un ejemplo usando las propiedades y la tabla
 
@@ -61,4 +61,62 @@ $$ \int (2*Cos(x)+e^x+5*sqrt(x))*dx \\
    = 2* \int Cos(x)*dx + \int e^x*dx + 5* \int sqrt(x)*dx \\
    = 2*Sen(x)+e^x+5*2/3*x^(2/3) $$
    
+### Métodos de resolución
+
+Muchas veces vamos a tener integrales indefinidas que no pueden resolverse algebraicamente y/o por tabla
+
+## Sustitución
+
+En este método es clave saber que sustituír, en ningún caso deben quedar variables sin sustituír.
+
+Ej: $\int x*e^(x^2)*dx$
+
+Sustituímos $$x^2=t$$
+aplicando diferencial de ambos lados 
+$$x^2*dx=dt \\
+  x*dx=dt/2 $$
+  
+Luego, $\int x*e^(x^2)*dx = \int e^t*dt/2 = 1/2* \int e^t*dt = 1/2*e^t+K$
+Finalmente, sustituyendo nuevamente con la variable original $$ 1/2*e^(x^2)+K $$
+
+## Partes
+
+Cuando tengamos una integral de la forma $\int u*dv$
+Podemos plantearla como $$ \int u*dv = u*v - \int v*du $$
+Aquí tenemos que decidir que vamos a derivar y que vamos a integrar
+
+Ej: $\int e^(3x)*Sen(x)*dx$
+
+Por conveniencia, elijo derivar $e^(3x)$ e integrar $Sen(x)$
+
+$$ u=e^(3x) \\
+   du= 3*e^(3x)*dx $$
+
+$$ dv=Sen(x)*dx \\
+   v=-Cos(x) $$
+
+$$ \implies \int e^(3x)*Sen(x)*dx = -e^(3x)*Cos(x)- \int -Cos(x)*3*e^(3x)*dx \\
+   = -e^(3x)*Cos(x)+3* \int Cos(x)*e^(3x)*dx$$
+
+*CA
+Vuelvo a aplicar el método para $ \int Cos(x)*e^(3x)*dx $
+
+$$ u=e^(3x) \\
+   du= 3*e^(3x)*dx $$
+
+$$ dv=Cos(x)*dx \\
+   v=Sen(x) $$
+
+$$ \int Cos(x)*e^(3x)*dx = e^(3x)*Sen(x)- \int Sen(x)*3*e^(3x)*dx \\
+	= e^(3x)*Sen(x)-3* \int Sen(x)*e^(3x)*dx $$
+    
+Como podemos observar, $\int Sen(x)*e^(3x)*dx$ es la integral que originalmente queremos encontrar, entonces, vamos a resolver esta integral como una ecuación:
+
+$$ \int Cos(x)*e^(3x)*dx = -e^(3x)*Cos(x)+3* [e^(3x)*Sen(x)-3* \int Sen(x)*e^(3x)*dx] \\
+   = -e^(3x)*Cos(x)+3*e^(3x)*Sen(x)-9* \int Sen(x)*e^(3x)*dx \\
+   = (-e^(3x)*Cos(x)+3*e^(3x)*Sen(x)/10) $$
+
+
+
+
 
