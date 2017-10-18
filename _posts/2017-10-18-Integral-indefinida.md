@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Primitiva, Una tabla de integrales, Propiedades, Métodos de integración
 
@@ -57,11 +57,3 @@ $$ \int (2*Cos(x)+e^x+5*sqrt(x))*dx /
    = \int 2*Cos(x)*dx + \int e^x*dx + \int 5*sqrt(x)*dx /
    = 2* \int Cos(x)*dx + \int e^x*dx + 5* \int sqrt(x)*dx /
    = 2*Sen(x)+e^x+5*2/3*x^(2/3) $$
-
-
-
-
-
-
-
-
