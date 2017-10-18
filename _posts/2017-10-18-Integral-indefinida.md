@@ -150,13 +150,13 @@ $$ \int Cos(x)(1-Sen(x))^3*dx $$
 
 Por sustitución:
 
-$u=Sen(x) \\ du=Cos(x)*dx$
+$$ u=Sen(x) \\ du=Cos(x)*dx $$
 
 $$ \implies \int (1-u)^3*du $$
 
 Por sustitución:
 
-$v=1-u \\ dv=-du$
+$$ v=1-u \\ dv=-du $$
 
 $$ - \int v^3*dv = -v^4/4 + C \\ 
    -(1-u)^4/4+C = -(1-Sen(x))^4/4+C $$
