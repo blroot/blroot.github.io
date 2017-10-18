@@ -36,8 +36,8 @@ $$ \int 1/sqrt(1-x^2)*dx = arcsen(x)+K $$
 Sean $f$ y $g$ dos funciones definidas en un dominio común
 
 1- $$ \int C*f(x)*dx=C \int f(x)*dx=C(P(x)+K) ; C |in R $$
-2- $$ \int (f(x) \pm g(x))*dx=\int f(x)*dx \pm \int g(x)*dx / 
-	  = P_{f}(x)+C_{1}+P_{g}(x)+C_{2} /
+2- $$ \int (f(x) \pm g(x))*dx=\int f(x)*dx \pm \int g(x)*dx \\ 
+	  = P_{f}(x)+C_{1}+P_{g}(x)+C_{2} \\
       = P_{f}(x)+P_{g}(x)+C $$
 3- $$ \int f'(x)*dx=f(x)+K $$
 4- $$ (\int f(x)*dx)'=(P(x)+K)'=P'(x)=f(x) $$
@@ -53,7 +53,9 @@ Luego como en una variable el concepto de derivada y diferencial son la misma co
 
 ## Un ejemplo usando las propiedades y la tabla
 
-$$ \int (2*Cos(x)+e^x+5*sqrt(x))*dx /
-   = \int 2*Cos(x)*dx + \int e^x*dx + \int 5*sqrt(x)*dx /
-   = 2* \int Cos(x)*dx + \int e^x*dx + 5* \int sqrt(x)*dx /
+$$ \int (2*Cos(x)+e^x+5*sqrt(x))*dx \\
+   = \int 2*Cos(x)*dx + \int e^x*dx + \int 5*sqrt(x)*dx \\
+   = 2* \int Cos(x)*dx + \int e^x*dx + 5* \int sqrt(x)*dx \\
    = 2*Sen(x)+e^x+5*2/3*x^(2/3) $$
+   
+
