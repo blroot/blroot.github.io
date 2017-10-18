@@ -69,7 +69,9 @@ Muchas veces vamos a tener integrales indefinidas que no pueden resolverse algeb
 
 En este método es clave saber que sustituír, en ningún caso deben quedar variables sin sustituír.
 
-Ej: $\int x*e^(x^2)*dx$
+Ej: 
+
+$\int x*e^(x^2)*dx$
 
 Sustituímos $$x^2=t$$
 aplicando diferencial de ambos lados 
