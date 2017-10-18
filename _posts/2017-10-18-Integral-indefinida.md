@@ -35,7 +35,7 @@ $$ \int 1/sqrt(1-x^2)*dx = arcsen(x)+K $$
 
 Sean $f$ y $g$ dos funciones definidas en un dominio común
 
-1- $$ \int C*f(x)*dx=C \int f(x)*dx=C(P(x)+K) ; C \in R $$
+1- $$ \int C*f(x)*dx=C \int f(x)*dx=C(P(x)+K)$$
 
 2- $$ \int (f(x) \pm g(x))*dx=\int f(x)*dx \pm \int g(x)*dx \\ 
 	  = P_{f}(x)+C_{1}+P_{g}(x)+C_{2} \\
