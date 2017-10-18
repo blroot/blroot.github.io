@@ -116,6 +116,29 @@ $$ \int Cos(x)*e^(3x)*dx = -e^(3x)*Cos(x)+3* [e^(3x)*Sen(x)-3* \int Sen(x)*e^(3x
    = -e^(3x)*Cos(x)+3*e^(3x)*Sen(x)-9* \int Sen(x)*e^(3x)*dx \\
    = (-e^(3x)*Cos(x)+3*e^(3x)*Sen(x)/10) $$
 
+## Fracciones simples
+
+Dada una función racional $f(x)/g(x)$ se busca descomponer dicha función en una suma de fracciones de integración directa, $f(x)/g(x)$ debe ser irreductible!!
+
+Ej: $\int x/(x^2-x-6)*dx$
+
+Racionalizando.. $\int x/(x^2-x-6)*dx = \int x/((x-3)(x+2))*dx$
+
+Aplicando el método, planteamos:
+
+$$ x/((x-3)(x+2)) = A/(x-3) + B/(x+2) \\
+   x = A(x+2)+B(x-3) $$
+
+Resolviendo el sistema de ecuaciones, nos queda que
+$B=2/5$ y $A=3/5$
+
+Luego,
+
+$$ \int x/(x^2-x-6)*dx = 3/5* \int 1/(x-3)*dx + 2/5* \int 1/(x+2)*dx $$
+
+Aplicando el método de sustitución, nos va a quedar como:
+
+$$ \int x/(x^2-x-6)*dx = 3/5*ln|x-3|+2/5*ln|x+2|+K $$
 
 
 
