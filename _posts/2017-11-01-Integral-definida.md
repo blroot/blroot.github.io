@@ -15,9 +15,16 @@ Propiedades de integral definida, Función integral, Teorema fundamental del cá
 
 4- $$ \int_a^b f(x)*dx = - \int_b^a f(x)*dx $$
 
-5- Sea $f$ continua en $[a,b] \implies f$ es integrable en $[a,b] \implies \exists \int_a^b f(x)*dx \in R$
-6- Sea $f$ continua y c \in [a,b] $\implies \int_a^b f(x)*dx = \int_a^c f(x)*dx + \int_c^b f(x)*dx$
-7- Sea $f(x) \le g(x) \forall x \in [a,b] \implies \int_a^b f(x)*dx \le \int_a^b g(x)*dx$
+5- Sea $f$ continua en $[a,b] \implies f$ es integrable en $[a,b]$ 
+
+$$ \implies \exists \int_a^b f(x)*dx \in R$$
+
+6- Sea $f$ continua y $c \in [a,b]$
+
+$$\implies \int_a^b f(x)*dx = \int_a^c f(x)*dx + \int_c^b f(x)*dx$$
+
+7- Sea $f(x) \le g(x) \forall x \in [a,b]$
+$$\implies \int_a^b f(x)*dx \le \int_a^b g(x)*dx$$
 
 ### Función integral
 
