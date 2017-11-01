@@ -41,4 +41,4 @@ Es decir, se puede comprender a la integración y a la derivación como operacio
 
 Sea f(x) continua en $[a,b]$ y sea:
 
-$$ \int_a^b f(x)*dx = P(x)+C $$
+$$ \int_a^b f(x)*dx = P(x)+C \biggr ]_a^b = (P(b)+C)-(P(a)+C) = P(b)-P(a) $$
