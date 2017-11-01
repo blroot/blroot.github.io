@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Propiedades de integral definida, Función integral, Teorema fundamental del cálculo integral, Regla de Barrow, Área de figuras planas, Área entre curvas.
+Propiedades de integral definida, Función integral, Teorema fundamental del cálculo integral, Regla de Barrow, Cálculo de área, Área entre curvas.
 
 ## Integral indefinida
 
@@ -40,5 +40,15 @@ Es decir, se puede comprender a la integración y a la derivación como operacio
 Sea f(x) continua en $[a,b]$ y sea:
 
 $$ \int_a^b f(x)*dx = P(x)+C \biggr ]_a^b = (P(b)+C)-(P(a)+C) = P(b)-P(a) $$
+
+### Área de figuras planas
+
+Para que el cálculo de área tenga sentido, ésta debe ser positiva, por lo tanto, sea $f(x)$ una función continua en $[a,b]$, para calcular el área de dicha curva entre $x=a$ y $x=b$ y el éje de abscisas:
+
+$$ \int_a^b |f(x)|*dx $$
+
+### Área entre curvas
+
+
 
 
