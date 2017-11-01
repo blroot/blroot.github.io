@@ -44,7 +44,7 @@ Es decir, se puede comprender a la integración y a la derivación como operacio
 
 Derivando una función integral
 
-$$ (\int_{u(x)}^{v(x)} f(t)*dt)' = f(v(x))*v'(x)-f(u(x)*u'(x) $$
+$$ (\int_{u(x)}^{v(x)} f(t)*dt)' = f(v(x))*v'(x)-f(u(x))*u'(x) $$
 
 Ej:
 
