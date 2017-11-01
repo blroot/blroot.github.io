@@ -49,6 +49,7 @@ $$ \int_a^b |f(x)|*dx $$
 
 ### Área entre curvas
 
+Para hallar el área entre las curvas de dos funciones $f(x)$ y $g(x)$, hay que intregar $f(x)-g(x)$ en los intervalos en donde $f(x)>g(x)$, por el contrario, hay que integrar $g(x)-f(x)$ en los intervalos en que $g(x)>f(x)$
 
 
 
