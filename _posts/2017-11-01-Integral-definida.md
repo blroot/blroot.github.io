@@ -48,8 +48,8 @@ $$ (\int_{u(x)}^{v(x)} f(t)*dt)' = f(v(x))*v'(x)-f(u(x))*u'(x) $$
 
 Ej:
 
-$$ F(x) = \int_{x^2+1}^{x^4} sqrt(1+t^2)*dt \
- F'(x) = f(x^4)*4x^3-f(x^2+1)*2x \
+$$ F(x) = \int_{x^2+1}^{x^4} sqrt(1+t^2)*dt \\
+ F'(x) = f(x^4)*4x^3-f(x^2+1)*2x \\
  F'(x) = sqrt(1+x^8)*4x^3-sqrt(1+(x^2+1)^2)*2x $$
 
 ### Regla de Barrow
