@@ -7,13 +7,13 @@ Propiedades de integral definida, Función integral, Teorema fundamental del cá
 
 ### Propiedades
 
-1- $ \int_a^b c*dx = c * \int_a^b dx = c(b-a)$
+1- $$ \int_a^b c*dx = c * \int_a^b dx = c(b-a) $$
 
-2- $ \int_a^b [f(x)*dx+g(x)*dx]*dx = \int_a^b f(x)*dx + \int_a^b g(x)*dx $
+2- $$ \int_a^b [f(x)*dx+g(x)*dx]*dx = \int_a^b f(x)*dx + \int_a^b g(x)*dx $$
 
-3- $ \int_a^a f(x)*dx = 0 $
+3- $$ \int_a^a f(x)*dx = 0 $$
 
-4- $ \int_a^b f(x)*dx = - \int_b^a f(x)*dx $
+4- $$ \int_a^b f(x)*dx = - \int_b^a f(x)*dx $$
 
 5- Sea $f$ continua en $[a,b] \implies f$ es integrable en $[a,b] \implies \exists \int_a^b f(x)*dx \in R $
 
@@ -42,3 +42,5 @@ Es decir, se puede comprender a la integración y a la derivación como operacio
 Sea f(x) continua en $[a,b]$ y sea:
 
 $$ \int_a^b f(x)*dx = P(x)+C \biggr ]_a^b = (P(b)+C)-(P(a)+C) = P(b)-P(a) $$
+
+
