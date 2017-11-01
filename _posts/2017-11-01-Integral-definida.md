@@ -42,6 +42,16 @@ $\implies g'(x)=(\int_a^x f(t)*dt)'=f(x)$
 
 Es decir, se puede comprender a la integración y a la derivación como operaciones inversas.
 
+Derivando una función integral
+
+$$ (\int_{u(x)}_{v(x)} f(t)*dt)' = f(v(x))*v'(x)-f(u(x)*u'(x) $$
+
+Ej:
+
+$$ F(x) = \int_{x^2+1}_{x^4} sqrt(1+t^2)*dt \
+ F'(x) = f(x^4)*4x^3-f(x^2+1)*2x \
+ F'(x) = sqrt(1+x^8)*4x^3-sqrt(1+(x^2+1)^2)*2x $$
+
 ### Regla de Barrow
 
 Sea f(x) continua en $[a,b]$ y sea:
