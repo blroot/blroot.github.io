@@ -27,7 +27,7 @@ Si alguno de los extremos en la integral definida es variable, será una funció
 
 Ej:
 
-$$ \int_a^B(x) f(t)*dt $$
+$$ \int_a^(B(x)) f(t)*dt $$
 
 ### Teorema fundamental del cálculo integral
 
