@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Propiedades de integral definida, Función integral, Teorema fundamental del cálculo integral, Regla de Barrow, Área de figuras planas, Área entre curvas.
 
