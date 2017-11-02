@@ -60,9 +60,9 @@ $$ \int_{0+}^1 1/x*dx = \lim_{a\to 0+} \int 1/x*dx = \lim_{a\to 0+} \biggr [ ln|
 
 Sean $f,g:[a,b)->r$ funciones no negativas de primera o segunda especie, integrables en $[a,t] \forall t \in (a,b) / 0 < f(x) < g(x)$
 
-1- Si $$\int_a^{b-} g(x)*dx$$ C.V. $$\implies \int_a^{b-} f(x)*dx C.V.$$
+1- Si $$\int_a^{b-} g(x)*dx$$ C.V. $$\implies \int_a^{b-} f(x)*dx$$ C.V.
 
-2- Si $$\int_a^{b-} g(x)*dx$$ D.V. $$\implies \int_a^{b-} f(x)*dx D.V.$$
+2- Si $$\int_a^{b-} g(x)*dx$$ D.V. $$\implies \int_a^{b-} f(x)*dx$$ D.V.
 
 
 
