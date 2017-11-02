@@ -17,3 +17,7 @@ $$\lim_{x\to +inf} \int_a^b f(x)*dx = \lim {x\to +inf} g(b) = L$$
 2- Si $L= \pm inf \implies$ Diverge (D.V)
 
 3- Si $\nexists L \implies$ Oscila
+
+Ej:
+
+$$ \int_0^{+inf} 1/(1+x^2)*dx = \lim_{b\to +inf} \int_0^b 1/(1+x^2)*dx = \lim_{b\to +inf} \biggr [ arctg \biggr ]_0^b$
