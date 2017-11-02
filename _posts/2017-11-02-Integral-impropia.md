@@ -53,8 +53,8 @@ $$ \lim_{t\to b-} \int_a^t f(x)*dx = L $$
 
 Ej:
 
-$$ \int_{0+}^1 1/x*dx = \lim_{a\to 0+} \int 1/x*dx = \lim_{a\to 0+} \biggr [ ln|x| \biggr ]_a^1 \\
-\lim_{a\to 0+} ln|1|-ln|a| = +inf \implies $$ I.I diverge
+$$ \int_{0+}^1 1/x*dx = \lim_{a\to 0+} \int_a^1 1/x*dx = \lim_{a\to 0+} \biggr [ ln|x| \biggr ]_a^1 \\
+= \lim_{a\to 0+} ln|1|-ln|a| = +inf \implies $$ I.I diverge
 
 ### Criterio de convergencia para funciones no negativas
 
