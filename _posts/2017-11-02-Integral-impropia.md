@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 I.I de primera especie, I.I de segunda especie, propiedades, criterio de convergencia para funciones no negativas, criterio de límite.
 
@@ -17,4 +17,3 @@ $$\lim_{x\to +inf} \int_a^b f(x)*dx = \lim {x\to +inf} g(b) = L$$
 2- Si $L= \pm inf \implies$ Diverge (D.V)
 
 3- Si $\nexists L \implies$ Oscila
-
