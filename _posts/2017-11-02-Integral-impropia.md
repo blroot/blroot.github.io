@@ -8,7 +8,11 @@ I.I de primera especie, I.I de segunda especie, criterio de convergencia para fu
 Sea $f:[a, + \inf)->R / f$ es integrable en $[a, t] \forall t \in [a, + \inf)$ y sea f acotada.
 Si consideramos la función integral :
 
-$$g(x)= \int_a^x f(t)*dt$$, al par $(f;g)$ se lo llama integral impropia de primera especie y se nota $$\int_a^{+ \inf} f(x)*dx$$
+$$g(x)= \int_a^x f(t)*dt$$
+
+al par $(f;g)$ se lo llama integral impropia de primera especie y se nota 
+
+$$\int_a^{+ \inf} f(x)*dx$$
 
 Se dice que al calcular 
 
@@ -31,7 +35,11 @@ $$
 Sea $f:[a, b)->R / f$ es integrable $\forall t \in [a, t)$ con $t \in [a,b)$ y sea f no acotada.
 Si consideramos la función integral:
 
-$$g(x)= \int_a^x f(t)*dt$$, al par $(f;g)$ se lo llama integral impropia de segunda especie y se nota $$\int_a^{-b} f(x)*dx$$
+$$g(x)= \int_a^x f(t)*dt$$
+
+al par $(f;g)$ se lo llama integral impropia de segunda especie y se nota 
+
+$$\int_a^{-b} f(x)*dx$$
 
 Si al calcular 
 
