@@ -12,3 +12,9 @@ Se dice que al calcular
 
 $$\lim_{x\to +inf} \int_a^b f(x)*dx = \lim {x\to +inf} g(b) = L$$
 
+1- Si $L \in R \implies$ Converge (C.V)
+
+2- Si $L= \pm inf \implies$ Diverge (D.V)
+
+3- Si $\nexists L \implies$ Oscila
+
