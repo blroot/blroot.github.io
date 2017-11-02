@@ -20,4 +20,4 @@ $$\lim_{x\to + \inf} \int_a^b f(x)*dx = \lim {x\to + \inf} g(b) = L$$
 
 Ej:
 
-$$ \int_0^{+ \inf} 1/(1+x^2)*dx = \lim_{b\to + \inf} \int_0^b 1/(1+x^2)*dx = \lim_{b\to + \inf} \biggr [ arctg \biggr ]_0^b$
+$$ \int_0^{+ \inf} 1/(1+x^2)*dx = \lim_{b\to + \inf} \int_0^b 1/(1+x^2)*dx = \lim_{b\to + \inf} \biggr [ arctg \biggr ]_0^b $$
