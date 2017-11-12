@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Definición, límite de una sucesión, ejemplos.
 
@@ -58,5 +58,3 @@ Como $\mathbb{N} \subset R$ vale también que:
 $$ \lim_{n\to +inf} \frac{ln(n)}{n} = 0 $$
 
 $$ \implies \lim_{n\to +inf} e^(\frac{ln(n)}{n}) = e^0 = 1$$
-
-
