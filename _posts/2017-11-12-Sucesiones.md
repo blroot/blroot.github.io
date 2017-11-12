@@ -34,7 +34,7 @@ $$ \lim_{n\to +inf} (n^2+1)/(2n^2-3n)=1/2 $$
 2
 $$ \lim_{n\to +inf} \frac{(n+1)!+n!}{2(n+1)!} \\
 =\lim_{n\to +inf} \frac{(n+1)!(1+\frac{n!}{(n+1)!})}{2(n+1)!} \\
-=\lim_{n\to +inf} \frac{\frac{n!}{(n+1)!}}{2} = 1/2 $$
+=\lim_{n\to +inf} \frac{1 + \frac{n!}{(n+1)!}}{2} = 1/2 $$
 
 3
 $$ \lim_{n\to +inf} n^(1/2) = inf^0 ind. \\
