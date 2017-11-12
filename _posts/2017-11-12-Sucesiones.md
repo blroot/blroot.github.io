@@ -5,7 +5,7 @@ Definición, límite de una sucesión, ejemplos.
 
 ### Sucesiones
 
-Una sucesión es una funcíon  $f:\mathbb{N}->R$. Es decir, una funcíón con dominio en los naturales. Por lo general la notación que usamos es: $f(n)=a_{n}$.
+Una sucesión es una funcíon  $f:\mathbb{N} \to R$. Es decir, una funcíón con dominio en los naturales. Por lo general la notación que usamos es: $f(n)=a_{n}$.
 Una sucesión se puede pensar como una lista de números escritos en un órden definido:
 
 $$ {a_{1}, a_{2}, a_{3}...a_{n}} $$
