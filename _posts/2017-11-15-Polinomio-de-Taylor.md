@@ -42,9 +42,13 @@ $$ P_{4}[f, 0](x) = \frac{f(0)}{0!}x^0 + \frac{f'(0)}{1!}x^1 + \frac{f''(0)}{2!}
 Calculo $f(0)$ y las derivadas necesarias:
 
 $$ f(0)=2 $$
+
 $$ f'(x)=2-sen(x) \implies f'(0)=2 $$
+
 $$ f''(x)=-cos(x) \implies f''(0)=-1 $$
+
 $$ f'''(x)=sen(x) \implies f'''(0)=0 $$
+
 $$ f^{(iv)}(x)=cos(x) \implies f^{(iv)}(0)=1 $$
 
 Ya calculo la derivada quinta para el error:
