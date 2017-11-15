@@ -18,7 +18,7 @@ El polinomio y la función coinciden en las primeras $n$ derivadas evaluadas en 
 
 Nos referimos al polinomio de McLaurin, como al polinomio de taylor de órden $n$, calculado alrededor de $x_{0)=0$
 
-### Acotando el error
+### Fórmula del error
 
 El error que se comete al aproximar $f(x)$ por $P_{n}[f, x_{0}](x)$ es:
 
@@ -29,6 +29,8 @@ Donde $\varepsilon$ está entre $x$ y $x_{0}$
 Por ende:
 
 $$ f(x)= P_{n}[f, x_{0}](x) + E_{n}(x) $$
+
+
 
 
 
