@@ -30,6 +30,28 @@ Por ende:
 
 $$ f(x)= P_{n}[f, x_{0}](x) + E_{n}(x) $$
 
+### Ejercicio
+
+Sea $f(x)=1+2x+cos(x)$. Construír el polinomio de McLaurin de orden 4 para $f$ y usarlo para estimar $f(1/3)$. Ver que el error cometido al estimar $f(1/3)$ es menor a $10^{-4}$
+
+Decimos que:
+
+$$ P_{4}[f, 0] = \frac{f(0)}{0!}x^0 + \frac{f'(0)}{1!}x^1 + \frac{f''(0)}{2!}x^2 \\
++ \frac{f'''(0)}{3!}x^3 + \frac{f^{(iv)}(0)}{4!}x^4 $$
+
+Calculo $f(0)$ y las derivadas necesarias:
+
+$$ f(0)=2 $$
+$$ f'(x)=2-sen(x) \implies f'(0)=2 $$
+$$ f''(x)=-cos(x) \implies f''(0)=-1 $$
+$$ f'''(x)=sen(x) \implies f'''(0)=0 $$
+$$ f^{(iv)}(x)=cos(x) \implies f^{(iv)}(0)=1 $$
+
+Ya calculo la derivada quinta para el error:
+$$ f^{(v)}(x)=-sen(x) \implies f^{(v)}(0)=0 $$
+
+
+
 
 
 
