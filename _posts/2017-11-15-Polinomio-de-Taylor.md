@@ -36,7 +36,7 @@ Sea $f(x)=1+2x+cos(x)$. Construír el polinomio de McLaurin de orden 4 para $f$ 
 
 Decimos que:
 
-$$ P_{4}[f, 0] = \frac{f(0)}{0!}x^0 + \frac{f'(0)}{1!}x^1 + \frac{f''(0)}{2!}x^2 \\
+$$ P_{4}[f, 0](x) = \frac{f(0)}{0!}x^0 + \frac{f'(0)}{1!}x^1 + \frac{f''(0)}{2!}x^2 \\
 + \frac{f'''(0)}{3!}x^3 + \frac{f^{(iv)}(0)}{4!}x^4 $$
 
 Calculo $f(0)$ y las derivadas necesarias:
@@ -49,6 +49,18 @@ $$ f^{(iv)}(x)=cos(x) \implies f^{(iv)}(0)=1 $$
 
 Ya calculo la derivada quinta para el error:
 $$ f^{(v)}(x)=-sen(x) \implies f^{(v)}(0)=0 $$
+
+Entonces:
+
+$$ P_{4}[f, 0](x) = 2 + 2x - 1/2*x^2 + 0 + 1/24x^4 $$
+
+Ahora estimo $f(1/3)$
+
+$$ P_{4}[f, 0](1/3) = 2 + 2(\frac{1}{3}) - 1/2*(\frac{1}{3})^2 + 0 + 1/24(\frac{1}{3})^4 = \frac{5077}{1944} $$
+
+
+
+
 
 
 
