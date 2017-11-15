@@ -22,13 +22,15 @@ Nos referimos al polinomio de McLaurin, como al polinomio de taylor de órden $n
 
 El error que se comete al aproximar $f(x)$ por $P_{n}[f, x_{0}](x)$ es:
 
-$$ E_{n}(x) = \frac{f^{(n+1)(\varepsilon)}}{(n+1)!}(x-x_{0})^{n+1} $$
+$$ E_{n}(x) = \frac{f^{(n+1)}(\varepsilon)}{(n+1)!}(x-x_{0})^{n+1} $$
 
 Donde $\varepsilon$ está entre $x$ y $x_{0}$
 
 Por ende:
 
 $$ f(x)= P_{n}[f, x_{0}](x) + E_{n}(x) $$
+
+
 
 
 
