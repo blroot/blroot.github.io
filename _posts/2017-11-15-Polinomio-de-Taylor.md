@@ -56,11 +56,20 @@ $$ f^{(v)}(x)=-sen(x) \implies f^{(v)}(0)=0 $$
 
 Entonces:
 
-$$ P_{4}[f, 0](x) = 2 + 2x - 1/2*x^2 + 0 + 1/24x^4 $$
+$$ P_{4}[f, 0](x) = 2 + 2x - 1/2x^2 + 0 + 1/24x^4 $$
 
 Ahora estimo $f(1/3)$
 
-$$ P_{4}[f, 0](1/3) = 2 + 2(\frac{1}{3}) - 1/2*(\frac{1}{3})^2 + 0 + 1/24(\frac{1}{3})^4 = \frac{5077}{1944} $$
+$$ P_{4}[f, 0](1/3) = 2 + 2(\frac{1}{3}) - 1/2(\frac{1}{3})^2 + 0 + 1/24(\frac{1}{3})^4 = \frac{5077}{1944} $$
+
+Acotando el error:
+Cuando hablamos de error, estamos hablando de algo positivo, luego, vamos a querer el valor absoluto de $E_{5}$
+
+$$ |E_{5}(1/3)| = |\frac{f^{(v)}(\varepsilon)}{5!}(1/3)^5| = |\frac{-sen(\varepsilon)}{120*243}| \\
+= \frac{|-sen(\varepsilon)|}{29160} \le \frac{1}{29160} \lt \frac{1}{10000} $$
+
+Vemos que se cumple que el error es menor a $e^{-4}$
+
 
 
 
