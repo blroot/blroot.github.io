@@ -68,7 +68,7 @@ Cuando hablamos de error, estamos hablando de algo positivo, luego, vamos a quer
 $$ |E_{5}(1/3)| = |\frac{f^{(v)}(\varepsilon)}{5!}(1/3)^5| = |\frac{-sen(\varepsilon)}{120*243}| \\
 = \frac{|-sen(\varepsilon)|}{29160} \le \frac{1}{29160} \lt \frac{1}{10000} $$
 
-Vemos que se cumple que el error es menor a $e^{-4}$
+Vemos que se cumple que el error es menor a $10^{-4}$
 
 
 
