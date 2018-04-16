@@ -32,7 +32,7 @@ $$
 
 Luego, encontramos una relación entre delta y épsilon
 
-$$ \delta = \frac{\epsilon}{2} $$
+$$ \delta (\epsilon) = \frac{\epsilon}{2} $$
 
 En conclusión, el límite existe y es $2a$
 
