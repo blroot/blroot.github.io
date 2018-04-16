@@ -67,6 +67,6 @@ $$
 Como teníamos que 
 $$ |x|<\delta $$
 
-$$ \implies 4|x| < 4 \delta \implies \alpha (\epsilon) = \frac{\epsilon}{4} $$
+$$ \implies 4|x| < 4 \delta \implies \delta (\epsilon) = \frac{\epsilon}{4} $$
 
 
