@@ -25,13 +25,46 @@ $$ \lim_{(x,y)\to(a,a) = \frac{x^2-y^2}{x-y}} \\
 Hay que probar que el límite existe y es 2a por definición
 
 $$ \forall \epsilon > 0 \exists \delta > 0 : 0<|| (x,y)-(a,a) ||<\delta \\
-\implies abs(\frac{x^2-y^2}{x-y}-2a) < \epsilon \\
-abs(\frac{(x-y)(x+y)}{x-y}-2a) < abs((x-a)+(y-a)) \leq |x-a|+|y-a| \\
+\implies |\frac{x^2-y^2}{x-y}-2a| < \epsilon \\
+|\frac{(x-y)(x+y)}{x-y}-2a| < |(x-a)+(y-a)| \leq |x-a|+|y-a| \\
 \leq || (x-a;y-a) || + || (x-a;y-a) || \leq 2|| (x-a, y-a) || < 2 \delta
 $$
 
 Luego, encontramos una relación entre delta y épsilon
 
-$$ \delta = \epsilon/2 $$
+$$ \delta = \frac{\epsilon}{2} $$
 
 En conclusión, el límite existe y es $2a$
+
+Otro ejemplo:
+
+Demostrar que $$ \lim_{(x,y)\to(0,0)} \frac{4xy^2}{x^2+y^2} = 0 $$
+
+Por definición:
+
+$$ \forall \epsilon > 0 \exists \delta > 0 : 0 < || (x,y) - (0,0) ||< \delta \\
+\implies 0<|\frac{4xy^2}{x^2+y^2}-0|<\epsilon 
+$$
+
+Tenemos que:
+
+$$ 0<sqrt(x^2+y^2)<\delta \\
+\implies |x|<\delta \and |y|<\delta
+$$
+
+Por propiedad, sabemos que $x^2+y^2 \beq y^2$
+Luego:
+
+$$ \frac{1}{x^2+y^2} \leq \frac{1}{y^2} $$
+
+Multiplicando lado a lado por $4|x|y^2$
+
+$$ \frac{4|x|y^2}{x^2+y^2} \leq \frac{4|x|y^2}{y^2} \\
+\leq 4|x|
+$$
+
+Como teníamos que $|x|<\delta$
+
+$$ \implies 4|x| < 4 \delta \implies \alpha (\epsilon) = \frac{\epsilon}{4} $$
+
+
