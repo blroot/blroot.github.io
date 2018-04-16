@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Límite,
+límite, límites curvilineos, resolución por acotación, límites por coordenadas polares
 
 ## Límite
 
@@ -49,21 +49,21 @@ $$
 Tenemos que:
 
 $$ 0<sqrt(x^2+y^2)<\delta \\
-\implies |x|<\delta \and |y|<\delta
+\implies |x|<\delta \land |y|<\delta
 $$
 
-Por propiedad, sabemos que $$x^2+y^2 \ge y^2$$
+Por propiedad, sabemos que $$ x^2+y^2 \ge y^2 $$
 Luego:
 
 $$ \frac{1}{x^2+y^2} \leq \frac{1}{y^2} $$
 
-Multiplicando lado a lado por $$4|x|y^2$$
+Multiplicando lado a lado por $$ 4|x|y^2 $$
 
 $$ \frac{4|x|y^2}{x^2+y^2} \leq \frac{4|x|y^2}{y^2} \\
 \leq 4|x|
 $$
 
-Como teníamos que $$|x|<\delta$$
+Como teníamos que $$ |x|<\delta $$
 
 $$ \implies 4|x| < 4 \delta \implies \alpha (\epsilon) = \frac{\epsilon}{4} $$
 
