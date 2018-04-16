@@ -25,8 +25,8 @@ $$ \lim_{(x,y)\to(a,a) = \frac{x^2-y^2}{x-y}} \\
 Hay que probar que el límite existe y es 2a por definición
 
 $$ \forall \epsilon > 0 \exists \delta > 0 : 0<|| (x,y)-(a,a) ||<\delta \\
-\implies abs(frac{x^2-y^2}{x-y}-2a) < \epsilon \\
-abs(frac{(x-y)(x+y)}{x-y}-2a) < abs((x-a)+(y-a)) \leq |x-a|+|y-a| \\
+\implies abs(\frac{x^2-y^2}{x-y}-2a) < \epsilon \\
+abs(\frac{(x-y)(x+y)}{x-y}-2a) < abs((x-a)+(y-a)) \leq |x-a|+|y-a| \\
 \leq || (x-a;y-a) || + || (x-a;y-a) || \leq 2|| (x-a, y-a) || < 2 \delta
 $$
 
