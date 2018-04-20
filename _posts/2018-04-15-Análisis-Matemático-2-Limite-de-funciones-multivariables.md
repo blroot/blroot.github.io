@@ -131,7 +131,7 @@ $$ \lim_{(x,y)->(0,0)} \frac{4xy^2}{x^2+y^2} = 0 $$
 
 Tenemos que:
 
-$$ x^2+y^2 \be y^2  \\
+$$ x^2+y^2 \ge y^2  \\
 \frac{1}{x^2+y^2} \le \frac{1}{y^2}
 $$
 
