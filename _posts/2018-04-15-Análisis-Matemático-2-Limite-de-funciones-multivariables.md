@@ -125,4 +125,36 @@ $$ \lim_{(x,y)->(x_{0},y_{0})} g(x,y) = \lim_{(x,y)->(x_{0},y_{0})} f(x,y) = \li
 
 $$ \implies \lim_{(x,y)->(x_{0}, y_{0})} f(x,y) = L $$
 
+Ej:
+
+$$ \lim_{(x,y)->(0,0)} \frac{4xy^2}{x^2+y^2} = 0 $$
+
+Tenemos que:
+
+$$ x^2+y^2 \be y^2  \\
+\frac{1}{x^2+y^2} \le \frac{1}{y^2}
+$$
+
+Entonces, si multiplicamos lado a lado por $4|x|y^2$
+
+$$ \frac{4|x|y^2}{x^2+y^2} \le \frac{4|x|y^2}{y^2} $$
+
+Luego
+
+$$ 0 \le | \frac{4|x|y^2}{x^2+y^2} | \le 4|x| $$
+
+Aplicamos límite
+
+$$ \lim_{(x,y)->(0,0)} 0 \le \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | \le \lim_{(x,y)->(0,0)} 4|x| $$
+
+$$ 0 \le \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | \le 0 $$
+
+Entonces, por teorema de intercalación, $ \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | = 0 $
+y como $lim|f| = 0$, también $lim(f) = 0$
+
+En conclusión:
+
+$$ \lim_{(x,y)->(0,0)} \frac{4xy^2}{x^2+y^2} = 0 $$
+
+
 
