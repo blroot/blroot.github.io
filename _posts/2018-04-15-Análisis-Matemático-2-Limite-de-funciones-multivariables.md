@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-límite, límites curvilineos, resolución por acotación, límites por coordenadas polares
+límite, límites curvilineos, resolución por acotación.
 
 ## Límite
 
