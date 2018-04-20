@@ -83,7 +83,7 @@ $$ \lim_{(x,y)\to(0,0)} \frac{xy}{x^2+y^2} $$
 
 Por familia de rectas $y=mx$
 
-$$ = \lim_{x->0} \frac{xmx}{x^2+m^2x^2} = lim_{x->0} \frac{m}{1+m^2} = frac{m}{1+m^2} \implies \nexists lim $$
+$$ = \lim_{x->0} \frac{xmx}{x^2+m^2x^2} = \lim_{x->0} \frac{m}{1+m^2} = \frac{m}{1+m^2} \implies \nexists lim $$
 
 Otro Ej:
 
@@ -106,5 +106,6 @@ $$
 Por curva $t, sen(t)$
 
 $$ \lim_{(x,y)->(0,0)} \frac{4xy^2}{x^2+y^2} = \lim_{t->0} \frac{4t*sen^2(t)}{t^2+sen^2(t)} \\
-\lim_{t->0} \frac{frac{4t*sen^2(t)}{t^2}}{frac{t^2}{t^2} + frac{sen^2(t)}{t^2}} = 0
+\lim_{t->0} \frac{\frac{4t*sen^2(t)}{t^2}}{\frac{t^2}{t^2} + \frac{sen^2(t)}{t^2}} = 0
 $$
+
