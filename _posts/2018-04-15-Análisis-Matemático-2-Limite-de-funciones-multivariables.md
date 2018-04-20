@@ -103,9 +103,26 @@ $$ \lim_{y->0; x=my^2} \frac{4xy^2}{x^2+y^2} = \lim_{y->0} \frac{4my^2y^2}{m^2y^
 \lim_{y->0} \frac{4my^2}{m^2y^2+y^2} = 0
 $$
 
-Por curva $t, sen(t)$
+Por curva: $t, sen(t)$
 
 $$ \lim_{(x,y)->(0,0)} \frac{4xy^2}{x^2+y^2} = \lim_{t->0} \frac{4t*sen^2(t)}{t^2+sen^2(t)} \\
 \lim_{t->0} \frac{\frac{4t*sen^2(t)}{t^2}}{\frac{t^2}{t^2} + \frac{sen^2(t)}{t^2}} = 0
 $$
+
+## Resolución por acotación
+
+Teorema de la intercalación o sandwich:
+
+Dadas $f(x,y)>0;g(x,y)>0;h(x,y)>0$ tales que en un entorno reducido de $\vec x_{0}$.
+
+Si:
+
+$$ g(x,y) \le f(x,y) \le h(x,y) $$
+
+Si:
+
+$$ \lim_{(x,y)->(x_{0},y_{0})} g(x,y) = \lim_{(x,y)->(x_{0},y_{0})} f(x,y) = \lim_{(x,y)->(x_{0},y_{0})} h(x,y) $$
+
+$$ \implies \lim_{(x,y)->(x_{0}, y_{0})} f(x,y) = L $$
+
 
