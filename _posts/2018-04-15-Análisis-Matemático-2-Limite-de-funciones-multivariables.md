@@ -121,7 +121,7 @@ $$ g(x,y) \le f(x,y) \le h(x,y) $$
 
 Si:
 
-$$ \lim_{(x,y)->(x_{0},y_{0})} g(x,y) = \lim_{(x,y)->(x_{0},y_{0})} f(x,y) = \lim_{(x,y)->(x_{0},y_{0})} h(x,y) $$
+$$ \lim_{(x,y)->(x_{0},y_{0})} g(x,y) = L \land \lim_{(x,y)->(x_{0},y_{0})} h(x,y) = L $$
 
 $$ \implies \lim_{(x,y)->(x_{0}, y_{0})} f(x,y) = L $$
 
