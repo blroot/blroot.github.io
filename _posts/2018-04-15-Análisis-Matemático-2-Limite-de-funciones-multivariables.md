@@ -149,7 +149,8 @@ $$ \lim_{(x,y)->(0,0)} 0 \le \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | \le
 
 $$ 0 \le \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | \le 0 $$
 
-Entonces, por teorema de intercalación, $ \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | = 0 $
+Entonces, por teorema de intercalación, 
+$ \lim_{(x,y)->(0,0)} | \frac{4|x|y^2}{x^2+y^2} | = 0 $
 y como $lim|f| = 0$, también $lim(f) = 0$
 
 En conclusión:
