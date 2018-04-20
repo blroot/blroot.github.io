@@ -159,11 +159,8 @@ $$ \lim_{(x,y)->(0,0)} \frac{4xy^2}{x^2+y^2} = 0 $$
 
 ## Continuidad de una función de dos variables
 
-De forma similar que para una variable, decimos que f(x,y) es continua en $$ \vec x_{0} $$ si el límite en dicho punto existe y se cumple que $$  f(\vec x_{0}) = \lim $$
+De forma similar que para una variable, decimos que $$f(x,y)$$ es continua en $$ \vec x_{0} $$ si el límite en dicho punto existe y se cumple que $$  f(\vec x_{0}) = \lim $$
 
 En definitiva:
 
 $$ f(x_{o}, y_{0}) = \lim_{(x,y)->(x_{0}, y_{0})} f(x,y) $$
-
-
-
