@@ -164,3 +164,44 @@ De forma similar que para una variable, decimos que $$f(x,y)$$ es continua en $$
 En definitiva:
 
 $$ f(x_{o}, y_{0}) = \lim_{(x,y)->(x_{0}, y_{0})} f(x,y) $$
+
+Ej:
+
+Hallar los puntos donde la función es continua:
+
+$$
+f(x,y) = \left\{\begin{aligned}
+&\frac{4xy^2}{x^2+y^2} &&: (x,y) \neq (0,0) 1\\
+&0 &&: (x,y) = (0,0)
+\end{aligned}
+\right.$$
+
+Viendo el dominio de f, podemos ver que es continua $$ \forall (x,y) \neq (0,0) $$ por ser un cociente de polinomios. Entonces queremos analizar continuidad en $$ (x,y) = (0,0) $$
+
+$$ \lim_{(x,y)->(0,0)} \frac{xy^2}{x^2+y^2} = 0 $$
+
+Elijo demostrar por definición (también podría usar intercalación)
+
+$$ \forall \epsilon > 0 \exists \delta > 0 : 0 < || (x,y)-(0,0) || < \delta \\
+\implies 0 < |\frac{xy^2}{x^2+y^2}-0| < \epsilon
+$$
+
+Partimos desde delta:
+
+$$ 0 < \sqrt(x^2+y^2) < \delta  \implies |x|<\delta \land |y|<\delta $$
+
+Ahora con epsilon, por propiedad:
+
+$$ x^2+y^2 \be y^2 \\
+= \frac{1}{x^2+y^2} \le \frac{1}{y^2}
+$$
+
+Lado a lado:
+
+$$ \frac{|x|y^2}{x^2+y^2} \le \frac{|x|y^2}{y^2} $$
+
+Luego, la relación delta-epsilon es:
+
+$$ \delta(\epsilon) = \epsilon $$
+
+En conclusión, $$f(x,y)$$ es continua $$ \forall (x,y) \in \Re^2 $$
