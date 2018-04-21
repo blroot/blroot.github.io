@@ -15,5 +15,6 @@ $$ f:\Re^2 \to \Re / f(x,y)=z $$
 
 sus derivadas parciales se notan como
 
-$$ \frac{\partial f}{\partial x} $$ o $$ f'_{x} $$
-$$ \frac{\partial f}{\partial y} $$ o $$ f'_{y} $$
+$$ \frac{\partial f}{\partial x} $$ o también $$ f'_{x} $$
+
+$$ \frac{\partial f}{\partial y} $$ o también $$ f'_{y} $$
