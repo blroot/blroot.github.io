@@ -171,7 +171,7 @@ Hallar los puntos donde la función es continua:
 
 $$
 f(x,y) = \left\{\begin{aligned}
-&\frac{4xy^2}{x^2+y^2} &&: (x,y) \neq (0,0) 1\\
+&\frac{4xy^2}{x^2+y^2} &&: (x,y) \neq (0,0) \\
 &0 &&: (x,y) = (0,0)
 \end{aligned}
 \right.$$
