@@ -48,7 +48,7 @@ $$
 
 Tenemos que:
 
-$$ 0<\sqrt(x^2+y^2)<\delta \\
+$$ 0<\sqrt{x^2+y^2}<\delta \\
 \implies |x|<\delta \land |y|<\delta
 $$
 
