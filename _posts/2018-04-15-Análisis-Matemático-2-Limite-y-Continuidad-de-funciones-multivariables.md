@@ -192,7 +192,7 @@ $$ 0 < \sqrt(x^2+y^2) < \delta  \implies |x|<\delta \land |y|<\delta $$
 
 Ahora con epsilon, por propiedad:
 
-$$ x^2+y^2 \be y^2 \\
+$$ x^2+y^2 \ge y^2 \\
 = \frac{1}{x^2+y^2} \le \frac{1}{y^2}
 $$
 
