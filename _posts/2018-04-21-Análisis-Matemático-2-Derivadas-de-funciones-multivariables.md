@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Derivadas parciales, vector gradiente, plano tangente, derivadas direccionales
 
@@ -17,5 +17,3 @@ sus derivadas parciales se notan como
 
 $$ \frac{\partial f}{\partial x} $$ o $$ f'_{x} $$
 $$ \frac{\partial f}{\partial y} $$ o $$ f'_{y} $$
-
-
