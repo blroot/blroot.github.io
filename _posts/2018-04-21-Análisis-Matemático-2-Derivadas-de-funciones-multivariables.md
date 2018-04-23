@@ -74,7 +74,7 @@ f(x,y) = \left\{\begin{aligned}
 1- Hallar derivabilidad en $$(0,0)$$
 2- Hallar si existen las derivadas parciales en $$(0,0)$$
 
-1- Tenemos que $$ frac{xy}{x^2+y^2} $$ es continua $$ \forall (x,y) \neq (0,0) $$ por ser un cociente de polinomios.
+1- Tenemos que $$ \frac{xy}{x^2+y^2} $$ es continua $$ \forall (x,y) \neq (0,0) $$ por ser un cociente de polinomios.
 
 Analizamos entonces que sucede en $$(0,0)$$
 
