@@ -102,7 +102,7 @@ Las derivadas parciales, definen un plano tangente que se obtiene de la siguient
 
 Sea $$ f: \Re^2 \to \Re $$ el plano tangente en $$ (a,b) $$
 
-$$ z = f(a,b) + \frac{\partial f}{\partial x}(x-a) + \partial f}{\partial y}(y-b) $$
+$$ z = f(a,b) + \frac{\partial f}{\partial x}(x-a) + \frac{\partial f}{\partial y}(y-b) $$
 
 o de forma equivalente:
 
