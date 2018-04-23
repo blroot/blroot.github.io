@@ -92,9 +92,9 @@ Como podemos ver, en dos o más variables, la derivabilidad no guarda relación 
 
 ## Vector gradiente
 
-Las derivadas parciales en un punto de una función $$f$$, definen un vector llamado gradiente y se nota como: $$ \nabla f $$
+Las derivadas parciales en un punto de una función $$f$$, definen un vector llamado gradiente y se nota como: $$ \vec{\nabla f} $$
 
-$$ \nabla f = (\frac{\partial f}{\partial x}, \partial f}{\partial y}) $$
+$$ \vec{\nabla f} = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}) $$
 
 ## Plano tangente
 
@@ -106,7 +106,7 @@ $$ z = f(a,b) + \frac{\partial f}{\partial x}(x-a) + \partial f}{\partial y}(y-b
 
 o de forma equivalente:
 
-$$ z = f(a,b) + \nabla f(a,b) * (x-a, y-b) $$
+$$ z = f(a,b) + \vec{\nabla f(a,b)} * (x-a, y-b) $$
 
 Cuando veamos diferenciabilidad, vamos a ver que llamar a este plano "tangente" es en realidad un abuso de lenguaje, ya que no siempre se cumple que el plano satisfaga la condición  de tangencia.
 
