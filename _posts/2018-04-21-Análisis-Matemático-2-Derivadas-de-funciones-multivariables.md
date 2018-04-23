@@ -96,6 +96,36 @@ Las derivadas parciales en un punto de una función $$f$$, definen un vector lla
 
 $$ \nabla f = (\frac{\partial f}{\partial x}, \partial f}{\partial y}) $$
 
+## Plano tangente
+
+Las derivadas parciales, definen un plano tangente que se obtiene de la siguiente forma:
+
+Sea $$ f: \Re^2 \to \Re $$ el plano tangente en $$ (a,b) $$
+
+$$ z = f(a,b) + \frac{\partial f}{\partial x}(x-a) + \partial f}{\partial y}(y-b) $$
+
+o de forma equivalente:
+
+$$ z = f(a,b) + \nabla f(a,b) * (x-a, y-b) $$
+
+Cuando veamos diferenciabilidad, vamos a ver que llamar a este plano "tangente" es en realidad un abuso de lenguaje, ya que no siempre se cumple que el plano satisfaga la condición  de tangencia.
+
+Ej:
+
+Calcular el plano tangente a la función $$ f(x,y) = x^2+y^4+e^(xy)+7 $$ en $$P_{0}=(1,0,9)$$
+
+Calculo derivadas parciales en $$ (1,0) $$:
+
+$$ f'_{x} = 2x+ye^(xy)  \implies f'_{x}(1,0) = 2 $$
+
+$$ f'_{y} = 4y^3+xe^(xy)  \implies f'_{y}(1,0) = 1 $$
+
+Luego el plano queda como:
+
+$$ z = f(1,0) + 2(x-1) + 1(y-0) \\
+= 9 + 2(x-1) + y \implies pi: 2x+y-z+7=0
+$$
+
 
 
 
