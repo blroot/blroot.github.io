@@ -135,5 +135,5 @@ $$ f'_{\vec{v}(x_{o}, y_{o})} = \lim_{t \to 0} \frac{f[(x_{0},y_{0}+t(a,b))]-f(x
 = \lim_{t \to 0} \frac{f(x_{0}+ta, y_{0}+tb)-f(x_{0}, y_{0})}{t}
 $$
 
-Si calculamos la derivada respecto a $$ \vec{w} = (1,0) $$ (versor x) vamos a obtener la derivada respecto de x. Por otro lado, si calculamos la derivada respecto a $$ \vec_{z} = (0,1) $$ (versor y) vamos a obtener la derivada respecto de y.
+Si calculamos la derivada respecto a $$ \vec{w} = (1,0) $$ (versor x) vamos a obtener la derivada respecto de x. Por otro lado, si calculamos la derivada respecto a $$ \vec{z} = (0,1) $$ (versor y) vamos a obtener la derivada respecto de y.
 
