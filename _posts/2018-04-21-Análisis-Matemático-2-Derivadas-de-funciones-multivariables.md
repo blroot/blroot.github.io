@@ -131,6 +131,6 @@ $$
 Como mencionamos en la primera parte, las derivadas parciales son calculadas a partír de una dirección, es decir, un versor correspondiente al eje de la base sobre el cual queremos derivar.
 Entonces, la derivada a partir de un vector versor $$ \vec{v} = (a,b) $$ se calcula como:
 
-$$ f'_{\vec{v}(x_{o}, y_{o})} = \lim_{t \to 0} \frac{f[(x_{0},y_{0}+t(a,b))]-f(x_{0},y_{0})}{t} } \\
+$$ f'_{\vec{v}(x_{o}, y_{o})} = \lim_{t \to 0} \frac{f[(x_{0},y_{0}+t(a,b))]-f(x_{0},y_{0})}{t} \\
 \lim_{t \to 0} \frac{f(x_{0}+ta, y_{0}+tb)-f(x_{0}, y_{0})}{t}
 $$
