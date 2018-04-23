@@ -112,13 +112,13 @@ Cuando veamos diferenciabilidad, vamos a ver que llamar a este plano "tangente" 
 
 Ej:
 
-Calcular el plano tangente a la función $$ f(x,y) = x^2+y^4+e^(xy)+7 $$ en $$P_{0}=(1,0,9)$$
+Calcular el plano tangente a la función $$ f(x,y) = x^2+y^4+e^{xy}+7 $$ en $$P_{0}=(1,0,9)$$
 
 Calculo derivadas parciales en $$ (1,0) $$:
 
-$$ f'_{x} = 2x+ye^(xy)  \implies f'_{x}(1,0) = 2 $$
+$$ f'_{x} = 2x+ye^{xy} \implies f'_{x}(1,0) = 2 $$
 
-$$ f'_{y} = 4y^3+xe^(xy)  \implies f'_{y}(1,0) = 1 $$
+$$ f'_{y} = 4y^3+xe^{xy} \implies f'_{y}(1,0) = 1 $$
 
 Luego el plano queda como:
 
