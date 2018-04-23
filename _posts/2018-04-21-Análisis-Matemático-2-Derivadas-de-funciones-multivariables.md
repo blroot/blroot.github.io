@@ -132,7 +132,8 @@ Como mencionamos en la primera parte, las derivadas parciales son calculadas a p
 Entonces, la derivada a partir de un vector versor $$ \vec{v} = (a,b) $$ se calcula como:
 
 $$ f'_{\vec{v}(x_{o}, y_{o})} = \lim_{t \to 0} \frac{f[(x_{0},y_{0}+t(a,b))]-f(x_{0},y_{0})}{t} \\
-\lim_{t \to 0} \frac{f(x_{0}+ta, y_{0}+tb)-f(x_{0}, y_{0})}{t}
+= \lim_{t \to 0} \frac{f(x_{0}+ta, y_{0}+tb)-f(x_{0}, y_{0})}{t}
 $$
 
-Si calculamos la derivada respecto a $$ \ $$
+Si calculamos la derivada respecto a $$ \vec_{w} = (1,0) $$ (versor x) vamos a obtener la derivada respecto de x. Por otro lado, si calculamos la derivada respecto a $$ \vec_{z} = (0,1) $$ (versor y) vamos a obtener la derivada respecto de y.
+
