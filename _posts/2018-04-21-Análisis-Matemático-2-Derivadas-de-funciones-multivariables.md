@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Derivadas parciales, vector gradiente, plano tangente, derivadas direccionales
+Derivadas parciales, derivabilidad y continuidad, vector gradiente, plano tangente, derivadas direccionales
 
 ## Derivadas parciales
 
@@ -89,6 +89,14 @@ $$ f'_{x}(0,0) = \lim_{h \to 0} \frac{f(0+h,0)-f(0,0)}{h} = \lim_{h \to 0} \frac
 $$ f'_{y}(0,0) = \lim_{h \to 0} \frac{f(0,0+h)-f(0,0)}{h} = \lim_{h \to 0} \frac{0*h}{\frac{0^2+h^2}{h}} = 0 $$
 
 Como podemos ver, en dos o más variables, la derivabilidad no guarda relación con la continuidad, el único requisito para que las derivadas parciales existan, es exista la imágen de la función en el punto en el cual calcular las derivadas parciales.
+
+## Vector gradiente
+
+Las derivadas parciales en un punto de una función $$f$$, definen un vector llamado gradiente y se nota como: $$ \nabla f $$
+
+$$ \nabla f = (\frac{\partial f}{\partial x}, \partial f}{\partial y}) $$
+
+
 
 
 
