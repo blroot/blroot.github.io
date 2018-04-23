@@ -52,7 +52,7 @@ Ej: Calcular derivada parcial en x de  $$ f(x,y)=\sqrt[3]{x^3+y^3} $$ en $$ (0,0
 
 Por definición:
 
-$$ f'_{x}(0,0) = \lim_{h->0} \frac{f(0+h,0)-f(0,0)}{h} = \lim_{h->0} \frac{\sqrt[3]{h^3}}{h} = 1 $$
+$$ f'_{x}(0,0) = \lim_{h \to 0} \frac{f(0+h,0)-f(0,0)}{h} = \lim_{h \to 0} \frac{\sqrt[3]{h^3}}{h} = 1 $$
 
 Por método "directo":
 
@@ -80,13 +80,13 @@ Analizamos entonces que sucede en $$(0,0)$$
 
 Por familia de rectas:
 
-$$ \lim_{(x,y)->(0,0);y=mx} \frac{xy}{x^2+y^2} = \lim_{x->0} \frac{mx^2}{x^2(1+m^2)} = \frac{m}{1+m^2} \implies \nexists \lim  \implies f $$ no es continua en $$ (0,0) $$
+$$ \lim_{(x,y) \to (0,0);y=mx} \frac{xy}{x^2+y^2} = \lim_{x \to 0} \frac{mx^2}{x^2(1+m^2)} = \frac{m}{1+m^2} \implies \nexists \lim  \implies f $$ no es continua en $$ (0,0) $$
 
 2- Como existe imágen de f en (0,0) y vale 0, pueden existir las derivadas parciales:
 
-$$ f'_{x}(0,0) = \lim_{h->0} \frac{f(0+h,0)-f(0,0)}{h} = \lim_{h->0} \frac{h*0}{\frac{h^2+0^2}{h}} = 0 $$
+$$ f'_{x}(0,0) = \lim_{h \to 0} \frac{f(0+h,0)-f(0,0)}{h} = \lim_{h \to 0} \frac{h*0}{\frac{h^2+0^2}{h}} = 0 $$
 
-$$ f'_{y}(0,0) = \lim_{h->0} \frac{f(0,0+h)-f(0,0)}{h} = \lim_{h->0} \frac{0*h}{\frac{0^2+h^2}{h}} = 0 $$
+$$ f'_{y}(0,0) = \lim_{h \to 0} \frac{f(0,0+h)-f(0,0)}{h} = \lim_{h \to 0} \frac{0*h}{\frac{0^2+h^2}{h}} = 0 $$
 
 Como podemos ver, en dos o más variables, la derivabilidad no guarda relación con la continuidad, el único requisito para que las derivadas parciales existan, es exista la imágen de la función en el punto en el cual calcular las derivadas parciales.
 
