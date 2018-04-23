@@ -60,7 +60,7 @@ $$ f'_{x} = \frac{x^2}{\sqrt[3]{(x^3+y^3})^2} \implies f'_{x}(0,0)= \frac{0}{0} 
 
 Como podemos ver, nos queda una indeterminación, por lo que en esos casos debemos recurrir a la definición.
 
-### Derivabilidad y continuidad
+## Derivabilidad y continuidad
 
 Sea:
 
