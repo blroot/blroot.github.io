@@ -153,7 +153,8 @@ $$ f(x,y,z)=(x^2+3y^2-8z, 5x^2y^3e^z) $$
 
 Como es una función de $$\Re^3 \to \Re^2 \implies J \in \Re^{2x3}$$
 
-$$ J = \begin{bmatrix}
+$$ 
+J = \begin{bmatrix}
               f'_{1x}} & f'_{1y}} & f'_{1z} \\
               f'_{2x} & f'_{2y} & f'_{2z}
 \end{bmatrix} =
@@ -166,4 +167,5 @@ $$ J = \begin{bmatrix}
 \begin{bmatrix}
               2 & 12 & -8 \\
               80 & 60 & 40
-\end{bmatrix} $$
+\end{bmatrix} 
+$$
