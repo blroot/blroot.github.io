@@ -155,7 +155,7 @@ Como es una función de $$\Re^3 \to \Re^2 \implies J \in \Re^{2x3}$$
 
 $$ 
 J = \begin{bmatrix}
-              f'_{1x}} & f'_{1y}} & f'_{1z} \\
+              f'_{1x} & f'_{1y} & f'_{1z} \\
               f'_{2x} & f'_{2y} & f'_{2z}
 \end{bmatrix} =
 
