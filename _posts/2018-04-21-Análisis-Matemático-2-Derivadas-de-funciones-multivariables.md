@@ -143,6 +143,27 @@ Sea $$ f:\Re^n \to \Re^m $$. Las derivadas de estas funciones se presentan con u
 
 $$ J = \begin{bmatrix}
               f'_{1_{x1}} & f'_{1_{x2}} & f'_{1_{x3}} \\
-              0 & 1 \\
-              0 & 0
+              f'_{2_{x1}} & f'_{2_{x2}} & f'_{2_{x3}} \\
+              f'_{3_{x1}} & f'_{3_{x2}} & f'_{3_{x3}}
+\end{bmatrix} $$
+
+Ej: Hallar la derivada de $$ f(x,y,z) $$ en $$P_{0}=(1,2,0)$$
+
+$$ f(x,y,z)=(x^2+3y^2-8z, 5x^2y^3e^z) $$
+
+Como es una función de $$\Re^3 \to \Re^2 \implies J \in \Re^{2x3}$$
+
+$$ J = \begin{bmatrix}
+              f'_{1x}} & f'_{1y}} & f'_{1z} \\
+              f'_{2x} & f'_{2y} & f'_{2z}
+\end{bmatrix} =
+
+\begin{bmatrix}
+              2x & 6y & -8 \\
+              10xy^3e^z & 15x^2y^2e^z & 5x^2y^3e^z
+\end{bmatrix} =
+
+\begin{bmatrix}
+              2 & 12 & -8 \\
+              80 & 60 & 40
 \end{bmatrix} $$
