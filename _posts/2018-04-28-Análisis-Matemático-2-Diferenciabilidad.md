@@ -13,7 +13,7 @@ $$ \lim_{x \to a} \frac{f(x)-g(x)}{|| x-a ||^n} = 0 $$
 
 Cuando hablamos de tangencia, estamos hablando de un contacto de orden 1 entre dos funciones.
 
-Luego, sea $$ f:\Re^2 \to \Re $$ entonces la funciÃ³n posiblemente tangente en $$ (a,b) $$ serÃ¡ de la forma $$ Z=f(x,y) $$
+Luego, sea $$ f:\Re^2 \to \Re $$ entonces la función posiblemente tangente en $$ (a,b) $$ será de la forma $$ Z=f(x,y) $$
 
 $$ \implies Z=T(x,y)= f(a,b) + \frac{\partial f}{\partial x}(x-a) + \frac{\partial f}{\partial y}(y-b) $$
 
