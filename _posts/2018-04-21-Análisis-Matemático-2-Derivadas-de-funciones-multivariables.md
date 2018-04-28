@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Derivadas parciales, derivabilidad y continuidad, vector gradiente, plano tangente, derivadas direccionales
+Derivadas parciales, derivabilidad y continuidad, vector gradiente, plano tangente, derivadas direccionales, derivadas de $$ R^n $$
 
 ## Derivadas parciales
 
@@ -137,3 +137,12 @@ $$
 
 Si calculamos la derivada respecto a $$ \vec{w} = (1,0) $$ (versor x) vamos a obtener la derivada respecto de x. Por otro lado, si calculamos la derivada respecto a $$ \vec{z} = (0,1) $$ (versor y) vamos a obtener la derivada respecto de y.
 
+## Derivadas de $$ R^n $$
+
+Sea $$ f:\Re^n \to \Re^m $$. Las derivadas de estas funciones se presentan con una matriz jacobiana
+
+$$ J = \begin{bmatrix}
+              f'_{1_{x1}} & f'_{1_{x2}} & f'_{1_{x3}} \\
+              0 & 1 \\
+              0 & 0
+\end{bmatrix} $$
