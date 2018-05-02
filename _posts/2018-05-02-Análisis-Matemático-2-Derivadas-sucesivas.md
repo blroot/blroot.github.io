@@ -6,7 +6,7 @@ Derviadas sucesivas o de órden superior, teorema de Schwarz
 ## Derivadas sucesivas o de órden superior
 
 Como ya vimos, en funciones de varias variables derivamos parcialmente, en las derivadas sucesivas también sucede lo mismo, Sea $$f: \Re^2 \to \Re$$ podemos derivar $$f$$ respecto de $$x$$ ($$f'_{x}$$)
-y luego con respecto a $$y$$ ($$f'_{xy}$$).
+y luego con respecto a $$y$$ ($$f''_{xy}$$).
 
 Ej:
 
