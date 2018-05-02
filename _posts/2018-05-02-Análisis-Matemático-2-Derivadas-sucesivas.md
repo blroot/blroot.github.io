@@ -34,3 +34,60 @@ En palabras, si se cumple que las derivadas de primer orden son diferenciables e
 Esto se puede generalizar para órdenes mayores:
 
 Las derivadas mixtas de órden $$n$$ en $$a$$ van a ser iguales $$\iff$$ las derivadas de órden $$n-1$$ son diferenciables en $$a$$
+
+Ejercicio:
+
+Averiguar el mínimo $$n \in \N/D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$
+
+sea 
+$$
+f(x,y) = \left\{\begin{aligned}
+&\frac{x^ny}{x^2+y^2} &&: (x,y) \neq (0,0) \\
+&0 &&: (x,y) = (0,0)
+\end{aligned}
+\right.$$
+
+Analizando continuidad:
+
+$$ \lim_{(x,y) \to (0,0)} \frac{x^ny}{x^2+y^2} = 0 $$
+
+Acotando 
+
+$$ x^2+y^2 \be y^2 $$
+$$ \frac{1}{x^2+y^2} \le \frac{1}{y^2} $$
+
+luego
+
+$$ \frac{|x^n||y|}{x^2+y^2} \le \frac{|x^n||y|}{y^2} \le \frac{|x^n|}{} $$
+
+Por sandwich, $$ \lim_{(x,y) \to (0,0)} \frac{x^ny}{x^2+y^2} = 0 $$
+entonces es continua en $$(0,0)$$
+
+Obtengo las derivadas parciales:
+
+Si $$(x,y) \neq (0,0)$$
+
+$$ f'_{x} = \frac{y(nx^{n-1}(x^2+y^2)-2x^{n+1})}{(x^2+y^2)^2} $$
+$$ f'_{y} = \frac{x^n(x^2+y^2-2y^2)}{(x^2+y^2)^2} $$
+
+Si $$(x,y) = (0,0)$$
+
+$$ f'_{x} = 0 $$
+$$ f'_{y} = 0 $$
+
+Y ahora las derivadas cruzadas en $$(0,0)$$
+
+$$ f''_{yx} = \lim_{h \to 0} \frac{f'_{y}(h,0)-f'_{y}(0,0)}{h} = \lim_{h \to 0} \frac{h^n}{h^3} $$
+
+$$ f''_{xy} = \lim_{h \to 0} \frac{f'_{x}(0,h)-f'_{x}(0,0)}{h} = 0 $$
+
+Como los límites deben coincidir, igualo:
+
+$$ \lim_{h \to 0} \frac{h^n}{h^3} = 0  \iff n \be 4 $$
+
+En conclusión, el mínimo $$n \in \N/D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$ es $$4$$
+
+
+
+
+
