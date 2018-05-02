@@ -53,12 +53,13 @@ $$ \lim_{(x,y) \to (0,0)} \frac{x^ny}{x^2+y^2} = 0 $$
 
 Acotando 
 
-$$ x^2+y^2 \be y^2 $$
+$$ x^2+y^2 \ge y^2 $$
+
 $$ \frac{1}{x^2+y^2} \le \frac{1}{y^2} $$
 
 luego
 
-$$ \frac{|x^n||y|}{x^2+y^2} \le \frac{|x^n||y|}{y^2} \le \frac{|x^n|}{} $$
+$$ \frac{|x^n||y|}{x^2+y^2} \le \frac{|x^n||y|}{y^2} \le |x^n| $$
 
 Por sandwich, $$ \lim_{(x,y) \to (0,0)} \frac{x^ny}{x^2+y^2} = 0 $$
 entonces es continua en $$(0,0)$$
@@ -83,7 +84,7 @@ $$ f''_{xy} = \lim_{h \to 0} \frac{f'_{x}(0,h)-f'_{x}(0,0)}{h} = 0 $$
 
 Como los límites deben coincidir, igualo:
 
-$$ \lim_{h \to 0} \frac{h^n}{h^3} = 0  \iff n \be 4 $$
+$$ \lim_{h \to 0} \frac{h^n}{h^3} = 0  \iff n \ge 4 $$
 
 En conclusión, el mínimo $$n \in N / D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$ es $$4$$
 
