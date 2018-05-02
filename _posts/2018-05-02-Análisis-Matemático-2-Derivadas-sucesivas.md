@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Derviadas sucesivas o de órden superior, teorema de Schwarz
 
@@ -34,5 +34,3 @@ En palabras, si se cumple que las derivadas de primer orden son diferenciables e
 Esto se puede generalizar para órdenes mayores:
 
 Las derivadas mixtas de órden $$n$$ en $$a$$ van a ser iguales $$\iff$$ las derivadas de órden $$n-1$$ son diferenciables en $$a$$
-
-
