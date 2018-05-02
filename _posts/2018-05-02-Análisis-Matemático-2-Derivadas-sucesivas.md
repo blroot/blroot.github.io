@@ -37,7 +37,7 @@ Las derivadas mixtas de órden $$n$$ en $$a$$ van a ser iguales $$\iff$$ las der
 
 Ejercicio:
 
-Averiguar el mínimo $$n \in \N/D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$
+Averiguar el mínimo $$n \in N / D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$
 
 sea 
 $$
@@ -85,7 +85,7 @@ Como los límites deben coincidir, igualo:
 
 $$ \lim_{h \to 0} \frac{h^n}{h^3} = 0  \iff n \be 4 $$
 
-En conclusión, el mínimo $$n \in \N/D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$ es $$4$$
+En conclusión, el mínimo $$n \in N / D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$ es $$4$$
 
 
 
