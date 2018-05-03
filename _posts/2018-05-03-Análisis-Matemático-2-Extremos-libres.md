@@ -1,7 +1,7 @@
 ---
 published: false
 ---
-Mínimo, máximo, punto de ensilladura, condición necesaria para existencia de extremo, condición suficiente para existencia de extremo, cálculo de hessiano.
+Mínimo, máximo, punto de ensilladura, condición necesaria para existencia de extremo, cálculo de hessiano.
 
 ## Mínimo, máximo, punto de ensilladura
 
@@ -19,10 +19,13 @@ Decimos que $$f(x,y)$$ presenta **punto de silla** en un punto $$(x_{0}, y_{0})$
 
 La condición necesaria (no suficiente) en un punto $$ (x_{0}, y_{0}) $$ de $$ Z=f(x,y) $$ es que las derivadas parciales existan en dicho punto y sean iguales a cero.
 
-## Condición suficiente para existencia de extremo
+## Cálculo de hessiano
 
+Sea $$ f: \Re^2 \to \Re \wedge f''_{xx} \ne 0 \wedge f''_{xy} \ne 0 \wedge f''_{yx} \ne 0 \wedge f''_{yy} \ne 0 $$ tenemos la siguiente condición suficiente para la existencia de extremo:
 
-
-
- 
- 
+$$
+\begin{array}{|cc|}
+f''_{xx} & f''_{xy} \\
+f''_{yx} & f''_{yy} \\
+\end{array}
+$$
