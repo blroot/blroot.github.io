@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Mínimo, máximo, punto de ensilladura, condición necesaria para existencia de extremo, cálculo de hessiano.
+Mínimo, máximo, punto de ensilladura, condición necesaria para existencia de extremo, cálculo de hessiano, condición suficiente para existencia de extremo.
 
 ## Mínimo, máximo, punto de ensilladura
 
@@ -24,8 +24,14 @@ La condición necesaria (no suficiente) en un punto $$ (x_{0}, y_{0}) $$ de $$ Z
 Sea $$ f: \Re^2 \to \Re \wedge f''_{xx} \ne 0 \wedge f''_{xy} \ne 0 \wedge f''_{yx} \ne 0 \wedge f''_{yy} \ne 0 $$ tenemos la siguiente condición suficiente para la existencia de extremo:
 
 $$
-\begin{array}{|cc|}
+H = \begin{array}{|cc|}
 f''_{xx} & f''_{xy} \\
 f''_{yx} & f''_{yy} \\
-\end{array}
+\end{array}(x_{0}, y_{0})
 $$
+
+Entonces si:
+
+$$ H>0  \implies $$ si $$f''_{xx}>0$$ mínimo en $$(x_{0}, y_{0}$$
+si $$f''_{xx}<0$$ máximo en $$(x_{0}, y_{0}$$
+
