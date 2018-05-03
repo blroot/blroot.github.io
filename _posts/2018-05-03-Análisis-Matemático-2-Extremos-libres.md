@@ -32,6 +32,18 @@ $$
 
 Entonces si:
 
+$$
+f(x,y) = \left\{\begin{aligned}
+&H>0  \implies $$
+      f(x,y) = \left\{\begin{aligned}
+      &f''_{xx}>0 \implies min  \\
+      &f''_{xx}<0 \implies max
+      \end{aligned}
+      \right.$$ \\
+&
+\end{aligned}
+\right.$$
+
 $$ H>0  \implies $$ si $$f''_{xx}>0 \implies $$ mínimo en $$(x_{0}, y_{0})$$,
 si $$f''_{xx}<0 \implies $$ máximo en $$(x_{0}, y_{0})$$
 
