@@ -32,6 +32,10 @@ $$
 
 Entonces si:
 
-$$ H>0  \implies $$ si $$f''_{xx}>0$$ mínimo en $$(x_{0}, y_{0}$$
+$$ H>0  \implies $$ si $$f''_{xx}>0$$ mínimo en $$(x_{0}, y_{0}$$,
 si $$f''_{xx}<0$$ máximo en $$(x_{0}, y_{0}$$
+
+$$ H<0 \implies $$ punto de ensilladura en $$(x_{0}, y_{0}$$
+
+$$ H=0 \implies $$ "casi extremo", si $$f''_{xx}>0$$ casi mínimo en $$(x_{0}, y_{0}$$, si $$f''_{xx}<0$$  casi máximo en $$(x_{0}, y_{0}$$
 
