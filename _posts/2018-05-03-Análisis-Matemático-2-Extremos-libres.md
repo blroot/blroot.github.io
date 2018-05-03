@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Mínimo, máximo, punto de ensilladura, condición necesaria para existencia de extremo, cálculo de hessiano.
 
