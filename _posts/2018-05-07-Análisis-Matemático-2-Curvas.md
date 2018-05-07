@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Definición, forma cartesiana o implícita, curvas en $$\Re^3$$, clasificación de curva, vector tangente o vector velocidad.
+Definición, forma cartesiana o implícita, curvas en $$\Re^3$$, clasificación de curvas, vector tangente o vector velocidad.
 
 ## Definición
 
@@ -34,3 +34,26 @@ $$
 $$ 
 
 $$\implies x^2+y^2=1$$ es una ecuación implícita de $$C$$
+
+## Curvas en $$\Re^3$$
+
+## Clasificación de curvas
+
+Suponiendo una función que describe una curva de la forma $$C:[a,b] \to \Re^n$$ continua
+
+### curva cerrada
+Si $$C(a) = C(b) \implies$$ la curva es cerrada
+Si $$C(a) \ne C(b) \implies$$ la curva es abierta
+
+### curva simple
+Una curva se dice simple, si la parametrización que la define es inyectiva, esto significa que la curva no posee autointersecciones.
+
+Si alguna de las funciones coordenadas de la parametrización es inyectiva, es suficiente para decir que la parametrización también lo es, caso contrario, debemos recurrir a la definición de inyectividad:
+
+$$C(t_{1})=C(t_{2}) \iff t_{1}=t_{2
+
+### curva regular
+Una curva es regular si se cumple que $$||C'(t)|| \ne 0$$
+Gráficamente, si la curva no es regular en un punto, presenta un vértice o pliegue en el mismo.
+
+
