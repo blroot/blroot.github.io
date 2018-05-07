@@ -26,7 +26,7 @@ f(t) = \left\{\begin{aligned}
 \right. =
 $$
 $$
-f(t) = \left\{\begin{aligned}
+\left\{\begin{aligned}
 &x^2=cos^2(t) \\
 &y^2=sen^2(t)
 \end{aligned}
