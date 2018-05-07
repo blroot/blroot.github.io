@@ -43,6 +43,7 @@ Suponiendo una función que describe una curva de la forma $$C:[a,b] \to \Re^n$$
 
 ### curva cerrada
 Si $$C(a) = C(b) \implies$$ la curva es cerrada
+
 Si $$C(a) \ne C(b) \implies$$ la curva es abierta
 
 ### curva simple
