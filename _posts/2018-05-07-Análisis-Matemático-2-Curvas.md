@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Definición, forma cartesiana o implícita, curvas en $$\Re^3$$, clasificación de curva, vector tangente o vector velocidad.
 
@@ -12,9 +12,24 @@ Por ejemplo:
 
 $$ f:[0, 2*pi] \to \Re^2 / f(t)=(cos(t), sen(t)) $$
 
-$$f(t)$$ es una parametrización de una circunferencia de radio 1, es importante notar que las parametrizaciónes de una curva no son únicas, por ejemplo, para la misma curva, podemos tomar $$f:[0, 2*pi] \to \Re^2 / f(t)=(sen(t), cos(t))$$ que tiene trayectoria con sentido contrario a la primera.
+$$f(t)$$ es una parametrización de una circunferencia de radio 1 (llamémosla $$C$$), es importante notar que las parametrizaciónes de una curva no son únicas, por ejemplo, para la misma curva $$C$$, podemos tomar $$f:[0, 2*pi] \to \Re^2 / f(t)=(sen(t), cos(t))$$ que tiene trayectoria con sentido contrario a la primera.
 
 ## Forma cartesiana o implícita
 
 El objetivo aquí es presentar la curva eliminando el parámetro $$t$$
 
+$$
+f(t) = \left\{\begin{aligned}
+&x=cos(t) \\
+&y=sen(t)
+\end{aligned}
+\right. =
+
+\left\{\begin{aligned}
+&x^2=cos(t) \\
+&y^2=sen(t)
+\end{aligned}
+\right. =
+
+\implies x^2+y^2=1
+$$ es la forma implícita de la curva $$C$$
