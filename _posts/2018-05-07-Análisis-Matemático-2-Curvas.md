@@ -24,12 +24,11 @@ f(t) = \left\{\begin{aligned}
 &y=sen(t)
 \end{aligned}
 \right. =
-
-\left\{\begin{aligned}
-&x^2=cos(t) \\
-&y^2=sen(t)
+$$
+$$
+f(t) = \left\{\begin{aligned}
+&x^2=cos^2(t) \\
+&y^2=sen^2(t)
 \end{aligned}
 \right. =
-
-\implies x^2+y^2=1
-$$ es la forma implícita de la curva $$C$$
+$$
