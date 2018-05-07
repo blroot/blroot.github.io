@@ -30,5 +30,7 @@ f(t) = \left\{\begin{aligned}
 &x^2=cos^2(t) \\
 &y^2=sen^2(t)
 \end{aligned}
-\right. =
-$$
+\right.
+$$ 
+
+$$\implies x^2+y^2=1$$ es una ecuación implícita de $$C$$
