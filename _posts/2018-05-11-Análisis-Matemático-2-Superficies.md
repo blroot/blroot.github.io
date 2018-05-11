@@ -15,4 +15,18 @@ $$z=f(x,y)$$
 
 Ej: Paraboloide $$z=x^2+y^2$$
 
-Forma vectorial de la explícita $$S(x,y)=(x,y,f(x,y))$$
+Forma vectorial de la explícita 
+
+$$S(x,y)=(x,y,f(x,y))$$
+
+### Forma implícita
+
+$$F(x,y,z)=0$$
+
+Ej: Paraboloide $$x^2+y^2-z=0$$
+
+### Forma paramétrica
+
+Parametrizando el paraboloide
+
+$$S_{1}(u,v)=(ucos(v), usin(v), u^2); 0 \leq v \leq 2\pi; 0 \leq u \leq \sqrt(2)$$
