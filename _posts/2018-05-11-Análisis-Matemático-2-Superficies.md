@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Definición, distintas formas de expresión, vector normal a una superficie, superficie orientable, clasificación de superficies.
 
