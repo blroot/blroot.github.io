@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Definición, lineas de campo, operador nabla, función potencial.
 
