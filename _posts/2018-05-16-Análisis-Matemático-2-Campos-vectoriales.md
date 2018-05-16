@@ -103,11 +103,64 @@ $$rot(F) = \nabla \cross F =
 \left| \begin{array}{ccc}
 \hat{i} & \hat{j} & \hat{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
-F_{1} & F_{2} & F_{3} \end{array} \right|\ = F'_{3y}-F'_{2z})\hat{i}-(F'_{3x}-F'_{1z}\hat{j}+(F'_{2x}-F'_{1y})\hat{k}
+F_{1} & F_{2} & F_{3} \end{array} \right|\ = (F'_{3y}-F'_{2z})\hat{i}-(F'_{3x}-F'_{1z})\hat{j}+(F'_{2x}-F'_{1y})\hat{k}
 
 $$
 
 Cuando las derivadas parciales en un punto existen y son continuas y el rotacionalen dicho punto es $$\vec 0$$ diremos que el campo es irrotacional. A estos campos se los denomina conservativos o gradientes. El término campo gradiente refiere a que el campo vectorial se obtiene a través de una función escalar llamada "potencial".
+
+Ej: $$F(x,y,z)=(2xy, x^2+z^2, 2zy)$$
+
+Comprobar si F es conservativo y hallar su función potencial.
+
+Sabemos que $$fF_{1}, F_{2}, F_{3}$$ tienen derivadas parciales continuas en $$\Re^3$$
+
+calculamos rotacional:
+
+$$rot(F) = \nabla \cross F = 
+
+\left| \begin{array}{ccc}
+\hat{i} & \hat{j} & \hat{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+2xy & x^2+z^2 & 2zy \end{array} \right|\ = (2z-2z)\hat{i}-(0-0)\hat{j}+(2x-2x)\hat{k} = (0,0,0)
+
+$$
+
+Luego el campo es conservativo y existe función potencial.
+
+## Cálculo de la función potencial
+
+Para el ejemplo anterior:
+
+$$ \frac{\partial f}{\partial x} = 2xy $$
+
+$$ \frac{\partial f}{\partial y} = x^2+z^2 $$
+
+$$ \frac{\partial f}{\partial z} = 2zy $$
+
+resolvemos las ecuaciones diferenciales
+
+$$ \int \frac{\partial f} =  \int 2xy{\partial x} \\
+f_{1}(x,y,z) = \int 2xydx + g(y,z) + C_{1} \\
+f_{1}(x,y,z) = x^2y+g(y,z)+C_{1}
+$$
+
+$$ \int \frac{\partial f} =  \int (x^2+z^2){\partial y} \\
+f_{2}(x,y,z) = \int (x^2+z^2)dy+h(x,z)+C_{2} \\
+f_{2}(x,y,z) = x^2y+z^2+h(x,z)+C_{2}
+$$
+
+$$ \int \frac{\partial f} =  \int (x^2+z^2){\partial z} \\
+f_{3}(x,y,z) = \int 2zydz+l(x,y)+C_{3} \\
+f_{3}(x,y,z) = z^2y+l(x,y)+C_{3}
+$$
+
+luego la función potencia queda como:
+
+$$f(x,y,z) = x^2y+z^2y+C$$
+
+
+
 
 
 
