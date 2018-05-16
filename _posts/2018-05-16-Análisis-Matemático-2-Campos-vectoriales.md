@@ -77,3 +77,14 @@ $$ y^2=2-z^2 \\
 $$
 
 Luego una parametrización puede ser $$ C(t) = (t,t, \sqrt (2-y^2)) $$
+
+## Operador nabla
+
+Llamamos así a un pseudovector de componentes derivadas parciales y se define solo para campos en $$\Re^3$$
+
+Si aplicamos el operador a un campo escalar, obtenemos el vector gradiente del campo escalar.
+
+Siendo $$f$$ un campo escalar, entonces $$\nabla f = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}) = \vec grad(f)$$
+
+
+
