@@ -98,7 +98,7 @@ $$Div(F) = \nabla \dot F = (\frac{\partial}{\partial x}, \frac{\partial}{\partia
 
 ### Rotacional o rotor
 
-$$rot(F) = \nabla \cross F = 
+$$rot(F) = \nabla X F = 
 
 \left| \begin{array}{ccc}
 \hat{i} & \hat{j} & \hat{k} \\
@@ -117,7 +117,7 @@ Sabemos que $$fF_{1}, F_{2}, F_{3}$$ tienen derivadas parciales continuas en $$\
 
 calculamos rotacional:
 
-$$rot(F) = \nabla \cross F = 
+$$rot(F) = \nabla X F = 
 
 \left| \begin{array}{ccc}
 \hat{i} & \hat{j} & \hat{k} \\
