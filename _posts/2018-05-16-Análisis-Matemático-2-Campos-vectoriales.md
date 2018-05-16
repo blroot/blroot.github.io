@@ -36,7 +36,7 @@ Entonces las lineas de campo son circunferencias de radio $$\sqrt 2C$$
 
 Ejercicio:
 
-Dado el campo vectorial $$F(x,y,z)=\frac{-y}{z}i-\frac{x}{z}j+\frac{xy}{z^2}k$$
+Dado el campo vectorial $$F(x,y,z)=\frac{-y}{z}\hat{i}-\frac{x}{z}\hat{j}+\frac{xy}{z^2}\hat{k}$$
 Hallar una parametrización de la linea de campo que pasa por $$P_{0}=(1,1,1)$$
 
 Como se trata de una curva en $$\Re^3$$ va a estar definida por la intersección de dos superficies
@@ -85,6 +85,31 @@ Llamamos así a un pseudovector de componentes derivadas parciales y se define s
 Si aplicamos el operador a un campo escalar, obtenemos el vector gradiente del campo escalar.
 
 Siendo $$f$$ un campo escalar, entonces $$\nabla f = (\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}) = \vec grad(f)$$
+
+Ej: siendo $$f(x,y,z)=x^2y-2z^2cos(x)$$
+
+$$\implies \nabla f = (2x+2z^2sen(x), x^2, -4zcos(x))$$
+
+Aplicado a un campo vectorial, el operador nabla brinda los siguientes resulados
+
+### Divergente de F
+
+$$Div(F) = \nabla \dot F = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}) \dot (F_{1}, F_{2}, F_{3}) = F'_{1x} + F'_{2y} + F'_{3z} $$
+
+### Rotacional o rotor
+
+$$rot(F) = \nabla \cross F = 
+
+\left| \begin{array}{ccc}
+\hat{i} & \hat{j} & \hat{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+F_{1} & F_{2} & F_{3} \end{array} \right|\ = F'_{3y}-F'_{2z})\hat{i}-(F'_{3x}-F'_{1z}\hat{j}+(F'_{2x}-F'_{1y})\hat{k}
+
+$$
+
+Cuando las derivadas parciales en un punto existen y son continuas y el rotacionalen dicho punto es $$\vec 0$$ diremos que el campo es irrotacional. A estos campos se los denomina conservativos o gradientes. El término campo gradiente refiere a que el campo vectorial se obtiene a través de una función escalar llamada "potencial".
+
+
 
 
 
