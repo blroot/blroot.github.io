@@ -76,4 +76,4 @@ $$ y^2=2-z^2 \\
 |z| = \sqrt 2-y^2
 $$
 
-Luego una parametrización puede ser $$ C(t) = (t,t, \sqrt 2-y^2) $$
+Luego una parametrización puede ser $$ C(t) = (t,t, \sqrt (2-y^2)) $$
