@@ -140,22 +140,22 @@ $$ \frac{\partial f}{\partial z} = 2zy $$
 
 resolvemos las ecuaciones diferenciales
 
-$$ \int \frac{\partial f} =  \int 2xy{\partial x} \\
+$$ \int \partial f =  \int 2xy{\partial x} \\
 f_{1}(x,y,z) = \int 2xydx + g(y,z) + C_{1} \\
 f_{1}(x,y,z) = x^2y+g(y,z)+C_{1}
 $$
 
-$$ \int \frac{\partial f} =  \int (x^2+z^2){\partial y} \\
+$$ \int \partial f =  \int (x^2+z^2){\partial y} \\
 f_{2}(x,y,z) = \int (x^2+z^2)dy+h(x,z)+C_{2} \\
 f_{2}(x,y,z) = x^2y+z^2+h(x,z)+C_{2}
 $$
 
-$$ \int \frac{\partial f} =  \int (x^2+z^2){\partial z} \\
+$$ \int \partial f =  \int (x^2+z^2){\partial z} \\
 f_{3}(x,y,z) = \int 2zydz+l(x,y)+C_{3} \\
 f_{3}(x,y,z) = z^2y+l(x,y)+C_{3}
 $$
 
-luego la función potencia queda como:
+luego la función potencial queda como:
 
 $$f(x,y,z) = x^2y+z^2y+C$$
 
