@@ -36,7 +36,7 @@ Entonces las lineas de campo son circunferencias de radio $$\sqrt 2C$$
 
 Ejercicio:
 
-Dado el campo vectorial $$F(x,y,z)=\frac{-y}{z}i-\frac{x}{z}j+\frac{xy}{z^2}$$
+Dado el campo vectorial $$F(x,y,z)=\frac{-y}{z}i-\frac{x}{z}j+\frac{xy}{z^2}k$$
 Hallar una parametrización de la linea de campo que pasa por $$P_{0}=(1,1,1)$$
 
 Como se trata de una curva en $$\Re^3$$ va a estar definida por la intersección de dos superficies
