@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Derivadas parciales, derivabilidad y continuidad, vector gradiente, plano tangente, derivadas direccionales, derivadas de $$ R^n $$
+Derivadas parciales, derivabilidad y continuidad, vector gradiente, plano tangente, derivadas direccionales, maximización de la derivada direccional, derivadas de $$ R^n $$
 
 ## Derivadas parciales
 
@@ -136,6 +136,10 @@ $$ f'_{\vec{v}(x_{o}, y_{o})} = \lim_{t \to 0} \frac{f[(x_{0},y_{0}+t(a,b))]-f(x
 $$
 
 Si calculamos la derivada respecto a $$ \vec{w} = (1,0) $$ (versor x) vamos a obtener la derivada respecto de x. Por otro lado, si calculamos la derivada respecto a $$ \vec{z} = (0,1) $$ (versor y) vamos a obtener la derivada respecto de y.
+
+## Maximización de la derivada direccional
+
+El valor máximo de la derivada direccional $$D_{\vec u} f(x)$$ es $$|\nabla f(x)|$$ y se presenta cuando $$\vec u$$ tiene la misma dirección que el vector gradiente.
 
 ## Derivadas de $$ R^n $$
 
