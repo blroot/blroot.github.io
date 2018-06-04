@@ -59,4 +59,40 @@ $$ A = \int_{-2}^{2} (\int_{0}^{8-2y^2} 1 dx)dy = \int_{-2}^{2} ([x]_0^{8-2y^2})
 \int_{-2}^{2} (8-2y^2)dy = [8y-2 \frac{y^3}{3}]_{-2}^2 = \frac{64}{3}
 $$
 
+## Integrales dobles por cambio de variables
+
+En muchos casos al igual que en una variable, es útil hacer un cambio de variables para simplificar el cálculo de la integral.
+En dos variables, hacer un cambio de variables implica hacer una transformación de una región general a un rectángulo y viceversa.
+
+Sea $$R_{xy}$$ una región general, si aplicamos un cambio de variables por $$u,v$$:
+
+$$
+\left\{\begin{aligned}
+&u=u(x,y)) \\
+&v=v(x,y)
+\end{aligned}
+\right. =
+$$
+
+Vamos a presentar dos casos.
+
+### Caso A
+
+Si es posible despejar $$x,y$$
+
+$$
+\left\{\begin{aligned}
+&x=x(u,v)) \\
+&y=y(u,v)
+\end{aligned}
+\right. =
+$$
+
+Calculamos el Jacobiano de la transformación:
+
+$$ J = \frac{\partial(x,y)}{\partial(u,v)} = $$
+
+
+
+
 
