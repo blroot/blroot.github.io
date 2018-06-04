@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Integral doble, teorema de Fubini, integrales dobles sobre regiones más generales, cálculo de una región , integrales dobles por cambio de variables, cambio a coordenadas polares.
+Integral doble, teorema de Fubini, integrales dobles sobre regiones generales, cálculo de una región , integrales dobles por cambio de variables, cambio a coordenadas polares.
 
 ## Integral Doble
 
@@ -22,3 +22,15 @@ Calcular $$\int_R x^2ydxdy$$ siendo $$R$$ la región definida por $$0 \le x \le 
 $$ I = \int_{y=0}^{y=3} (\int_{x=0}^{x=1} x^2ydx)dy = \int_{0}^{3} [y \frac{x^3}{3}]_0^1 dy \\
 = \frac{1}{3} \int_{0}^{3} ydy = \frac{3}{2} 
 $$
+
+## Integrales dobles sobre regiones generales
+
+Como es de esperarse, en dos variables vamos a querer integrar funciones sobre regiones $$D$$ más generales que un rectángulo o cuadrado, vamos a definir dos tipos de regiones:
+
+### Región tipo 1
+
+Se dice que una región plana $$D$$ es de tipo 1 si yace entre las gráficas de dos funciones continuas de $$x$$:
+
+$$D = (x,y) \in \Re^2 / a \le x \le b, g_{1}(x) \le y \le g_{2}(x)$$
+
+
