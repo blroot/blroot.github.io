@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Integral doble, teorema de Fubini, integrales dobles sobre regiones más generales, cálculo de una región , integrales dobles por cambio de variables, cambio a coordenadas polares.
 
