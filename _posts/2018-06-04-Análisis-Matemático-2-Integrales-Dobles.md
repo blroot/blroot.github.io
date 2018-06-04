@@ -90,7 +90,16 @@ $$
 
 Calculamos el Jacobiano de la transformación:
 
-$$ J = \frac{\partial(x,y)}{\partial(u,v)} = $$
+$$ J = \frac{\partial(x,y)}{\partial(u,v)} = 
+H = \begin{array}{|cc|}
+x'_{u} & x'_{v} \\
+y'_{u} & y'_{v} \\
+\end{array} \ne 0
+$$
+
+Luego,
+
+$$\int\int_{R_{xy}} f(x,y)dx dy = \int\int_{R_{uv}} f[(x(u,v), y(u,v))] * |J| du dv $$
 
 
 
