@@ -33,4 +33,12 @@ Se dice que una región plana $$D$$ es de tipo 1 si yace entre las gráficas de 
 
 $$D = (x,y) \in \Re^2 / a \le x \le b, g_{1}(x) \le y \le g_{2}(x)$$
 
+luego, $$ \int_{D} f(x,y) dA = \int_{a}^{b} \int_{y=g_{1}(x)}^{y=g_{2}(x) f(x,y)dy dx} $$
+
+### Región tipo 2
+
+Se dice que una región plana $$D$$ es de tipo 1 si yace entre las gráficas de dos funciones continuas de $$x$$:
+
+$$D = (x,y) \in \Re^2 / a \le x \le b, g_{1}(x) \le y \le g_{2}(x)$$
+
 
