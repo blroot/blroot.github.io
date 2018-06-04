@@ -68,10 +68,10 @@ Sea $$R_{xy}$$ una región general, si aplicamos un cambio de variables por $$u,
 
 $$
 \left\{\begin{aligned}
-&u=u(x,y)) \\
+&u=u(x,y) \\
 &v=v(x,y)
 \end{aligned}
-\right. =
+\right.
 $$
 
 Vamos a presentar dos casos.
@@ -82,7 +82,7 @@ Si es posible despejar $$x,y$$
 
 $$
 \left\{\begin{aligned}
-&x=x(u,v)) \\
+&x=x(u,v) \\
 &y=y(u,v)
 \end{aligned}
 \right. =
