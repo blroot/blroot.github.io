@@ -91,7 +91,7 @@ $$
 Calculamos el Jacobiano de la transformación:
 
 $$ J = \frac{\partial(x,y)}{\partial(u,v)} = 
-H = \begin{array}{|cc|}
+\begin{array}{|cc|}
 x'_{u} & x'_{v} \\
 y'_{u} & y'_{v} \\
 \end{array} \ne 0
@@ -100,6 +100,26 @@ $$
 Luego,
 
 $$\int\int_{R_{xy}} f(x,y)dx dy = \int\int_{R_{uv}} f[(x(u,v), y(u,v))] * |J| du dv $$
+
+### Caso B
+
+Puede suceder que no sea posible despejar $$x,y$$ en función de $$u,v$$
+
+Entonces, calculamos directamente el jacobiano como:
+
+$$ J =  \begin{array}{|cc|}
+u'_{x} & u'_{y} \\
+v'_{x} & v'_{y} \\
+\end{array} \ne 0 
+$$
+
+Luego,
+
+$$ \int\int_{R_{xy}} f(x,y) dx dy = \int\int_{R_{uv}} f(u,v)*\frac{1}{|J|} du dv $$
+
+Podemos utilizar el caso B cuando también se puede hacer el despeje de $$x,y$$, según las cuentas puede resultar mas conveniente el cálculo por un caso o por el otro.
+
+
 
 
 
