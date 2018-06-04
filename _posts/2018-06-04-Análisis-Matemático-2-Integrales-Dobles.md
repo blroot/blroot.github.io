@@ -56,7 +56,7 @@ Calcular el área limitada entre la curva de ecuación: $$x+2y^2-8=0$$ y el eje 
 Como una región de tipo 2:
 
 $$ A = \int_{-2}^{2} (\int_{0}^{8-2y^2} 1 dx)dy = \int_{-2}^{2} ([x]_0^{8-2y^2})dy \\
-\int_{-2}^{2} (8-2y^2)dy = [8y-2 \frac{y^3}{3}]_-2^2 = \frac{64}{3}
+\int_{-2}^{2} (8-2y^2)dy = [8y-2 \frac{y^3}{3}]_{-2}^2 = \frac{64}{3}
 $$
 
 
