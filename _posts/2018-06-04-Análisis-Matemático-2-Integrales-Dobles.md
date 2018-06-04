@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Integral doble, teorema de Fubini, integrales dobles sobre regiones generales, cálculo de una región , integrales dobles por cambio de variables, cambio a coordenadas polares.
+Integral doble, teorema de Fubini, integrales dobles sobre regiones generales, cálculo del área de una región, integrales dobles por cambio de variables, cambio a coordenadas polares.
 
 ## Integral Doble
 
@@ -42,5 +42,21 @@ Se dice que una región plana $$D$$ es de tipo 1 si yace entre las gráficas de 
 $$D = (x,y) \in \Re^2 / c \le y \le d, h_{1}(y) \le y \le h_{2}(y)$$
 
 luego, $$ I = \int\int_{D} f(x,y) dA = \int_{c}^{d} \int_{x=h_{1}(y)}^{x=h_{2}(y)} f(x,y)dx dy $$
+
+En algunos casos, vamos a encontrar que se puede expresar una región como tipo 1 y también como tipo 2 haciendo la correspondiente inversa de las funciones que acotan la región (lo cual no siempre es fácil o conveniente.
+
+## Cálculo del área de una región
+
+Cuando la función que integramos es un escalar igual a 1, la integral doble da como resultado el área de la región $$R$$
+
+Ejemplo:
+
+Calcular el área limitada entre la curva de ecuación: $$x+2y^2-8=0$$ y el eje $$y$$
+
+Como una región de tipo 2:
+
+$$ A = \int_{-2}^{2} (\int_{0}^{8-2y^2} 1 dx)dy = \int_{-2}^{2} ([x]_0^{8-2y^2})dy \\
+\int_{-2}^{2} (8-2y^2)dy = [8y-2 \frac{y^3}{3}]_-2^2 = \frac{64}{3}
+$$
 
 
