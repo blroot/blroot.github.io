@@ -121,7 +121,7 @@ Podemos utilizar el caso B cuando también se puede hacer el despeje de $$x,y$$,
 
 ## Cambio a coordenadas polares
 
-Supongamos que queremos integrar $$f(x,y)$$ sobre la región $$R: (x,y) \in Re^2 / x^2+y^2 \le r_{0}$$, luego resulta mucho más conveniente para el cálculo de la integral, expresar $$R$$ con coordenadas polares.
+Supongamos que queremos integrar $$f(x,y)$$ sobre la región $$R: (x,y) \in \Re^2 / x^2+y^2 \le r_{0}$$, luego resulta mucho más conveniente para el cálculo de la integral, expresar $$R$$ con coordenadas polares.
 
 $$
 \left\{\begin{aligned}
@@ -145,7 +145,7 @@ $$ \int\int_{R_{xy}} f(x,y) dx dy = \int_{0}^{r_{o}} \int_{0}^{2\pi} f(rcos(\the
 
 De la misma forma, si la región es una elipse:
 
-$$R: (x,y) \in Re^2 / \frac{x^2}{a^2}+\frac{y^2}{b^2} \le r_{0}$$
+$$R: (x,y) \in \Re^2 / \frac{x^2}{a^2}+\frac{y^2}{b^2} \le r_{0}$$
 
 $$
 \left\{\begin{aligned}
