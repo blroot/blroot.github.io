@@ -131,7 +131,7 @@ $$
 \right. 0 \le r \le r_{0}; 0 \le \theta \le 2\pi
 $$
 
-luego,
+luego, resolvemos por caso A
 
 $$ J =  \begin{array}{|cc|}
 x'_{r} & x'_{\theta} \\
@@ -142,6 +142,28 @@ $$
 Ahora:
 
 $$ \int\int_{R_{xy}} f(x,y) dx dy = \int_{0}^{r_{o}} \int_{0}^{2\pi} f(rcos(\theta), rsen(\theta)) * |r| d \theta dr $$
+
+De la misma forma, si la región es una elipse:
+
+$$R: (x,y) \in Re^2 / \frac{x^2}{a^2}+\frac{y^2}{b^2} \le r_{0}$$
+
+$$
+\left\{\begin{aligned}
+&x=arcos(\theta) \\
+&y=brsin(\theta)
+\end{aligned}
+\right. 0 \le r \le r_{0}; 0 \le \theta \le 2\pi
+$$
+
+luego, resolvemos por caso A
+
+$$ J =  \begin{array}{|cc|}
+x'_{r} & x'_{\theta} \\
+y'_{r} & y'_{\theta} \\
+\end{array} = abr
+$$
+
+$$ \int\int_{R_{xy}} f(x,y) dx dy = \int_{0}^{r_{o}} \int_{0}^{2\pi} f(rcos(\theta), rsen(\theta)) * |abr| d \theta dr $$
 
 
 
