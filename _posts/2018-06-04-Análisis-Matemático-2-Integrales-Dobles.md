@@ -5,7 +5,9 @@ Integral doble, teorema de Fubini, integrales dobles sobre regiones generales, c
 
 ## Integral Doble
 
-En las integrales dobles tenemos dos variables, esto implica que con respecto a la integración en una variable va a variar la región sobre la cual integramos, cuya a forma geométrica elemental va a ser un rectángulo o cuadrado:
+En las integrales dobles tenemos dos variables, esto implica que con respecto a la integración en una variable va a variar la región sobre la cual integramos, pasamos de integrar sobre un intervalo a integrar sobre una región:
+
+La forma más elemental de dicha región es un rectángulo o cuadrado.
 
 De forma iterada:
 
