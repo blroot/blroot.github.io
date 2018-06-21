@@ -95,8 +95,8 @@ Para obtener una esfera de radio r (dejamos \rho constante):
 $$
 \left\{\begin{aligned}
 &\rho = r \\
-&0 \le \theta \le 2 pi \\
-&0 \le \phi \le pi
+&0 \le \theta \le 2 \pi \\
+&0 \le \phi \le \pi
 \end{aligned}
 \right.
 $$
@@ -106,8 +106,8 @@ Para obtener un cono (dejamos \phi constante):
 $$
 \left\{\begin{aligned}
 &\rho_{0} \le \rho \le \rho_{1} \\
-&0 \le \theta \le 2 pi \\
-&0\phi = \frac{pi}{4}
+&0 \le \theta \le 2 \pi \\
+&0\phi = \frac{\pi}{4}
 \end{aligned}
 \right.
 $$
