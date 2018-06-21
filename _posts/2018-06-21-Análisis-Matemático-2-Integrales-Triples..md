@@ -83,7 +83,7 @@ $$
 \left\{\begin{aligned}
 &x=\rho sin(\phi) cos(\theta) \\
 &y=\rho sin(\phi) sin(\theta) \\
-&z=\pho cos(\phi)
+&z=\rho cos(\phi)
 \end{aligned}
 \right.
 $$
