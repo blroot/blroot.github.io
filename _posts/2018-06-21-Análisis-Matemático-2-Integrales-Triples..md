@@ -107,7 +107,7 @@ $$
 \left\{\begin{aligned}
 &\rho_{0} \le \rho \le \rho_{1} \\
 &0 \le \theta \le 2 \pi \\
-&0\phi = \frac{\pi}{4}
+&\phi = \frac{\pi}{4}
 \end{aligned}
 \right.
 $$
