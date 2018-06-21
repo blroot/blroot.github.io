@@ -90,7 +90,7 @@ $$
 
 Ejemplos:
 
-Para obtener una esfera de radio r (dejamos \rho constante):
+Para obtener una esfera de radio r (dejamos $$\rho$$ constante):
 
 $$
 \left\{\begin{aligned}
@@ -101,7 +101,7 @@ $$
 \right.
 $$
 
-Para obtener un cono (dejamos \phi constante):
+Para obtener un cono (dejamos $$\phi$$ constante):
 
 $$
 \left\{\begin{aligned}
