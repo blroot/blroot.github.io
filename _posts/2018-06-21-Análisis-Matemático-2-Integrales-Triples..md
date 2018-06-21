@@ -18,3 +18,36 @@ Cuando la función a integrar es constante e igual a 1, el resultado de la integ
 $$ V = \int \int \int_{V} 1 dxdydz = \int \int_{Rxy} \int_{z_0}^{z_1} dxdydz $$
 
 Podemos ver la integral anterior desde la interpretación del volúmen como base por altura, al aplicar este concepto a la integral triple, la descomponemos en una integral doble que nos dará como resultado el área de la región $$xy$$ de la base y por otro lado aplicando una integral en $$z$$ que nos dará la altura del cuerpo
+
+# Coordenadas cilíndricas
+
+Este cambio de variables suele ser conveniente cuando la proyección del cuerpo en cuestión sobre el plano $xy$ es una circunferencia o elipse.
+
+Para una circunferencia:
+
+$$
+\left\{\begin{aligned}
+&x=rcos(\theta) \\
+&y=rsin(\theta) \\
+&z=z
+\end{aligned}
+\right.
+$$
+
+Donde
+
+$$
+\left\{\begin{aligned}
+&0 \le r \le r_{0} \\
+&0 \le \theta \le 2 \pi \\
+&z_{0} \le z \le z_{1}
+\end{aligned}
+\right.
+$$
+
+$$|J|=r$$
+
+Como se puede observar, es muy similar a las coordendas polares, solamente se agrega la altura $$z$$
+
+
+
