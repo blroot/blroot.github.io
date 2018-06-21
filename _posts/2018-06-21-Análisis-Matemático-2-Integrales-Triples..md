@@ -112,6 +112,8 @@ $$
 \right.
 $$
 
+En todos los casos el jacobiano es $$|J|=\rho^2 sin(\phi)$$
+
 Las posibilidades son varias, así que es importante darse cuenta que cuerpo obtenemos según los valores que tomen $$\rho, \phi, \theta$$
 
 
