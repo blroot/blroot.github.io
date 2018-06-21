@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Integral triple, cálculo de volúmenes, coordenadas cilíndricas, cooredenadas esféricas.
 
