@@ -1,11 +1,11 @@
 ---
 published: true
 ---
-Integral triple, cálculo de volúmenes, coordenadas cilíndricas, cooredenadas esféricas.
+Integral triple, cálculo de volúmenes, coordenadas cilíndricas, coordenadas esféricas.
 
 ## Integral triple
 
-Así como en las integrales dobles la región de integración elemental es un rectángulo, en las integrales triples al agregar una variable, la regío resulta en un cubo o paralelepípedo.
+Así como en las integrales dobles la región de integración elemental es un rectángulo, en las integrales triples al agregar una variable, la regíon resulta en un cubo o paralelepípedo.
 
 Por ejemplo:
 
@@ -72,4 +72,30 @@ $$
 $$
 
 $$|J|=abr$$
+
+## Coordenadas esféricas
+
+Es conveniente utilizar este cambio de variables cuando tenemos cuerpos como esferas o conos
+
+De forma general tenemos:
+
+$$
+\left\{\begin{aligned}
+&x=\rho sin(\phi) cos(\theta) \\
+&y=\rho sin(\phi) sin(\theta) \\
+&z=\pho cos(\phi)
+\end{aligned}
+\right.
+$$
+
+Para obtener una esfera de radio r:
+
+$$
+\left\{\begin{aligned}
+&\rho = r \\
+&0 \le \theta \le 2 pi \\
+&0 \le \phi \le pi
+\end{aligned}
+\right.
+$$
 
