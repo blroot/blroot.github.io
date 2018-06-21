@@ -88,7 +88,9 @@ $$
 \right.
 $$
 
-Para obtener una esfera de radio r:
+Ejemplos:
+
+Para obtener una esfera de radio r (dejamos \rho constante):
 
 $$
 \left\{\begin{aligned}
@@ -98,4 +100,19 @@ $$
 \end{aligned}
 \right.
 $$
+
+Para obtener un cono (dejamos \phi constante):
+
+$$
+\left\{\begin{aligned}
+&\rho_{0} \le \rho \le \rho_{1} \\
+&0 \le \theta \le 2 pi \\
+&0\phi = \frac{pi}{4}
+\end{aligned}
+\right.
+$$
+
+Las posibilidades son varias, así que es importante darse cuenta que cuerpo obtenemos según los valores que tomen $$\rho, \phi, \theta$$
+
+
 
