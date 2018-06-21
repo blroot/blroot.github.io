@@ -16,3 +16,5 @@ $$ I = \int_{z=0}^{z=c} \int_{y=0}^{y=b} \int_{x=0}^{x=a} f(x,y,z) dxdydz $$
 Cuando la función a integrar es constante e igual a 1, el resultado de la integral triple, es el volúmen de la región de integración.
 
 $$ V = \int \int \int_{V} 1 dxdydz = \int \int_{Rxy} \int_{z_0}^{z_1} dxdydz $$
+
+Podemos ver la integral anterior desde la interpretación del volúmen como base por altura, al aplicar este concepto a la integral triple, la descomponemos en una integral doble que nos dará como resultado el área de la región $$xy$$ de la base y por otro lado aplicando una integral en $$z$$ que nos dará la altura del cuerpo
