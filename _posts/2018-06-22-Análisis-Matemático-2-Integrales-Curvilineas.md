@@ -13,7 +13,7 @@ Por ejemplo:
 
 Sea una curva en $$\Re^2$$ $$C(t)=(x(t), y(t)); t_{0} \le t \le t_{1}$$
 
-Calculamos la integral del campo esscalar $$z=f(x,y)$$ de la siguiente manera:
+Calculamos la integral del campo escalar $$z=f(x,y)$$ de la siguiente manera:
 
 $$ \int_{t_{0}}^{t_{1}} f(x(t), y(t)) ||C'(t)|| dt $$
 
