@@ -1,7 +1,7 @@
 ---
 published: true
 ---
-Integral curvilinea, longitud de arco, integral curvilinea de un campo escalar, independencia de la trayectoria, integral curvilinea de un campo vectorial
+Integral curvilinea, longitud de arco, integral curvilinea de un campo escalar, integral curvilinea de un campo vectorial
 
 ## Integral curvilinea
 
@@ -26,8 +26,6 @@ $$ \int_{0}^{4} f(0, t) dt $$
 ## Longitud de arco
 
 Como ya podemos imaginar, cuando el campo escalar a integrar es constante e igual a 1, la integral nos da como resultado la longitud de arco de la curva.
-
-## Independencia de la trayectoria
 
 ## Integral curvilinea de un campo vectorial
 
