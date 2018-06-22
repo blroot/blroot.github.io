@@ -35,7 +35,7 @@ Sea un campo vectorial en $$\Re^2$$ o $$\Re^3$$
 
 se calcula la integral curvilinea dichos campos vectoriales de la siguiente manera:
 
-$$ \int_C F \dot s = \int_{t_{0}}^{t_{1}} F(C(t)) \dot C'(t) dt $$
+$$ \int_C F \cdot s = \int_{t_{0}}^{t_{1}} F(C(t)) \cdot C'(t) dt $$
 
 ### Propiedades
 
@@ -45,11 +45,11 @@ Si $$F$$ es campo gradiente (o conservativo)
 
 2- La integral también se puede calcular a través de la función potencial $$\phi$$
 
-$$\int_C F \dot ds = \phi_{(B)} - \phi_{(A)}$$
+$$\int_C F \cdot ds = \phi_{(B)} - \phi_{(A)}$$
 
 3- Si la curva es cerrada
 
-$$\int_C F \dot ds = 0$$
+$$\int_C F \cdot ds = 0$$
 
 Recordemos que para que un campo sea conservativo, se debe cumplir:
 
