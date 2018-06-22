@@ -53,7 +53,7 @@ $$\int_C F \cdot ds = 0$$
 
 Recordemos que para que un campo sea conservativo, se debe cumplir:
 
-En $$\Re^2$$: $$Q'_{}x - P'_{y} = 0$$
+En $$\Re^2$$: $$Q'_{x} - P'_{y} = 0$$
 
 En $$\Re^3$$: $$rot(F) = \vec 0$$
 
