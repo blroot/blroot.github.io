@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Integral curvilinea, independencia de la trayectoria, longitud de arco, integral curvilinea de un campo escalar, integral curvilinea de un campo vectorial
 
@@ -24,8 +24,3 @@ Como ya podemos imaginar
 Por ejemplo:
 
 Sea una curva en $$\Re^2$$ $$C(t)=(x(t), y(t)); t_{0} \le t \le t_{1}$$
-
-
-
-
-
