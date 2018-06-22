@@ -58,7 +58,7 @@ En $$\Re^2$$: $$Q'_{x} - P'_{y} = 0$$
 En $$\Re^3$$: $$rot(F) = \vec 0$$
 
 Si además de esas condiciones se cumple que $$C$$ es cerrada y la región encerrada por la curva es simplemente conexa, el campo es conservativo en dicho recinto.
-Decimos que un recinto es simplemente conexo cuando podemos unir dos puntos A y B de ella con una curva perteneciente al conjunto.
+Decimos que un recinto $$D$$ es simplemente conexo cuando toda curva simple cerrada en $$D$$ abarca solo puntos de $$D$$.
 
 
 
