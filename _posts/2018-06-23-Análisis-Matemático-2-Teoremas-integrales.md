@@ -24,8 +24,8 @@ $$ \oint_{C+} F \cdot dS = \int \int_{S+} rot(F) \cdot dS $$
 
 Representa el flujo del campo a través de la superficie en un punto determinado. Siendo el flujo, la cantidad de lineas de campo que atraviesan la superficie por unidad de superficie.
 
-Cuando $$div(F) > 0$$ significa que en el punto calculado el campo emerge de la superficie (fuente)
-Cuando $$div(F) < 0$$ significa que en el punto calculado el campo confluye hacia la superficie (sumidero)
+Cuando $$div(F) > 0$$ significa que en el punto calculado el campo emerge de la superficie (fuente).
+Cuando $$div(F) < 0$$ significa que en el punto calculado el campo confluye hacia la superficie (sumidero).
 Si $$div(F) = 0$$ no hay transferencia de campo entre la superficie y el exterior.
 
 La integral de un campo vectorial $$F: D \in \Re^3 \to \Re^3$$ sobre una superficie cerrada $$S$$ orientada de forma positiva, es igual a la integral triple de la divergencia del campo vectorial sobre el volumen encerrado por la superficie.
