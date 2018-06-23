@@ -12,7 +12,7 @@ $$ \int \int_S f(x,y,z) dS = \int \int_{R_{uv}} f(x(u,v), y(u,v), z(u,v)) || S'_
 2- Superficie implícita $$g(x,y,z)=0$$
 
 
-$$ \int \int_S f(x,y,z) dS = \int \int_{R_{xy}} f(x,y,z) \frac{||\nabla g||}{|\nabla g \cdot \hat{k}|} dxdy $$
+$$ \int \int_S f(x,y,z) dS = \int \int_{R_{xy}} f(x,y,z) \frac{||\vec \nabla g||}{|\vec \nabla g \cdot \hat{k}|} dxdy $$
 
 Acá podemos también proyectar sobre los otros planos, deberemos cambiar en ese caso versor k por el correspondiente y cambian las variables de integración.
 
