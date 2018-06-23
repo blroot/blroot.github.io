@@ -9,7 +9,7 @@ Dada una curva $$C$$ simple y orientada en forma positiva, encerrando una regió
 
 $$ \oint_{C+} F \cdot dS = \int \int_R (Q'_{x} - P'_{y}) dxdy $$
 
-Si $$F$$ es un campo conservativo, luego, se cumple que $$Q'_{x} - P'_{y}=0 \implies \oint_C+ F \cdot dS = 0$$
+Si $$F$$ es un campo conservativo, luego, se cumple que $$Q'_{x} - P'_{y}=0 \implies \oint_{C+} F \cdot dS = 0$$
 
 ## Teorema de Stokes o del rotor
 
