@@ -13,7 +13,7 @@ Si $$F$$ es un campo conservativo, luego, se cumple que $$Q'_{x} - P'_{y}=0 \imp
 
 ## Teorema de Stokes o del rotor
 
-La integral de un campo vectorial $$F: D \in \Re^3 \to \Re^3$$ sobre una curva $$C$$ en $$\Re^3$$ regular, simple y cerrada, resulta igual a la integral del rotacional de dicho campo sobre la superficie encerrada por la curva, siendo $$C$$
+La integral de un campo vectorial $$F: D \in \Re^3 \to \Re^3$$ sobre una curva $$C$$ en $$\Re^3$$ regular, simple y cerrada, resulta igual a la integral del rotacional de dicho campo sobre la superficie encerrada por la curva.
 Se puede tomar cualquier superficie que contenga a la curva.
 
 $$ \oint_{C+} F \cdot dS = \int \int_{S+} rot(F) \cdot dS $$
