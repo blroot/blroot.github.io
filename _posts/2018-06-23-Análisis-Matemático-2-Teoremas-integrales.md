@@ -7,7 +7,7 @@ Teorema de Green, teorema de Stokes o del rotor, teorema de Gauss o de la diverg
 
 Dada una curva $$C$$ simple y orientada en forma positiva, encerrando una región $$R$$ en el plano $$xy$$, la integral curvilinea de un campo $$F: D \in \Re^2 \to \Re^2 / F=(P(x,y), Q(x,y))$$ donde $$P,Q$$ son funciones diferenciables en $$\Re$$ se puede calcular mediante:
 
-$$ \oint_C+ F \cdot dS = \int \int_R (Q'_{x} - P'_{y}) dxdy $$
+$$ \oint_{C+} F \cdot dS = \int \int_R (Q'_{x} - P'_{y}) dxdy $$
 
 Si $$F$$ es un campo conservativo, luego, se cumple que $$Q'_{x} - P'_{y}=0 \implies \oint_C+ F \cdot dS = 0$$
 
@@ -16,7 +16,7 @@ Si $$F$$ es un campo conservativo, luego, se cumple que $$Q'_{x} - P'_{y}=0 \imp
 La integral de un campo vectorial $$F: D \in \Re^3 \to \Re^3$$ sobre una curva $$C$$ en $$\Re^3$$ regular, simple y cerrada, resulta igual a la integral del rotacional de dicho campo sobre la superficie encerrada por la curva, siendo $$C$$
 Se puede tomar cualquier superficie que contenga a la curva.
 
-$$ \oint_C+ F \cdot dS = \int \int_S+ rot(F) \cdot dS $$
+$$ \oint_{C+} F \cdot dS = \int \int_{S+} rot(F) \cdot dS $$
 
 ## Teorema de Gauss o de la divergencia
 
@@ -30,4 +30,5 @@ Si $$div(F) = 0$$ no hay transferencia de campo entre la superficie y el exterio
 
 La integral de un campo vectorial $$F: D \in \Re^3 \to \Re^3$$ sobre una superficie cerrada $$S$$ orientada de forma positiva, es igual a la integral triple de la divergencia del campo vectorial sobre el volumen encerrado por la superficie.
 
-$$ \oint \oint_S+ F \cdot dS = \int \int \int_V div(F) dV $$
+$$ \oint \oint_{S+} F \cdot dS = \int \int \int_V div(F) dV $$
+
