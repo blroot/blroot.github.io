@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Integrales de superficie, integrales de superficie sobre campos escalares, área de una superficie, integrales de superficie sobre campos vectoriales.
 
