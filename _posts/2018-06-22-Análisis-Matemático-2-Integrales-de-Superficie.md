@@ -7,7 +7,7 @@ Integrales de superficie, integrales de superficie sobre campos escalares, área
 
 1- Superficie paramétrica $$S(u,v)$$
 
-$$ \int \int_S f(x,y,z) dS = \int \int_{R_{uv}} f(x(u,v), y(u,v), z(u,v)) || S'_{u} \cross S'_{v} || dudv $$
+$$ \int \int_S f(x,y,z) dS = \int \int_{R_{uv}} f(x(u,v), y(u,v), z(u,v)) || S'_{u} \times S'_{v} || dudv $$
 
 2- Superficie implícita $$g(x,y,z)=0$$
 
@@ -27,4 +27,8 @@ Como ya estamos acostumbrados, si la función a integrar es f(x,y,z)=1 la integr
 
 1- Superficie paramétrica $$S(u,v)$$
 
-$$ \int \int_S F \dot dS = \int \int_{R_{uv}} f[x(u,v), y(u,v), z(u,v)] \dot (S'_{u} \cross S'_{v}) dudv $$
+$$ \int \int_S F \dot dS = \int \int_{R_{uv}} f[x(u,v), y(u,v), z(u,v)] \dot (S'_{u} \times S'_{v}) dudv $$
+
+2- Superficie implícita $$g(x,y,z)=0$$
+
+$$  $$
