@@ -30,5 +30,5 @@ Si $$div(F) = 0$$ no hay transferencia de campo entre la superficie y el exterio
 
 La integral de un campo vectorial $$F: D \in \Re^3 \to \Re^3$$ sobre una superficie cerrada $$S$$ orientada de forma positiva, es igual a la integral triple de la divergencia del campo vectorial sobre el volumen encerrado por la superficie.
 
-$$ \unicode{x222F}_{S+} F \cdot dS = \int \int \int_V div(F) dV $$
+$$ \bigcirc \!\!\!\!\!\!\!\!\!\iint_{S+} F \cdot dS = \int \int \int_V div(F) dV $$
 
