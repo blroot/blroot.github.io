@@ -139,7 +139,10 @@ Si calculamos la derivada respecto a $$ \vec{w} = (1,0) $$ (versor x) vamos a ob
 
 ## Maximización de la derivada direccional
 
-El valor máximo de la derivada direccional $$D_{\vec u} f(x)$$ es $$|\nabla f(x)|$$ y se presenta cuando $$\vec u$$ tiene la misma dirección que el vector gradiente.
+El valor máximo de la derivada direccional 
+$$D_{\vec u} f(x)$$ 
+es 
+$$|\nabla f(x)|$$ y se presenta cuando $$\vec u$$ tiene la misma dirección que el vector gradiente.
 
 ## Derivadas de $$ R^n $$
 
