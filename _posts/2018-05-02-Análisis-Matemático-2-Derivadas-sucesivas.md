@@ -98,4 +98,4 @@ Lo anterior se denomina también polinomio de Taylor de primer grado de $$f$$ en
 
 De la misma manera, definimos el polinomio de Taylor de grado 2 de una función $$f$$ de dos variables en $$(a,b)$$ como:
 
-$$Q(x,y)=f(a,b)+f'_{x}(a,b)(x-a)+f'_{y}(a,b)(y-b) + \frac{1}{2}f_{xx}(a,b)(x-a)^2+f_{xy}(a,b)(x-a)(y-b)+\frac{1}{2}f_{yy}(a,b)(y-b)^2$$
+$$Q(x,y)=f(a,b)+f'_{x}(a,b)(x-a)+f'_{y}(a,b)(y-b) \\ + \frac{1}{2}f_{xx}(a,b)(x-a)^2+f_{xy}(a,b)(x-a)(y-b)+\frac{1}{2}f_{yy}(a,b)(y-b)^2$$
