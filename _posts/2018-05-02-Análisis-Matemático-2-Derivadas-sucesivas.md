@@ -92,10 +92,10 @@ En conclusión, el mínimo $$n \in N / D_{x}D_{y}f(0,0)=D_{y}D_{x}f(0,0)$$ es $$
 
 Como ya vimos, la aproximación lineal de una función de dos variables se calcula mediante el plano tangente en un punto $$(a,b)$$
 
-$$T(x,y)=f(a,b)+f'_{x}(a,b)(x-a)+f'_{y}(a,b)(y-b)$$
+$$T(x,y)=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b)$$
 
 Lo anterior se denomina también polinomio de Taylor de primer grado de $$f$$ en $$(a,b)$$
 
 De la misma manera, definimos el polinomio de Taylor de grado 2 de una función $$f$$ de dos variables en $$(a,b)$$ como:
 
-$$Q(x,y)=f(a,b)+f'_{x}(a,b)(x-a)+f'_{y}(a,b)(y-b) \\ + \frac{1}{2}f_{xx}(a,b)(x-a)^2+f_{xy}(a,b)(x-a)(y-b)+\frac{1}{2}f_{yy}(a,b)(y-b)^2$$
+$$Q(x,y)=f(a,b)+f_{x}(a,b)(x-a)+f_{y}(a,b)(y-b) \\ + \frac{1}{2}f_{xx}(a,b)(x-a)^2+f_{xy}(a,b)(x-a)(y-b)+\frac{1}{2}f_{yy}(a,b)(y-b)^2$$
