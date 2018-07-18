@@ -117,3 +117,5 @@ En todos los casos el jacobiano es
 $$|J|=\rho^2 sin(\phi)$$
 
 Las posibilidades son varias, así que es importante darse cuenta que cuerpo obtenemos según los valores que tomen $$\rho, \phi, \theta$$
+
+<iframe scrolling="no" title="Coordenadas esféricas" src="https://www.geogebra.org/material/iframe/id/b6dmsdhm/width/1920/height/933/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1920px" height="933px" style="border:0px;"> </iframe>
